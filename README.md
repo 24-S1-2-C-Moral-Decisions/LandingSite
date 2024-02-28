@@ -5,6 +5,16 @@
 
 - Our project dives into everyday moral dilemmas to understand large-scale human moral decisions. We combine questions and comments from moral decision-making related channels in redits with a variety of AI models to analyze the decisions people make to get. We visualize the results and allow users to interact with the data. We also attract users to fill out our questionnaires to get more data to improve our system and support our clients' research.
 
+## Repo Structer
+```
+---
+ |--- Meeting:  All meeting minuts we made
+ |    |
+ |    |--- Client: minuts We meet with Client
+ |
+ |--- Templete: All Doc Templete We used in project
+```
+
 ## Project Resources
 - You can find **all codeing Resources** in this Organization [24-S1-2-C-Moral-Decisions](https://github.com/24-S1-2-C-Moral-Decisions)
 - We will store **All Documents** in this Repo.
