@@ -14,7 +14,7 @@ Item | Description
 ---- | ----
 Prototype | • show prototype 
 Coding resources | • <br>• <br>• <br>• <br>• 
-Question | • whether can we publish info in https://anu365-my.sharepoint.com/:u:/g/personal/u7359185_anu_edu_au/EZ1w6TBPj8xPlo0xejd6GP4BhW5VlYw6T8aH5CsvWmLiDQ?e=xTEZUE
+Question | • whether can we publish info from https://anu365-my.sharepoint.com/:u:/g/personal/u7359185_anu_edu_au/EZ1w6TBPj8xPlo0xejd6GP4BhW5VlYw6T8aH5CsvWmLiDQ?e=xTEZUE
 
 ## Discussion Items
 Item | Who | Notes |
