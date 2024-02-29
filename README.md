@@ -29,6 +29,14 @@
 
 - **Stakeholders:** [Stakerholders analysis (TBD)](docs/Stakeholders%20List%20and%20Impact/README.md)
 
+## Team Members and Roles
+|UID|Name|Role|
+|:---------|:------------:|:-------------------------------------:|
+||||
+||||
+||||
+||||
+
 ## Repo Structure
 ```
 ---
