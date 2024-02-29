@@ -1,7 +1,22 @@
 # Moral Decisions
 ---
 ## Table of Contents
-- [Project Description](#)
+- [Project Description](#project-description)
+- [Team Members and Roles](#team-members-and-roles)
+- [Statement of Work](#statement-of-work)
+- [Getting Start](#getting-start)
+- [Project Management](#project-management)
+- [Team Charter](#team-charter)
+- [Meeting Minutes](#meeting-minutes)
+- [Decision Logs](#decision-logs)
+- [Reflection Log](https://github.com/tonypioneer/Trust-Indicator/blob/b27b282cb43956ff3917b57e455a8b2bdd3f6ca6/docs/Reflective/README.md)
+- [Conflict Resolution Protocol](#conflict-resolution-protocol)
+- [Testing Summary](#testing-summary)
+- [User Manual](#user-manual)
+- [Deliverables](#deliverables)
+- [Future Improvements](#future-improvements)
+- [Risk Management](#risk-management)
+- [Acknowledgements](#acknowledgements)
 
 ## Project Description
 - Projects like Ask Delphi (Jiang et al., 2021) are to empower AI with moral decision-making capabilities. Despite its innovation, aligning AI's ethical reasoning with human values remains a significant hurdle, particularly in controversial issues. Another project starting from the human perspective, the MIT lab's Moral Machine Experiment published in Nature, analysed millions of human moral decisions in stark and idealized moral dilemmas, especially trolley problems. However, the nuances of everyday moral dilemmas are overlooked and hard to capture. Our project sits between the two above projects with both humans and AI involved to explore daily moral decision-makings.
