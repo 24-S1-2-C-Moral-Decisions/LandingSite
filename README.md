@@ -5,7 +5,7 @@
 
 - Our project dives into everyday moral dilemmas to understand large-scale human moral decisions. We combine questions and comments from moral decision-making related channels in redits with a variety of AI models to analyze the decisions people make to get. We visualize the results and allow users to interact with the data. We also attract users to fill out our questionnaires to get more data to improve our system and support our clients' research.
 
-## Repo Structer
+## Repo Structure
 ```
 ---
  |--- Meeting:  All meeting minuts we made
