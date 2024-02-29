@@ -19,9 +19,15 @@
 - [Acknowledgements](#acknowledgements)
 
 ## Project Description
-- Projects like Ask Delphi (Jiang et al., 2021) are to empower AI with moral decision-making capabilities. Despite its innovation, aligning AI's ethical reasoning with human values remains a significant hurdle, particularly in controversial issues. Another project starting from the human perspective, the MIT lab's Moral Machine Experiment published in Nature, analysed millions of human moral decisions in stark and idealized moral dilemmas, especially trolley problems. However, the nuances of everyday moral dilemmas are overlooked and hard to capture. Our project sits between the two above projects with both humans and AI involved to explore daily moral decision-makings.
+- **Developers:** COMP8715 Computing Project, Australian National University, Australia
 
-- Our project dives into everyday moral dilemmas to understand large-scale human moral decisions. We combine questions and comments from moral decision-making related channels in redits with a variety of AI models to analyze the decisions people make to get. We visualize the results and allow users to interact with the data. We also attract users to fill out our questionnaires to get more data to improve our system and support our clients' research.
+- **Background:** Projects like Ask Delphi (Jiang et al., 2021) are to empower AI with moral decision-making capabilities. Despite its innovation, aligning AI's ethical reasoning with human values remains a significant hurdle, particularly in controversial issues. Another project starting from the human perspective, the MIT lab's Moral Machine Experiment published in Nature, analysed millions of human moral decisions in stark and idealized moral dilemmas, especially trolley problems. However, the nuances of everyday moral dilemmas are overlooked and hard to capture. Our project sits between the two above projects with both humans and AI involved to explore daily moral decision-makings.
+
+- **Objective:** Our project dives into everyday moral dilemmas to understand large-scale human moral decisions. We combine questions and comments from moral decision-making related channels in redits with a variety of AI models to analyze the decisions people make to get. We visualize the results and allow users to interact with the data. We also attract users to fill out our questionnaires to get more data to improve our system and support our clients' research.
+
+- **Tech Stack:** [Tech Stack Documentation (TBD)](docs/Tech%20Stack/README.md)
+
+- **Stakeholders:** [Stakerholders analysis (TBD)](docs/Stakeholders%20List%20and%20Impact/README.md)
 
 ## Repo Structure
 ```
