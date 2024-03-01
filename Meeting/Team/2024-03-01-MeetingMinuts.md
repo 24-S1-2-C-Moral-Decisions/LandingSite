@@ -31,20 +31,18 @@ People who attended:
 
 Item | Description
 ---- | ----
-Agenda Item 1 | • <br>• <br>• <br>• <br>• 
-Agenda Item 2 | • <br>• <br>• <br>• <br>• 
-
-## Discussion Items
-Item | Who | Notes |
----- | ---- | ---- |
-item | who | notes |
+Discussion of SoW work distribution | 
+Discussion of prototyping |
+Initial decision on technology stack |
+Thing We need Discuss with Client |
 
 
 ## Action Items
 | Done? | Item | Responsible | Due Date |
 | ---- | ---- | ---- | ---- |
-| | item | who | due_date |
+| | SoW | Xinlong:  Resources and Costs, Basis, Processes <br> Xuan Liu: Background, Project <br> Ceming Fu: Document Version, Plan, Acceptance | 03/04/2024 |
+| | Prototype | Zhongzheng, Shiying Cai | 03/04/2024 |
 
 ## Other Notes & Information
-- 
+- SoW: [GoogleDoc](https://docs.google.com/document/d/1I4c28TqQ5L6ghcaujq07HjnvSKyG8Ws6FHiuj5QfPLM/edit?usp=sharing)
 - Next Note taker: Xuan Liu
