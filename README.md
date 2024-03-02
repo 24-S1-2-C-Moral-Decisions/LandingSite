@@ -76,7 +76,7 @@ This [document (TODO)](TeamCharter/TeamCharter.md) elaborates on the team's goal
 
 ## Meeting Minutes
 - [Client Meeting](Meeting/Client)
-- [Team Meeting (TODO)](Meeting/Team)
+- [Team Meeting](Meeting/Team)
 - [Tutorial Meeting (TODO)](Meeting/Tutorial)
 
 ## Decision Logs
