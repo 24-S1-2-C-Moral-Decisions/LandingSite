@@ -36,7 +36,7 @@
 ||||
 
 ## Statement of Work
-[Statement of Work (TODO)](StatementOfWork/#TODO)
+[Statement of Work](StatementOfWork/SoW.pdf)
 
 ## Getting Start
 See the [online documentation (TODO)](Reference/) for references we referenced in the project.
