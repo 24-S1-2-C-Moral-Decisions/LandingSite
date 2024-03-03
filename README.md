@@ -2,6 +2,7 @@
 ---
 ## Table of Contents
 - [Project Description](#project-description)
+- [Design Documentation](#design-documentation)
 - [Team Members and Roles](#team-members-and-roles)
 - [Statement of Work](#statement-of-work)
 - [Getting Start](#getting-start)
@@ -18,22 +19,25 @@
 
 ## Project Description
 - **Developers:** COMP8715 Computing Project, Australian National University, Australia
-
 - **Background:** Projects like Ask Delphi (Jiang et al., 2021) are to empower AI with moral decision-making capabilities. Despite its innovation, aligning AI's ethical reasoning with human values remains a significant hurdle, particularly in controversial issues. Another project starting from the human perspective, the MIT lab's Moral Machine Experiment published in Nature, analysed millions of human moral decisions in stark and idealized moral dilemmas, especially trolley problems. However, the nuances of everyday moral dilemmas are overlooked and hard to capture. Our project sits between the two above projects with both humans and AI involved to explore daily moral decision-makings.
-
 - **Objective:** Our project dives into everyday moral dilemmas to understand large-scale human moral decisions. We combine questions and comments from moral decision-making related channels in redits with a variety of AI models to analyze the decisions people make to get. We visualize the results and allow users to interact with the data. We also attract users to fill out our questionnaires to get more data to improve our system and support our clients' research.
-
 - **Tech Stack:** [Tech Stack Documentation (TODO)](TechStack.md)
-
 - **Stakeholders:** [Stakerholders analysis (TODO)](StakeholdersListAndImpact.md)
+
+## Design Documentation
+
+The design documentation for our project, including logos and web design prototypes, can be found in the "Designs" folder within our project repository. This documentation provides a comprehensive overview of the visual and interaction design aspects of our project.
+
+**Location**: [Designs Folder](Designs)
 
 ## Team Members and Roles
 |UID|Name|Role|
 |:---------|:------------:|:-------------------------------------:|
-||||
-||||
-||||
-||||
+|u7574421|Ceming Fu|Front end developer and API designer|
+|u7580335|Shiying Cai|UI/UX designer and website tester|
+|u7619947|Xinglong Wu|Project coordinator and client communicator|
+|u6393399|Xuan Liu|UI/UX designer and website tester|
+|u7580107|Zhongzheng Huang|Front end developer and back end developer|
 
 ## Statement of Work
 [Statement of Work](StatementOfWork/SoW.pdf)
@@ -126,5 +130,5 @@ Our team will also maintain an open and flexible attitude. As the project progre
 
 In the [future work document (TODO)](FutureImprovements/), we have listed a continuous feature roadmap for accomplishing future objectives. These functionalities represent our team's vision and mission, serving as the guiding direction and goals for our progress.
 
-  
+
 During the implementation of these features, we will also prioritize team cohesion and effective communication. We will actively explore new solutions and ideas, conducting experiments and testing to ensure the stability and reliability of the functionalities. Additionally, we will focus on enhancing the user experience to ensure our product truly meets the needs of our users.
