@@ -110,7 +110,7 @@ In the [testing report (TODO)](TestingSummary/), we will highlight the key testi
 
 ## User Manual
 Welcome to our product! In this [user manual (TODO)]() (we will update this document when the product is delivered), you will find detailed guides and instructions on how to use our product. Whether you are a beginner or an experienced user, this manual will help you get started quickly and unleash the full potential of the product. 
-
+<!--
 ## Deliverables
 
 The project mainly has the following deliverables.
@@ -120,6 +120,7 @@ TODO
 
 ### Intermediate Priorities - If Applicable
 TODO
+-->
 
 ## Future Improvements
 Considering future improvements and continuous optimization is crucial when developing a project. While our goal is to deliver a high-quality product at the current stage, we recognize that technology and market conditions are constantly changing. Therefore, we are willing to invest time and effort in thinking and planning for future enhancements.
