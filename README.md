@@ -7,6 +7,7 @@
 - [Statement of Work](#statement-of-work)
 - [Getting Start](#getting-start)
 - [Project Management](#project-management)
+- [Risk Management](#risk-management)
 - [Team Charter](#team-charter)
 - [Meeting Minutes](#meeting-minutes)
 - [Decision Logs](#decision-logs)
@@ -19,10 +20,12 @@
 
 ## Project Description
 - **Developers:** COMP8715 Computing Project, Australian National University, Australia
-- **Background:** Projects like Ask Delphi (Jiang et al., 2021) are to empower AI with moral decision-making capabilities. Despite its innovation, aligning AI's ethical reasoning with human values remains a significant hurdle, particularly in controversial issues. Another project starting from the human perspective, the MIT lab's Moral Machine Experiment published in Nature, analysed millions of human moral decisions in stark and idealized moral dilemmas, especially trolley problems. However, the nuances of everyday moral dilemmas are overlooked and hard to capture. Our project sits between the two above projects with both humans and AI involved to explore daily moral decision-makings.
-- **Objective:** Our project dives into everyday moral dilemmas to understand large-scale human moral decisions. We combine questions and comments from moral decision-making related channels in redits with a variety of AI models to analyze the decisions people make to get. We visualize the results and allow users to interact with the data. We also attract users to fill out our questionnaires to get more data to improve our system and support our clients' research.
+- **Background:** In recent years, the intersection of artificial intelligence (AI) and ethics has emerged as a critical area of research. Projects such as Ask Delphi and the Moral Machine Experiment have made significant strides in understanding how AI can be aligned with human moral values. However, these projects often focus on idealized or extreme moral dilemmas, such as the trolley problem, which may not fully capture the complexity of everyday moral decision-making.
+
+- **Objective:** The "AI + Human Exploration of Daily Moral Decisions" project aims to bridge this gap by focusing on the nuances of everyday moral dilemmas. By leveraging AI and human collaboration, the project seeks to provide a more comprehensive understanding of how people navigate moral decisions in their daily lives. The project will involve the development of an interactive Moral Profile Website, which will assist humans in appreciating the rich and nuanced aspects of moral life, and a large-scale Opinion Survey Website, including exploring whether individuals are willing to change their opinions under the influence of others.
+
 - **Tech Stack:** [Tech Stack Documentation (TODO)](TechStack.md)
-- **Stakeholders:** [Stakerholders analysis (TODO)](StakeholdersListAndImpact.md)
+- **Stakeholders:** [Stakerholders analysis](StakeholdersListAndImpact.md)
 
 ## Design Documentation
 
@@ -70,10 +73,32 @@ In managing our web API development project, we faced challenges such as increas
 - Utilize development environments like Visual Studio and WebStorm to ensure uniformity across the team and prevent inconsistencies.
 - Use Postman for testing to ensure the code's reliability and effectiveness.
 - (May be Jira) Chose GitHub Projects for [task management](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/issues), the GitHub [Kanban workflow](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/2/views/3), and the GitHub [timeline](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/2/views/2) for our development process, aiming for seamless integration, simplicity, cost-effectiveness, and enhanced collaboration within the team.
-- (May Not) Organize weekly catch-up meetings for code review before merging into the main branch to maintain code quality, ensuring that the code is readable, maintainable, efficient, and error-free.
+- Chose Jira for task management, aiming for seamless integration, simplicity, cost-effectiveness, and enhanced collaboration within the team.
+- Use agile project management as well as agile development methods. We expect to set a weekly development cycle. Synchronization of tasks and progress at each stage of the development cycle will be determined through frequently scheduled stand-ups meeting, and tasks for the next stage or cycle will be decided.
+- We meet with our clients once a week at a set time to synchronize current project progress and to consult with them on issues. The meeting agenda is sent to the client in advance of the meeting.
+
 
 By focusing on integration, simplicity, and collaboration, we've positioned our team to work with greater agility and transparency, aligning our tooling and workflows with the specific needs and goals of our project. The full decision log can be accessed [here (TODO)](DecisionLogs/ToolsforProjectManagement.md).
 
+## Risk Management
+
+### Risk Identification
+
+Make the most of every team station meeting, synchronized meetings with clients, and meetings with tutors to communicate positively. Encourage team members to actively raise possible risks.
+
+### Risk Evaluation
+
+Utilize weekly station meetings to perform qualitative and quantitative assessments of identified risks, including assessing the probability and impact level of the risk. Risks are prioritized based on their level of impact.
+
+### Risk Response
+
+Develop response strategies for each risk, including avoidance, transfer, mitigation, and acceptance. Ensure that the response strategy is aligned with project objectives and stakeholder expectations.
+
+Incorporate risk response strategies into project plans and implementation. Ensure that team members have the skills and resources to address the corresponding risks.
+
+### Documentation and records
+
+Document all identified risks, assessments, response strategies, and implementation processes.
 
 ## Team Charter
 This [document (TODO)](TeamCharter/TeamCharter.md) elaborates on the team's goals, structure, duties, norms, and protocols. It sets a clear direction and delineation for the team, aiding members in fostering mutual expectations and consensus. The primary aim of the team charter is to enhance team efficiency, bolster collaboration, and reduce misunderstandings and potential conflicts.
