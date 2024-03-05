@@ -15,7 +15,7 @@
 - [Conflict Resolution Protocol](#conflict-resolution-protocol)
 - [Testing Summary](#testing-summary)
 - [User Manual](#user-manual)
-- [Deliverables](#deliverables)
+- [Develop Plan](#develop-plan)
 - [Future Improvements](#future-improvements)
 
 ## Project Description
@@ -135,6 +135,25 @@ In the [testing report (TODO)](TestingSummary/), we will highlight the key testi
 
 ## User Manual
 Welcome to our product! In this [user manual (TODO)]() (we will update this document when the product is delivered), you will find detailed guides and instructions on how to use our product. Whether you are a beginner or an experienced user, this manual will help you get started quickly and unleash the full potential of the product. 
+
+## Develop Plan
+
+1. **Phase 1: Moral Moments and Opinion Survey Web UI Design**
+   - **Objective**: Design an engaging and interactive UI that allows users to explore moral dilemmas, guiding them towards a comprehensive Opinion Survey. The design phase will culminate in the completion of the website's homepage UI and survey page UI.
+   - **Timeline:** week1 to week2
+   - **Deliverables:** Website homepage and survey page UI designs.
+   - **Milestones:** Completion of UI/UX designs for both the homepage and survey pages.
+2. **Phase 2: Front-end Implementation and API Design**
+   - **Objective**: This phase focus on implementing the front end of the website, designing the API interfaces, and incorporating responsive design principles. The aim is  to bring the UI designs to life, and guarantee that the website provides consistent user experience across all devices.
+   - **Timeline:** week3 to week6
+   - **Deliverables:** An implemented homepage and survey page on the front end that adapts to various devices and a complete API documentation.
+   - **Milestones:** Completion of front end implementation and API design.
+3. **Phase 3: Back-end Implementation**
+   - **Objective**: Develop the backend for the website, focusing on server management, database integration, and implementing the designed API interfaces. This phase includes setting up the server environment, ensuring data storage and retrieval functionality.
+   - **Timeline:** week7 to week11
+   - **Deliverables:** A fully functional and robust back end, supporting database interaction and server management.
+   - **Milestones:** Completion of back end development, successful database integration and server setup.
+
 <!--
 ## Deliverables
 
