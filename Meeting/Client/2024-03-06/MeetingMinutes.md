@@ -42,6 +42,8 @@ server，surver data， code，Survey, AI Molde
 -->
 
 ## Other Notes & Information
+meeting whiteboard https://anu365-my.sharepoint.com/:wb:/g/personal/u7619947_anu_edu_au/EXuva2xK4jdFh3alRcw_Ta0B3lFniwapAoO9Vf25Pce0VA?e=1IASW9
+
 here are huggingface interfaces for 5 separate LLM models related to each MFD.
 - https://huggingface.co/joshnguyen/mformer-authority
 - https://huggingface.co/joshnguyen/mformer-care
