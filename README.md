@@ -17,6 +17,7 @@
 - [User Manual](#user-manual)
 - [Develop Plan](#develop-plan)
 - [Future Improvements](#future-improvements)
+- [Other Resources](#other-resources)
 
 ## Project Description
 - **Developers:** COMP8715 Computing Project, Australian National University, Australia
@@ -177,3 +178,6 @@ In the [future work document (TODO)](FutureImprovements/), we have listed a cont
 
 
 During the implementation of these features, we will also prioritize team cohesion and effective communication. We will actively explore new solutions and ideas, conducting experiments and testing to ensure the stability and reliability of the functionalities. Additionally, we will focus on enhancing the user experience to ensure our product truly meets the needs of our users.
+
+## Other Resources
+- Related presentations: [presentations](Presentation/)
