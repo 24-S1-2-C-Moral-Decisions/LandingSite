@@ -2,7 +2,7 @@
 ## Meeting Information
 **Meeting Date/Time:** 12/03/2024, 1pm 
 **Meeting Purpose:** Sync Up  
-**Meeting Location:** HN building room <>  
+**Meeting Location:** HN building room 2.41
 **Note Taker:** Xuan Liu
 
 ## Attendees
