@@ -19,7 +19,6 @@ Item | Description
 ---- | ----
 Prototype | • Review modified prototype of a more attractive entry page 
 Statement of Work (SoW) | • Review modified SoW 
-Model deployment | • 
 
 ## Discussion Items
 Item | Who | Notes |
