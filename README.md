@@ -53,16 +53,6 @@ We use [GitHub Discussions](https://github.com/24-S1-2-C-Moral-Decisions/Landing
 
 For bugs and feature requests, please [raise an issue](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/issues/new) and follow the templates there.
 
-### Repo Structure
-```
----
- |--- Meeting:  All meeting minuts we made
- |    |
- |    |--- Client: minuts We meet with Client
- |
- |--- Templete: All Doc Templete We used in project
-```
-
 ### Installation
 TODO
 
