@@ -13,9 +13,9 @@ Throughout the project, we utilized the following resources and references:
   <!-- - [Documentation Name]: [URL or location of project documentation] -->
   - Figma: [Project on Figma](https://www.figma.com/files/team/1344114333826613830/24-S1-2-C-Moral-Decisions) - Our prototype of web page and servey
 
-- Online Tutorials and Documentation 
+<!-- - Online Tutorials and Documentation 
   - [Tutorial Name]: [URL or location of the online tutorial] 
   - [Documentation Name]: [URL or location of relevant documentation] 
 
 - Reference Books 
-  - [Book Name]: [Author and publisher information of the book]
+  - [Book Name]: [Author and publisher information of the book] -->
