@@ -181,3 +181,9 @@ During the implementation of these features, we will also prioritize team cohesi
 
 ## Other Resources
 - Related presentations: [presentations](Presentation/)
+- AI Model:
+  - [https://huggingface.co/joshnguyen/mformer-authority](https://huggingface.co/joshnguyen/mformer-authority)
+  - [https://huggingface.co/joshnguyen/mformer-care](https://huggingface.co/joshnguyen/mformer-care)
+  - [https://huggingface.co/joshnguyen/mformer-fairness](https://huggingface.co/joshnguyen/mformer-fairness)
+  - [https://huggingface.co/joshnguyen/mformer-loyalty](https://huggingface.co/joshnguyen/mformer-loyalty)
+  - [https://huggingface.co/joshnguyen/mformer-sanctity](https://huggingface.co/joshnguyen/mformer-sanctity)
