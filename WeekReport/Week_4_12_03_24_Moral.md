@@ -23,3 +23,4 @@
 ## Agenda
 - introduce our 2nd Protopyte
 - shows Repo structure
+- show Jira
