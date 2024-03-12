@@ -69,7 +69,7 @@ In managing our web API development project, we faced challenges such as increas
 - We meet with our clients once a week at a set time to synchronize current project progress and to consult with them on issues. The meeting agenda is sent to the client in advance of the meeting.
 
 
-By focusing on integration, simplicity, and collaboration, we've positioned our team to work with greater agility and transparency, aligning our tooling and workflows with the specific needs and goals of our project. The full decision log can be accessed [here (TODO)](DecisionLogs/ToolsforProjectManagement.md).
+By focusing on integration, simplicity, and collaboration, we've positioned our team to work with greater agility and transparency, aligning our tooling and workflows with the specific needs and goals of our project. The full decision log can be accessed [here](DecisionLogs/ToolsforProjectManagement.md).
 
 ## Risk Management
 
