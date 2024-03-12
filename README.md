@@ -47,7 +47,7 @@ The design documentation for our project, including logos and web design prototy
 [Statement of Work](StatementOfWork/SoW.pdf)
 
 ## Getting Start
-See the [online documentation (TODO)](Reference/) for references we referenced in the project.
+See the [online documentation](Reference/) for references we referenced in the project.
 
 We use [GitHub Discussions](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/discussions) as our forum, and Microsoft Teams for chat. These are great places to ask questions and advice from the community or to discuss projects.
 

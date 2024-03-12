@@ -6,8 +6,11 @@ This reference log aims to provide a detailed record of our team's work and lear
 ## Resources and References 
 Throughout the project, we utilized the following resources and references: 
 - Code Repositories and Documentation 
-  - [Repository Name]: [URL or location of the code repository] 
-  - [Documentation Name]: [URL or location of project documentation]
+  - moral_moments: https://github.com/24-S1-2-C-Moral-Decisions/moral_moments (private, as confidentiality agreement)
+  - frontend: https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end (private, as confidentiality agreement)
+  - backend: https://github.com/24-S1-2-C-Moral-Decisions/moral-back-end (private, as confidentiality agreement)
+  - LITW: https://github.com/24-S1-2-C-Moral-Decisions/LITW-study-templates
+  <!-- - [Documentation Name]: [URL or location of project documentation] -->
   - Figma: [Project on Figma](https://www.figma.com/files/team/1344114333826613830/24-S1-2-C-Moral-Decisions) - Our prototype of web page and servey
 
 - Online Tutorials and Documentation 
