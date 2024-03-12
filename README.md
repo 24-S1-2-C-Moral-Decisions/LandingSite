@@ -8,7 +8,7 @@
 - [Getting Start](#getting-start)
 - [Project Management](#project-management)
 - [Risk Management](#risk-management)
-- [Team Charter](#team-charter)
+<!-- - [Team Charter](#team-charter) -->
 - [Meeting Minutes](#meeting-minutes)
 - [Decision Logs](#decision-logs)
 - [Reflection Log](https://github.com/tonypioneer/Trust-Indicator/blob/b27b282cb43956ff3917b57e455a8b2bdd3f6ca6/docs/Reflective/README.md)
@@ -73,7 +73,7 @@ In managing our web API development project, we faced challenges such as increas
 - Use Git as our version control system to facilitate collaboration and prevent conflicts.
 - Utilize development environments like Visual Studio and WebStorm to ensure uniformity across the team and prevent inconsistencies.
 - Use Postman for testing to ensure the code's reliability and effectiveness.
-- (May be Jira) Chose GitHub Projects for [task management](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/issues), the GitHub [Kanban workflow](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/2/views/3), and the GitHub [timeline](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/2/views/2) for our development process, aiming for seamless integration, simplicity, cost-effectiveness, and enhanced collaboration within the team.
+- Chose Jira for [task management](https://moral-decisions.atlassian.net/issues/?jql=project+%3D+%22SCRUM%22+ORDER+BY+created+DESC&atlOrigin=eyJpIjoiYjBlZTgwZDg1NTZjNDJiMzg3ZTVjMjE4NGU5NDQ0NDYiLCJwIjoiaiJ9), the Jira [Kanban workflow](https://moral-decisions.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiNDgyNmFmY2QyMmFhNDQxMjg5NDdmMzQzMTI4OWUwZjMiLCJwIjoiaiJ9), and the Jira [timeline](https://moral-decisions.atlassian.net/jira/software/projects/SCRUM/boards/1/timeline?shared=&atlOrigin=eyJpIjoiNzgzMjA0NTBiZjdlNGRhYThhYWE0MDVkMWM1OWIyMDQiLCJwIjoiaiJ9) for our development process, aiming for seamless integration, simplicity, cost-effectiveness, and enhanced collaboration within the team.
 - Chose Jira for task management, aiming for seamless integration, simplicity, cost-effectiveness, and enhanced collaboration within the team.
 - Use agile project management as well as agile development methods. We expect to set a weekly development cycle. Synchronization of tasks and progress at each stage of the development cycle will be determined through frequently scheduled stand-ups meeting, and tasks for the next stage or cycle will be decided.
 - We meet with our clients once a week at a set time to synchronize current project progress and to consult with them on issues. The meeting agenda is sent to the client in advance of the meeting.
@@ -100,9 +100,9 @@ Incorporate risk response strategies into project plans and implementation. Ensu
 ### Documentation and records
 
 Document all identified risks, assessments, response strategies, and implementation processes.
-
+<!-- 
 ## Team Charter
-This [document (TODO)](TeamCharter/TeamCharter.md) elaborates on the team's goals, structure, duties, norms, and protocols. It sets a clear direction and delineation for the team, aiding members in fostering mutual expectations and consensus. The primary aim of the team charter is to enhance team efficiency, bolster collaboration, and reduce misunderstandings and potential conflicts.
+This [document (TODO)](TeamCharter/TeamCharter.md) elaborates on the team's goals, structure, duties, norms, and protocols. It sets a clear direction and delineation for the team, aiding members in fostering mutual expectations and consensus. The primary aim of the team charter is to enhance team efficiency, bolster collaboration, and reduce misunderstandings and potential conflicts. -->
 
 ## Meeting Minutes
 - [Client Meeting](Meeting/Client)
@@ -181,3 +181,10 @@ During the implementation of these features, we will also prioritize team cohesi
 
 ## Other Resources
 - Related presentations: [presentations](Presentation/)
+
+- AI Model: 
+  - [https://huggingface.co/joshnguyen/mformer-authority](https://huggingface.co/joshnguyen/mformer-authority)
+  - [https://huggingface.co/joshnguyen/mformer-care](https://huggingface.co/joshnguyen/mformer-care)
+  - [https://huggingface.co/joshnguyen/mformer-fairness](https://huggingface.co/joshnguyen/mformer-fairness)
+  - [https://huggingface.co/joshnguyen/mformer-loyalty](https://huggingface.co/joshnguyen/mformer-loyalty)
+  - [https://huggingface.co/joshnguyen/mformer-sanctity](https://huggingface.co/joshnguyen/mformer-sanctity)
