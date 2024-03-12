@@ -12,12 +12,12 @@ People who attended:
 - Xuan Liu
 - Ceming Fu
 
-<!-- 
-讨论使用什么方式吸引用户
-讨论如何使故事不那么枯燥
-讨论问卷的如何修改
-讨论问卷仓库如何组织
- -->
+<!--
+Discuss how to attract users effectively.
+Discuss ways to make stories less boring.
+Discuss modifications to the survey.
+Discuss how to organize the survey repository.
+-->
 
 ## Agenda Items
 
