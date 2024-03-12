@@ -22,14 +22,17 @@ Statement of Work (SoW) | • Review modified SoW
 
 ## Discussion Items
 Item | Who | Notes |
----- | ---- | ---- |
-item | who | notes |
+---- | ---- | ---- |---- 
+Modification of entry page prototypes | Client | Use scenarios more related to daily life moral decisions. Explain the purpose of this website is for research on the entry page. |
+Survey implementation | Client | Carry out entry page design and survey implementation simultaneously. |
 
 
 ## Action Items
 | Done? | Item | Responsible | Due Date |
 | ---- | ---- | ---- | ---- |
-| | item | who | due_date |
+| No | Implement survey | Ceming Fu, Xinglong  Wu, Zhongzheng Huang | 20/03/2024 |
+| No | Modify Entry Page Design | Xuan Liu, Shiying Cai | 20/03/2024 |
+| No | Modify SoW | Xinglong  Wu, Zhongzheng Huang | 20/03/2024 |
 
 ## Other Notes & Information
 N/A

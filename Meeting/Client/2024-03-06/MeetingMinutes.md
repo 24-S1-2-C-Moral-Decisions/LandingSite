@@ -28,17 +28,18 @@ Introduction to the available LLM | Client | There are currently 5 available AI 
 Modification of SoW | Client | Tech stack, interaction between AI and user |
 
 <!--
-用尽办法吸引用户点击，写问卷
-1. 用一个事迹的问题
-2. Save zone -> 
-优势于竟品：AI summary，可视化
+Use all means to attract user clicks, write questionnaires
 
+1. Use a story-based question
+2. Save zone ->
+   Superior to competitors: AI summary, visualization
 
-两个web的关联，
+The relationship between the two webs,
 
-响应式，移动端，多语言
+Responsive, mobile end, multilingual
 
-server，surver data， code，Survey, AI Molde
+server, survey data, code, Survey, AI Model
+
 -->
 
 ## Other Notes & Information
