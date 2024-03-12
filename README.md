@@ -11,7 +11,7 @@
 <!-- - [Team Charter](#team-charter) -->
 - [Meeting Minutes](#meeting-minutes)
 - [Decision Logs](#decision-logs)
-- [Reflection Log](https://github.com/tonypioneer/Trust-Indicator/blob/b27b282cb43956ff3917b57e455a8b2bdd3f6ca6/docs/Reflective/README.md)
+- [Reflection Log](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/2/views/2)
 - [Conflict Resolution Protocol](#conflict-resolution-protocol)
 - [Testing Summary](#testing-summary)
 - [User Manual](#user-manual)
