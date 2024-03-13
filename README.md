@@ -101,7 +101,7 @@ This [document (TODO)](TeamCharter/TeamCharter.md) elaborates on the team's goal
 - [Tutorial Meeting (TODO)](Meeting/Tutorial)
 
 ## Decision Logs
-The Decision Log System is a tool designed to track and manage decisions made within a project or organization. By logging decisions, including the context, rationale, options considered, and outcomes, teams can improve transparency, responsibility, and learning. This [Decision Logs](DecisionLogs/) of our project documentation serves as a comprehensive record of all the key decisions made throughout the project lifecycle. 
+The Decision Log System is a tool designed to track and manage decisions made within a project or organization. By logging decisions, including the context, rationale, options considered, and outcomes, teams can improve transparency, responsibility, and learning. This [Decision Logs](DecisionLogs/) of our project documentation serves as a comprehensive record of all the key decisions made throughout the project lifecycle. You can also have a [Table view](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/3) of the decisions we have made
 
 ## Conflict Resolution Protocol
 - **Purpose:**
