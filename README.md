@@ -26,6 +26,7 @@
 - [Project Documentations](#project-documentation)
   - [Design Documentation](#design-documentation)
   - [Develoing Document](#develoing-document)
+    - [WorkFlow](Workflow/Coding)
     - [Getting Start](#getting-start)
     - [Testing Summary](#testing-summary)
     - [User Manual](#user-manual)
