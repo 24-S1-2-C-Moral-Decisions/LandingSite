@@ -11,9 +11,8 @@
 - 3rd Protopyte
 - set up 2 survey page
 
-## Riscks
+## Risks
 - may need to giving up entire existing code
-- 
 
 ## Issues
 - VM space runs out

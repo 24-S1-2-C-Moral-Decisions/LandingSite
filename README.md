@@ -31,6 +31,7 @@
     - [User Manual](#user-manual)
     - [Develop Plan](#develop-plan)
     - [Future Improvements](#future-improvements)
+  - [Weekly Report](WeekReport/)
 
 - [Connection](#connection)
 
