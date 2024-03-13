@@ -26,11 +26,9 @@ The decision was influenced by several factors:
 After careful consideration, Jira was selected as our project management software. This decision was based on its alignment with our project management needs, superior integration capabilities, and its ability to provide a comprehensive solution for task tracking, collaboration, and reporting. Its adaptability to various project management methodologies and scalability were pivotal in addressing our current and future project management challenges.
 
 ## Risks and Mitigation
-**Risk**: Resistance to change from team members accustomed to previous systems.
-**Mitigation**: Comprehensive training sessions and highlighting the benefits of Jira to enhance buy-in.
+**Risk**: Team members are accustomed to the previous system which reduces the efficiency of current collaboration.
 
-**Risk**: Initial productivity dip during the transition period.
-**Mitigation**: Implementing a phased rollout to minimize disruptions and provide ample support during the transition.
+**Mitigation**: Comprehensive training sessions and highlighting the benefits of Jira to enhance buy-in.
 
 ## Conclusion
 The decision to implement Jira as our project management software marks a significant step towards optimizing our project management processes. It is expected to enhance collaboration, improve project tracking, and provide the flexibility needed to manage our diverse projects efficiently. This strategic decision aligns with our goals of improving productivity and project outcomes, positioning us for success in our future initiatives.
