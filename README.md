@@ -36,6 +36,8 @@
 
 - [Other Resources](#other-resources)
 
+---
+
 ## Project Description
 - **Developers:** COMP8715 Computing Project, Australian National University, Australia
 - **Background:** In recent years, the intersection of artificial intelligence (AI) and ethics has emerged as a critical area of research. Projects such as Ask Delphi and the Moral Machine Experiment have made significant strides in understanding how AI can be aligned with human moral values. However, these projects often focus on idealized or extreme moral dilemmas, such as the trolley problem, which may not fully capture the complexity of everyday moral decision-making.
