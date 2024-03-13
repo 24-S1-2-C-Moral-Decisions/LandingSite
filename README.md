@@ -2,21 +2,38 @@
 ---
 ## Table of Contents
 - [Project Description](#project-description)
-- [Design Documentation](#design-documentation)
-- [Team Members and Roles](#team-members-and-roles)
-- [Statement of Work](#statement-of-work)
-- [Getting Start](#getting-start)
+  - [Project Description](#project-description)
+  - [Team Members and Roles](#team-members-and-roles)
+  - [Statement of Work](StatementOfWork/)
+
 - [Project Management](#project-management)
-- [Risk Management](#risk-management)
-<!-- - [Team Charter](#team-charter) -->
-- [Meeting Minutes](#meeting-minutes)
-- [Decision Logs](#decision-logs)
-- [Reflection Log](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/2/views/2)
-- [Conflict Resolution Protocol](#conflict-resolution-protocol)
-- [Testing Summary](#testing-summary)
-- [User Manual](#user-manual)
-- [Develop Plan](#develop-plan)
-- [Future Improvements](#future-improvements)
+  - [Project Management](#project-management)
+  - [Risk Management](#risk-management)
+  - [Conflict Resolution Protocol](#conflict-resolution-protocol)
+
+- Meeting
+  - Time Table
+  - [Meeting Minutes](Meeting/)
+    - [Client Meeting](Meeting/Client)
+    - [Team Meeting](Meeting/Team)
+    - [Tutorial Meeting (TODO)](Meeting/Tutorial)
+
+- Project Logs
+  - [Decision Log](DecisionLogs/)
+  - [Reflection Log](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/2/views/2)
+  - [Risk Log](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/7/views/1)
+
+- [Project Documentations](#project-documentation)
+  - [Design Documentation](#design-documentation)
+  - [Develoing Document](#develoing-document)
+    - [Getting Start](#getting-start)
+    - [Testing Summary](#testing-summary)
+    - [User Manual](#user-manual)
+    - [Develop Plan](#develop-plan)
+    - [Future Improvements](#future-improvements)
+
+- [Connection](#connection)
+
 - [Other Resources](#other-resources)
 
 ## Project Description
@@ -25,16 +42,10 @@
 
 - **Objective:** The "AI + Human Exploration of Daily Moral Decisions" project aims to bridge this gap by focusing on the nuances of everyday moral dilemmas. By leveraging AI and human collaboration, the project seeks to provide a more comprehensive understanding of how people navigate moral decisions in their daily lives. The project will involve the development of an interactive Moral Profile Website, which will assist humans in appreciating the rich and nuanced aspects of moral life, and a large-scale Opinion Survey Website, including exploring whether individuals are willing to change their opinions under the influence of others.
 
-- **Tech Stack:** [Tech Stack Documentation (TODO)](TechStack.md)
+- **Tech Stack:** [Tech Stack Documentation](TechStack.md)
 - **Stakeholders:** [Stakerholders analysis](StakeholdersListAndImpact.md)
 
-## Design Documentation
-
-The design documentation for our project, including logos and web design prototypes, can be found in the "Designs" folder within our project repository. This documentation provides a comprehensive overview of the visual and interaction design aspects of our project.
-
-**Location**: [Designs Folder](Designs)
-
-## Team Members and Roles
+### Team Members and Roles
 |UID|Name|Role|
 |:---------|:------------:|:-------------------------------------:|
 |u7574421|Ceming Fu|Front end developer and API designer|
@@ -42,19 +53,6 @@ The design documentation for our project, including logos and web design prototy
 |u7619947|Xinglong Wu|Project coordinator and client communicator|
 |u6393399|Xuan Liu|UI/UX designer and website tester|
 |u7580107|Zhongzheng Huang|Front end developer and back end developer|
-
-## Statement of Work
-[Statement of Work](StatementOfWork/SoW.pdf)
-
-## Getting Start
-See the [online documentation](Reference/) for references we referenced in the project.
-
-We use [GitHub Discussions](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/discussions) as our forum, and Microsoft Teams for chat. These are great places to ask questions and advice from the community or to discuss projects.
-
-For bugs and feature requests, please [raise an issue](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/issues/new) and follow the templates there.
-
-### Installation
-TODO
 
 
 ## Project Management
@@ -72,38 +70,28 @@ In managing our web API development project, we faced challenges such as increas
 
 By focusing on integration, simplicity, and collaboration, we've positioned our team to work with greater agility and transparency, aligning our tooling and workflows with the specific needs and goals of our project. The full decision log can be accessed [here](DecisionLogs/ToolsforProjectManagement.md).
 
-## Risk Management
+### Risk Management
 
-### Risk Identification
+#### Risk Identification
 
 Make the most of every team station meeting, synchronized meetings with clients, and meetings with tutors to communicate positively. Encourage team members to actively raise possible risks.
 
-### Risk Evaluation
+#### Risk Evaluation
 
 Utilize weekly station meetings to perform qualitative and quantitative assessments of identified risks, including assessing the probability and impact level of the risk. Risks are prioritized based on their level of impact.
 
-### Risk Response
+#### Risk Response
 
 Develop response strategies for each risk, including avoidance, transfer, mitigation, and acceptance. Ensure that the response strategy is aligned with project objectives and stakeholder expectations.
 
 Incorporate risk response strategies into project plans and implementation. Ensure that team members have the skills and resources to address the corresponding risks.
 
-### Documentation and records
+#### Documentation and records
 
 Document all identified risks, assessments, response strategies, and implementation processes.
-<!-- 
-## Team Charter
-This [document (TODO)](TeamCharter/TeamCharter.md) elaborates on the team's goals, structure, duties, norms, and protocols. It sets a clear direction and delineation for the team, aiding members in fostering mutual expectations and consensus. The primary aim of the team charter is to enhance team efficiency, bolster collaboration, and reduce misunderstandings and potential conflicts. -->
 
-## Meeting Minutes
-- [Client Meeting](Meeting/Client)
-- [Team Meeting](Meeting/Team)
-- [Tutorial Meeting (TODO)](Meeting/Tutorial)
 
-## Decision Logs
-The Decision Log System is a tool designed to track and manage decisions made within a project or organization. By logging decisions, including the context, rationale, options considered, and outcomes, teams can improve transparency, responsibility, and learning. This [Decision Logs](DecisionLogs/) of our project documentation serves as a comprehensive record of all the key decisions made throughout the project lifecycle. You can also have a [Table view](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/3) of the decisions we have made
-
-## Conflict Resolution Protocol
+### Conflict Resolution Protocol
 - **Purpose:**
 <p>The purpose of this document is to outline a well-defined protocol for handling conflicts within our development team. This protocol is intended to ensure that disagreements and issues are resolved efficiently and effectively, allowing us to maintain a healthy and collaborative work environment while focusing on the completion of our APP design and testing tasks.</p>
 
@@ -122,13 +110,30 @@ The Decision Log System is a tool designed to track and manage decisions made wi
     <p>Team members are encouraged to offer suggestions and ideas, no matter how unconventional they may seem.</p>
     <p>The team should aim for a consensus-based solution, where all parties involved are in agreement.</p>
 
-## Testing Summary
+## Project Documentation
+### Design Documentation
+
+The design documentation for our project, including logos and web design prototypes, can be found in the "Designs" folder within our project repository. This documentation provides a comprehensive overview of the visual and interaction design aspects of our project.
+
+**Location**: [Designs Folder](Designs)
+
+### Develoing Document
+
+#### Getting Start
+See the [online documentation](Reference/) for references we referenced in the project.
+
+We use [GitHub Discussions](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/discussions) as our forum, and Microsoft Teams for chat. These are great places to ask questions and advice from the community or to discuss projects.
+
+For bugs and feature requests, please [raise an issue](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/issues/new) and follow the templates there.
+
+#### Testing Summary
 In the [testing report (TODO)](TestingSummary/), we will highlight the key testing milestones, the test strategies employed, and the outcomes of our testing activities to ensure the quality and reliability of our Product/Software/Service.
 
-## User Manual
+#### User Manual
 Welcome to our product! In this [user manual (TODO)]() (we will update this document when the product is delivered), you will find detailed guides and instructions on how to use our product. Whether you are a beginner or an experienced user, this manual will help you get started quickly and unleash the full potential of the product. 
 
-## Develop Plan
+
+#### Develop Plan
 
 1. **Phase 1: Moral Moments and Opinion Survey Web UI Design**
    - **Objective**: Design an engaging and interactive UI that allows users to explore moral dilemmas, guiding them towards a comprehensive Opinion Survey. The design phase will culminate in the completion of the website's homepage UI and survey page UI.
@@ -146,6 +151,15 @@ Welcome to our product! In this [user manual (TODO)]() (we will update this docu
    - **Deliverables:** A fully functional and robust back end, supporting database interaction and server management.
    - **Milestones:** Completion of back end development, successful database integration and server setup.
 
+### Installation
+TODO
+
+
+<!-- 
+## Team Charter
+This [document (TODO)](TeamCharter/TeamCharter.md) elaborates on the team's goals, structure, duties, norms, and protocols. It sets a clear direction and delineation for the team, aiding members in fostering mutual expectations and consensus. The primary aim of the team charter is to enhance team efficiency, bolster collaboration, and reduce misunderstandings and potential conflicts. -->
+
+
 <!--
 ## Deliverables
 
@@ -158,7 +172,7 @@ TODO
 TODO
 -->
 
-## Future Improvements
+#### Future Improvements
 Considering future improvements and continuous optimization is crucial when developing a project. While our goal is to deliver a high-quality product at the current stage, we recognize that technology and market conditions are constantly changing. Therefore, we are willing to invest time and effort in thinking and planning for future enhancements.
 
 In the initial phase of project development, our focus is on implementing core features and meeting basic requirements. However, we also understand that this is just the beginning, and we look forward to continuing to improve and refine the product after delivery.
@@ -169,6 +183,9 @@ In the [future work document (TODO)](FutureImprovements/), we have listed a cont
 
 
 During the implementation of these features, we will also prioritize team cohesion and effective communication. We will actively explore new solutions and ideas, conducting experiments and testing to ensure the stability and reliability of the functionalities. Additionally, we will focus on enhancing the user experience to ensure our product truly meets the needs of our users.
+
+## Connection
+We use [GitHub Discussions](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/discussions) and [Github Issues](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/issues) as our forum, and Microsoft Teams for chat. These are great places to ask questions and advice from the community or to discuss projects.
 
 ## Other Resources
 - Related presentations: [presentations](Presentation/)

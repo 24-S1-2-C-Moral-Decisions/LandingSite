@@ -1,9 +1,11 @@
 # Decision Logs
 
 ## Overview
-The Decision Log System is a tool designed to track and manage decisions made within a project or organization. By logging decisions, including the context, rationale, options considered, and outcomes, teams can improve transparency, responsibility, and learning.
+The Decision Log System is a tool designed to track and manage decisions made within a project or organization. By logging decisions, including the context, rationale, options considered, and outcomes, teams can improve transparency, responsibility, and learning. 
 
-You can find a table view of our decision at [DecisionLogs](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/3/views/1)
+This [Decision Logs](DecisionLogs/) of our project documentation serves as a comprehensive record of all the key decisions made throughout the project lifecycle. 
+
+You can also have a [Table view](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/3) of the decisions we have made
 
 ## Template
 Please follow the template provided in [Decision Log Template.md](DecisionLogTemplate.md) for all decision logs to maintain consistency.
