@@ -19,6 +19,7 @@ Item | Description
 ---- | ----
 Prototype | • Review the prototype modified according to the opinions from the last meeting
 Survey Website | • Review the onging survey website development
+Audit2 Preparation | • Discuss the expectation of audit2
 
 ## Discussion Items
 Item | Who | Notes |
