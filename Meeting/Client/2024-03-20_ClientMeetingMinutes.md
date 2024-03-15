@@ -18,6 +18,7 @@ People who attended:
 Item | Description
 ---- | ----
 Prototype | • Review the prototype modified according to the opinions from the last meeting
+SOW | • Review the modified SOW
 Survey Website | • Review the onging survey website development
 Audit2 Preparation | • Discuss the expectation of audit2
 
