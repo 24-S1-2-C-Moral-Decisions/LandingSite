@@ -18,5 +18,5 @@
 - VM space runs out
 
 ## Agenda
-- introduce our 3rd Prototype
-- show survey pages
+- Review the onging survey website development
+- Prepare for Audit2
