@@ -22,6 +22,7 @@
   - [Decision Log](DecisionLogs/)
   - [Reflection Log](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/2/views/2)
   - [Risk Log](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/7/views/1)
+  - [Issue Log](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/issues?q=is%3Aissue+label%3AIssue)
 
 - [Project Documentations](#project-documentation)
   - [Design Documentation](#design-documentation)
