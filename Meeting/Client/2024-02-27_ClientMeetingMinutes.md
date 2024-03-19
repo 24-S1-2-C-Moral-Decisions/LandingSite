@@ -1,33 +1,33 @@
 # Meeting Minutes
 ## Meeting Information
-**Meeting Date/Time:** meeting_date, meeting_time  
-**Meeting Purpose:** meeting_purpose  
-**Meeting Location:** meeting_location  
-**Note Taker:** note_taker  
+**Meeting Date/Time:** 27/02/2024
+**Meeting Location:** Hanna Neumann Building room 4.15  
+**Note Taker:** Xinlong Wu  
 
 ## Attendees
 People who attended:
-- Person A
-- Person B
-- Person C
+- Xinlong Wu
+- Shiying Cai
+- Zhongzheng Huang
+- Xuan Liu
+- Ceming Fu
 
 ## Agenda Items
 
 Item | Description
 ---- | ----
-Agenda Item 1 | • <br>• <br>• <br>• <br>• 
-Agenda Item 2 | • <br>• <br>• <br>• <br>• 
+Talk about the Project | carefully read our techlauncher website description and prepare questions |
+Discuss requirement for audit 1 | |
+Potential project roles | |
+Set up regular weekly meetings | | 
 
 ## Discussion Items
 Item | Who | Notes |
 ---- | ---- | ---- |
-item | who | notes |
+Introduce Project | Ziyu | |
+Discuss requirement for audit 1 | ALL | |
+project roles | ALL | | 
 
-
-## Action Items
-| Done? | Item | Responsible | Due Date |
-| ---- | ---- | ---- | ---- |
-| | item | who | due_date |
 
 ## Other Notes & Information
 N/A

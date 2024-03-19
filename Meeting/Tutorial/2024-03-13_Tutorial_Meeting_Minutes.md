@@ -1,33 +1,28 @@
 # Meeting Minutes
 ## Meeting Information
-**Meeting Date/Time:** meeting_date, meeting_time  
-**Meeting Purpose:** meeting_purpose  
-**Meeting Location:** meeting_location  
-**Note Taker:** note_taker  
+**Meeting Date/Time:** 13/03/2024
+**Meeting Location:** Tut room  
+**Note Taker:** Xinlong Wu  
 
 ## Attendees
 People who attended:
-- Person A
-- Person B
-- Person C
+- Xinlong Wu
+- Shiying Cai
+- Zhongzheng Huang
+- Xuan Liu
+- Ceming Fu
 
 ## Agenda Items
 
-Item | Description
----- | ----
-Agenda Item 1 | • <br>• <br>• <br>• <br>• 
-Agenda Item 2 | • <br>• <br>• <br>• <br>• 
+- Report progress of previous week, [Week_4_12_03_24_Moral.md](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/WeekReport/Week_4_12_03_24_Moral.md)
 
 ## Discussion Items
 Item | Who | Notes |
 ---- | ---- | ---- |
-item | who | notes |
+structure of Landing Page | Tutor |  |
+Need more details for Logs | Tutor |  |
+User story | Tutor | |
 
-
-## Action Items
-| Done? | Item | Responsible | Due Date |
-| ---- | ---- | ---- | ---- |
-| | item | who | due_date |
 
 ## Other Notes & Information
 N/A
