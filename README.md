@@ -16,7 +16,7 @@
   - [Meeting Minutes](Meeting/)
     - [Client Meeting](Meeting/Client)
     - [Team Meeting](Meeting/Team)
-    - [Tutorial Meeting (TODO)](Meeting/Tutorial)
+    - [Tutorial Meeting](Meeting/Tutorial)
 
 - Project Logs
   - [Decision Log](DecisionLogs/)
