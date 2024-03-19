@@ -2,24 +2,21 @@
 
 > **Time:** Week5
 
-## Achievements since last tutorial
-- 2nd Prototype
-- Reorganize the code repo
-- create Repo for front/back end, survey
+## Achievements since the last tutorial
+- Completed the 3rd Prototype
+- set up 2 survey pages
 
 ## Previous Plan
-- 3rd Protopyte
+- 3rd Prototype
 - set up 2 survey page
 
 ## Risks
-- may need to giving up entire existing code
+- User Engagement: Users may not find the scenario on the entry page engaging enough, leading to low participation.
+- Limited Scope: The scenario simulation may not provide comprehensive feedback, limiting its effectiveness as a research tool.
 
 ## Issues
 - VM space runs out
-- can't using docker env
-- existing code unable to be run, cuz lack of some data from Client.
 
 ## Agenda
-- introduce our 2nd Protopyte
-- shows Repo structure
-- show Jira
+- Review the onging survey website development
+- Prepare for Audit2
