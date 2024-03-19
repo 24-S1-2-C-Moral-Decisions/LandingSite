@@ -15,6 +15,8 @@
 ![Alt text](step5-2.png)
 
 6. Waiting for CI Passed and at **least 3 other reviewers** accepted/LGTM
-![Alt text](step6.png)
+ - review code and add your comments if needed
+ ![alt text](review.png)
+ - if all good, **Approve this PR** ![alt text](approve.png)
 
 7. Merge
