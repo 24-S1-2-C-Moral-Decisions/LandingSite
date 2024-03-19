@@ -15,7 +15,7 @@
 - Limited Scope: The scenario simulation may not provide comprehensive feedback, limiting its effectiveness as a research tool.
 
 ## Issues
-- VM space runs out
+- Encountered a bug when integrating i18n in survey website
 
 ## Agenda
 - Review the onging survey website development
