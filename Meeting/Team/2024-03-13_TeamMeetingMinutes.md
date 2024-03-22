@@ -33,9 +33,9 @@ Introduce Workflow |Fork questionnaire repo from the GitHub repository, individu
 
 | Done? | Item                                                  | Responsible                 | Due Date   |
 | ----- | ----------------------------------------------------- | --------------------------- | ---------- |
-| No    | Design entry page with daily moral decision scenarios | Shiying Cai, Xuan Liu       | 20/03/2024 |
+| Yes   | Design entry page with daily moral decision scenarios | Shiying Cai, Xuan Liu       | 20/03/2024 |
 | Yes   | Organize the questionnaire repo                       | Xinglong Wu                 | 13/03/2024 |
-| No    | Complete two questionnaire implementation             | Zhongzheng Huang, Ceming Fu | 20/03/2024 |
+| Yes   | Complete two questionnaire implementation             | Zhongzheng Huang, Ceming Fu | 20/03/2024 |
 
 
 
