@@ -4,7 +4,7 @@
 - Decision Maker: All team members and the client
   
 ## Background 
-The original entry page scenario featuring the moral dilemma of "whom to save from drowning" received feedback indicating that it did not adequately align with the website's focus on everyday moral decisions. Our content is dedicated to engaging users with scenarios that reflect the moral choices they might encounter in their daily lives, thus necessitating a revision of the entry page scenario to better match our thematic direction.
+The original entry page scenario featuring the moral dilemma of "whom to save from drowning" received feedback from the client indicating that it did not adequately align with the website's focus on everyday moral decisions. Our content is dedicated to engaging users with scenarios that reflect the moral choices they might encounter in their daily lives, thus necessitating a revision of the entry page scenario to better match our thematic direction.
 
 ## Decision Options 
 
