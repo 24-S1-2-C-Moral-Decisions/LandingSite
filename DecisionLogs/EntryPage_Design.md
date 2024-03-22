@@ -4,7 +4,7 @@
 - Decision Maker: All team members and the client
   
 ## Background 
-The initiative to redesign our website's entry page stemmed from qualitative feedback and industry best practices highlighting the necessity for enhanced user engagement right from the initial interaction. Internal reviews underscored the potential of interactive elements to capture and maintain user interest, leading to the exploration of innovative solutions that could seamlessly merge information delivery with user involvement.
+The initiative to redesign our website's entry page stemmed from client feedback and industry best practices highlighting the necessity for enhanced user engagement right from the initial interaction. Internal reviews with the client underscored the potential of interactive elements to capture and maintain user interest, leading to the exploration of innovative solutions that could seamlessly merge information delivery with user involvement.
 
 ## Decision Options 
 
