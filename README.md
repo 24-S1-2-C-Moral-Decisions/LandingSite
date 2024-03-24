@@ -12,7 +12,7 @@
   - [Conflict Resolution Protocol](#conflict-resolution-protocol)
 
 - Meeting
-  - Time Table
+  - [Records and schedules](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/6/views/1)
   - [Meeting Minutes](Meeting/)
     - [Client Meeting](Meeting/Client)
     - [Team Meeting](Meeting/Team)
