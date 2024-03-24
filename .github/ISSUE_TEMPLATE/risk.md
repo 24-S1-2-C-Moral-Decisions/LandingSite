@@ -1,16 +1,20 @@
 ---
 name: new Risk
 about: Create a report to rise a irsk
-title: ''
+title: '[Risk]'
 labels: 'Risk'
 assignees: ''
 
 ---
 
-## Risk 
+## Description
 
-### Description
 
-### Mitigation Strategy
 
-### Follow-up Actions
+## Mitigation Strategy
+
+
+
+## Follow-up Actions
+
+
