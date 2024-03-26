@@ -194,6 +194,10 @@ We use [GitHub Discussions](https://github.com/24-S1-2-C-Moral-Decisions/Landing
 
 ## Other Resources
 - Related presentations: [presentations](Presentation/)
+- Repo:
+  - Main Survey: https://github.com/24-S1-2-C-Moral-Decisions/moral-survey
+  - Survey 1: https://github.com/24-S1-2-C-Moral-Decisions/moral-survey-1
+  - Survey 2: https://github.com/24-S1-2-C-Moral-Decisions/moral-survey-2
 - AI Model:
   - [https://huggingface.co/joshnguyen/mformer-authority](https://huggingface.co/joshnguyen/mformer-authority)
   - [https://huggingface.co/joshnguyen/mformer-care](https://huggingface.co/joshnguyen/mformer-care)
