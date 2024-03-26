@@ -21,6 +21,7 @@ Item | Description
 Prototype | • Review the reformatted prototype that meets the client's requirements from last week 
 Survey Website | • Review the onging survey website development
 Home Page Design | • Discuss the main features of the homepage 
+Where to store the data | • Where should we store the data collected by survey?
 
 ## Discussion Items
 Item | Who | Notes 
