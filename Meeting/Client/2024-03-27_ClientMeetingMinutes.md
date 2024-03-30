@@ -21,7 +21,6 @@ Item | Description
 Prototype | • Review the reformatted prototype that meets the client's requirements from last week 
 Survey Website | • Review the onging survey website development
 Home Page Design | • Discuss the main features of the homepage 
-Where to store the data | • Where should we store the data collected by survey?
 
 ## Discussion Items
 Item | Who | Notes 
@@ -32,10 +31,11 @@ Preparation for Home Page Function Design | All team members and client | Discus
 ## Action Items
 | Done? | Item | Responsible | Due Date |
 | ---- | ---- | ---- | ---- |
-|       |      |             |          |
-|       |      |             |          |
-|       |      |             |          |
-|       |      |             |          |
+| No | Update survey website training page that the users could skip background knowledge | Xinlong Wu, Ceming Fu, Zhongzheng Huang | 09/04/2024 |
+| No | Each question in the survey website provides a feedback | Xinlong Wu, Ceming Fu, Zhongzheng Huang | 09/04/2024 |
+| No | Create a MongoDB database for testing the survey data | Xinlong Wu, Ceming Fu, Zhongzheng Huang | 09/04/2024 |
+| No | Modify the scenario of the entry page provided by the client | Shiying Cai, Xuan Liu                   | 09/04/2024 |
+| No | Design text search feature of website | Shiying Cai                             | 09/04/2024 |
 
 ## Other Notes & Information
-N/A
+Next week's regular meeting will be cancelled due to a Teaching Break.
