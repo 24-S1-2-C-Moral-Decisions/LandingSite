@@ -2,7 +2,7 @@
 ## Meeting Information
 **Meeting Date/Time:** 09/04/2024, 10am 
 **Meeting Purpose:** Sync Up  
-**Meeting Location:** HN building room 2.41
+**Meeting Location:** Building 145, 4.15, Board Rm
 **Note Taker:** Zhongzheng Huang
 
 ## Attendees
