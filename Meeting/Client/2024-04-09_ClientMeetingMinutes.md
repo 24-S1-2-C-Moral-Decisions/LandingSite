@@ -27,6 +27,7 @@ Item | Who | Notes
 ---- | ---- | ---- 
 Discuss the 5rd version UI design | All team members and client | Based on the current design, the client has provided multiple suggestions for improvement
 Discuss the finished survey website | All team members and client | Displayed the currently completed survey website
+Discuss the Entry Page | All team members and client | Displayed the currently completed Entry Page
 Preparation for Home Page Function Design | All team members and client | Discuss the features that needs to be implemented on the home page 
 ## Action Items
 | Done? | Item | Responsible | Due Date |
