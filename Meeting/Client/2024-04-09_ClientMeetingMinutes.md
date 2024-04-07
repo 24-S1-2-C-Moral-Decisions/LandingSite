@@ -20,7 +20,7 @@ Item | Description
 ---- | ----
 Prototype | • Review the reformatted prototype that meets the client's requirements from last week 
 Survey Website | • Review the onging survey website development
-Home Page Design | • Review the onging Entry Page development
+Home Page Design | • Review the onging Entry Page development and discuss the follow-up development of the homepage
 
 ## Discussion Items
 Item | Who | Notes 
