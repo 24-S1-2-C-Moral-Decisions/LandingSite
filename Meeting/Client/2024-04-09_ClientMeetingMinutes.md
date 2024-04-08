@@ -1,6 +1,6 @@
 # Meeting Minutes
 ## Meeting Information
-**Meeting Date/Time:** 09/04/2024, 10am 
+**Meeting Date/Time:** 09/04/2024, 11am 
 **Meeting Purpose:** Sync Up  
 **Meeting Location:** Building 145, 4.15, Board Rm
 **Note Taker:** Zhongzheng Huang
