@@ -32,6 +32,11 @@ Preparation for Home Page Function Design | All team members and client | Discus
 ## Action Items
 | Done? | Item | Responsible | Due Date |
 | ---- | ---- | ---- | ---- |
-
-
+| No | Entry page of the game's feedback is available directly 1-2 seconds after it is done. | Shiying Cai, Xuan Liu | 17/04/2024 |
+| No | Update Search Page. The layout of the page, the selection of topics to display. | Shiying Cai, Xuan Liu | 17/04/2024 |
+| No | Design Knowledge Page, like a social game | Shiying Cai, Xuan Liu | 17/04/2024 |
+| No | Design a mobile Entry Page interface | Shiying Cai, Xuan Liu | 17/04/2024 |
+| NO | Update the detail of survey website | Xinlong Wu, Ceming Fu, Zhongzheng Huang | 17/04/2024 |
+| No | Try to pull survey topics on the back end. | Xinlong Wu, Ceming Fu, Zhongzheng Huang | 17/04/2024 |
 ## Other Notes & Information
+N/A
