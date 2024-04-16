@@ -38,7 +38,7 @@ The implementation will proceed as follows:
 **Risk**: Potential performance issues with Next.js handling large-scale backend operations.
 
 - Mitigation: Conduct performance testing and optimizations regularly; consider splitting services if specific scalability issues arise.
-- 
+
 **Risk**: Increased complexity in managing a full-stack environment within a single framework.
 
 - Mitigation: Provide comprehensive training and documentation for the development team; use modular architecture within Next.js to maintain code clarity and separation of concerns.
