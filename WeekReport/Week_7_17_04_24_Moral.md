@@ -8,11 +8,13 @@
 - Implementation of Indexing page
 - establish back end and API surver
 
-## Risks
-- **Privacy Concerns:** Users may be hesitant to participate in the survey or provide personal information due to concerns about privacy and data security.
-
 ## Issues
-
+- Complex search UIs can be frustrating for users
+- We need to devise a way to ensure that users are focused on our questionnaire
 
 ## Agenda
+- UI Design
+- Survey Index Page
+- Home Page Implementation
+- Backend status
 

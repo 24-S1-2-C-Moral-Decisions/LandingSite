@@ -14,7 +14,7 @@ People who attended:
 
 ## Agenda Items
 
-- Report progress of previous week, [Week_5_20_03_24_Moral.md](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/WeekReport/Week_5_20_03_24_Moral.md)
+- Report progress of previous week, [Week_5_20_03_24_Moral.md](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/WeekReport/Week_7_17_04_24_Moral.md)
 
 ## Discussion Items
 Item | Who | Notes |
