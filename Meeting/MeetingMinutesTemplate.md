@@ -29,5 +29,8 @@ item | who | notes |
 | ---- | ---- | ---- | ---- |
 | | item | who | due_date |
 
+# Client Suggestion
+
+
 ## Other Notes & Information
 N/A

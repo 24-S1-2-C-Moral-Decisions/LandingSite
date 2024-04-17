@@ -19,7 +19,7 @@
     - [Tutorial Meeting](Meeting/Tutorial)
 
 - Project Logs
-  - [Decision Log](DecisionLogs/)
+  - [Decision Log](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/3)
   - [Reflection Log](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/2/views/2)
   - [Risk Log](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/7/views/1)
   - [Issue Log](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/issues?q=is%3Aissue+label%3AIssue)
