@@ -23,17 +23,21 @@ Survey Website | • Review the onging survey website development
 Survey Backend | • prioritizing the task of survey website backend implementation
 
 ## Discussion Items
-Item | Who | Notes 
----- | ---- | ---- 
-Invate ex-team leeder to introduce process of previous project | Ziyu | 
-Client introduced the current urgent task, raising the priority of survey implementation.｜Ziyu｜
-The client introduced the specific operational process of the survey.|Ziyu|
-The client requests that we receive two IDs from another website(Prolific), when opening the survey page. |Ziyu|
-ntroduced the interface design of the website search and the specific actions of the search. | Shiying, Xuan|
-Displayed the backend deployment situation and the progress of the backend API design. | Xinlong|
 
-# Client Suggestion
+| Item                  | Who           | Notes                                                        |      |
+| --------------------- | ------------- | ------------------------------------------------------------ | ---- |
+| Survey implementation | Ziyu          | Introduced the current urgent task, raising the priority of survey implementation. |      |
+| Survey process        | Ziyu          | Invite ex-team leader to introduce the survey process of previous project; Introduced the specific operational process of the survey; Requests that we receive two IDs from another website (Prolific) when opening the survey page. |      |
+| Interface design      | Shiying, Xuan | Introduced the interface design of the website search and the specific actions of the search. |      |
+| backend deployment    | Xinlong       | Displayed the backend deployment situation and the progress of the backend API design. |      |
+
+## Client Suggestions
+
+- Client suggested that the current urgent task be to prioritize the implementation of the survey.
+- The client suggested the specific operational process of the survey.
+
 
 
 ## Other Notes & Information
+
 N/A
