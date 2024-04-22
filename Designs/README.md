@@ -12,9 +12,10 @@ For a more interactive look at our designs, including the ability to comment, su
 
 ## Access Each Version PDF
 
-* [Version1](Designs/v1)
-* [Version2](Designs/v2)
-* [Version3](Designs/v3)
-* [Version4](Designs/v4)
-* [Version5](Designs/v5)
-* [Version6](Designs/v6)
+* [Version1](/v1)
+* [Version2](/v2)
+* [Version3](/v3)
+* [Version4](/v4)
+* [Version5](/v5)
+* [Version6](/v6)
+* [Version7](/v7)
