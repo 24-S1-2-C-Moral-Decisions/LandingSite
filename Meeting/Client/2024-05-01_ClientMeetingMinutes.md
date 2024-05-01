@@ -24,9 +24,9 @@ Audit3 preparation | • Discuss the items for audit 3
 ## Discussion Items
 Item | Who | Notes 
 ---- | ---- | ----
-Audit detial | All members | Discuss items that needed be prepeare for audit3 
-Plan for next stage | All members|  Discuss plan after finishing survey design 
-Video review | Ziyu| Review the showcase video and give feedback
+Audit detial | All members | Identify all documentation, reports, and data that need to be reviewed and compiled. Assign responsibilities for gathering these materials. Set a timeline for review and finalization.
+Plan for next stage | All members|  Outline the steps to be taken post-survey design completion, such as data collection methods, scheduling, and resource allocation. Discuss potential challenges and solutions.
+Video review | Ziyu| Watch the entire video to assess the quality. Note areas for improvement.
 
 ## Action Items
 | Done? | Item | Responsible | Due Date |
