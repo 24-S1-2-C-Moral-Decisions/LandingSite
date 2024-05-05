@@ -35,6 +35,10 @@ Video review | Ziyu| Watch the entire video to assess the quality. Note areas fo
 | No | Add attention check to survey page| Zhongzheng |Before next meeting|
 | No | Back end and database modification | Ceming | Before next meeting|
 
+## Client Suggestions
+
+- The video's topic transitions are quite abrupt, which could potentially confuse the audience.
+- Add an attention check to the frontend to ensure that participants are actively concentrating.
 
 ## Other Notes & Information
 N/A
