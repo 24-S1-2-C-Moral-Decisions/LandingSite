@@ -32,10 +32,9 @@ Item | Who | Notes
 
 | Done? | Item                                                  | Responsible                 | Due Date   |
 | ----- | ----------------------------------------------------- | --------------------------- | ---------- |
-|  | Prototype: Brainstorming how to add the tree into the website | Shiying Cai, Xuan Liu | 01/05/2024 |
-|  | Survey implement (Survey 2) | Xinlong Wu, Zhongzheng Huang, Ceming Fu | 01/05/2024 |
-|  | Video | All | 30/04/2024 |
-|  |  |  | |
+| Yes | Prototype: Brainstorming how to add the tree into the website | Shiying Cai, Xuan Liu | 01/05/2024 |
+| Yes | Survey implement (Survey 2) | Xinlong Wu, Zhongzheng Huang, Ceming Fu | 01/05/2024 |
+| Yes | Video | All | 30/04/2024 |
 
 ## Other Notes & Information
 - Next Note taker: Ceming Fu

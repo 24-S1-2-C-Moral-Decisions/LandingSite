@@ -39,4 +39,4 @@ Item | Who | Notes
 |  |  |  | |
 
 ## Other Notes & Information
-- Next Note taker: Ceming Fu
+- Next Note taker: Shiying Cai

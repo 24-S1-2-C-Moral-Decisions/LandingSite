@@ -33,11 +33,11 @@ Backend deployment and API | Xinlong | Displayed the backend deployment situatio
 
 | Done? | Item                                                  | Responsible                 | Due Date   |
 | ----- | ----------------------------------------------------- | --------------------------- | ---------- |
-| No | Made adjustments based on feedback. | ALL | |
-| No | Submit a reimbursement application | Xinlong | |
-| No | Submit the frontend code | CeMing | |
-| No | Deploy backend services. | Xinlong | |
-| No | Update the logs | ALL | |
+| Yes | Made adjustments based on feedback. | ALL | 24/05/2024 |
+| Yes | Submit a reimbursement application | Xinlong | 24/05/2024 |
+| Yes | Submit the frontend code | CeMing | 24/05/2024 |
+| Yes | Deploy backend services. | Xinlong | 24/05/2024 |
+| Yes | Update the logs | ALL | 24/05/2024 |
 
 ## Other Notes & Information
-- Next Note taker: 
+- Next Note taker:  Xuan Liu
