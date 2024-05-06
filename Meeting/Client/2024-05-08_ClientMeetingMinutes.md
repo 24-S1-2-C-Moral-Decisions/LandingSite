@@ -12,6 +12,7 @@ People who attended:
 - Zhongzheng Huang
 - Xuan Liu
 - Ceming Fu
+- Ziyu Chen
 
 ## Agenda Items
 
@@ -22,22 +23,16 @@ Survey Feedback Page Design | • Discuss the design of the survey feedback page
 Review Audit 3 | • Give feedback on the content of Audit3 
 
 ## Discussion Items
-Item | Who | Notes 
----- | ---- | ----
-      |      |       
-      |      |       
-      |      |       
 
-## Action Items
- Done? | Item | Responsible | Due Date 
----- | ---- | ---- | ----
-       |      |             |          
-       |      |             |          
-       |      |             |          
+| Item | Who  | Notes |
+| ---- | ---- | ----- |
+|      |      |       |
+|      |      |       |
+|      |      |       |
 
 ## Client Suggestions
 
 N/A
 
 ## Other Notes & Information
-N/A
+Next note taker: Zhongzheng Huang
