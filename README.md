@@ -1,5 +1,11 @@
 # Moral Decisions
 ---
+
+# Current progress
+
+![Resources/moral_2024-05-08_09.22am.png](Resources/moral_2024-05-08_09.22am.png)
+
+---
 ## Table of Contents
 - [Project Description](#project-description)
   - [Project Description](#project-description)
