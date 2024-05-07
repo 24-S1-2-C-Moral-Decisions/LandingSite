@@ -3,6 +3,8 @@
 
 # Current progress
 
+[Jira](https://moral-decisions.atlassian.net/jira/software/projects/SCRUM/boards/1/timeline) Username: `vincenttttwu@gmail.com` password: `MoralTeam`
+
 ![Resources/moral_2024-05-08_09.22am.png](Resources/moral_2024-05-08_09.22am.png)
 
 ---
