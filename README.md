@@ -195,6 +195,8 @@ We use [GitHub Discussions](https://github.com/24-S1-2-C-Moral-Decisions/Landing
 
 ## Other Resources
 - Related presentations: [presentations](Presentation/)
+- UI design:
+  - Figma: https://www.figma.com/file/6PINXpuynOE8HFpRz3wDtn/Moral-Moment?type=design&node-id=141%3A9123&mode=design&t=277SwbMjeEaPBOdb-1
 - Repo:
   - Main Survey: https://github.com/24-S1-2-C-Moral-Decisions/moral-survey
   - Survey 1: https://github.com/24-S1-2-C-Moral-Decisions/moral-survey-1
