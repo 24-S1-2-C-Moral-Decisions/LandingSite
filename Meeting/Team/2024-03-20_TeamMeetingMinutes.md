@@ -34,10 +34,10 @@ Discuss improvement for Jira |The work arrangement on Jira needs to be more deta
 
 | Done? | Item                                                  | Responsible                 | Due Date   |
 | ----- | ----------------------------------------------------- | --------------------------- | ---------- |
-| No    | Improve decision log                                  | All team members            | 27/03/2024 |
+| Yes | Improve decision log                                  | All team members            | 27/03/2024 |
 | Yes   | Make showcase video for audit2                        | Xinglong Wu, Zhongzheng Huang | 20/03/2024 |
-| No    | Improve reflection log                                | All team members            | 27/03/2024 |
-| No    | Improve Jira arrangeme                                | Xinlong Wu                  | 27/03/2024 |
+| Yes | Improve reflection log                                | All team members            | 27/03/2024 |
+| Yes | Improve Jira arrangeme                                | Xinlong Wu                  | 27/03/2024 |
 
 
 
