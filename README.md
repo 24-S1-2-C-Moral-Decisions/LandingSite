@@ -195,6 +195,7 @@ We use [GitHub Discussions](https://github.com/24-S1-2-C-Moral-Decisions/Landing
 
 ## Other Resources
 - survey(Dev Mode): [https://24-s1-2-c-moral-decisions.github.io/moral-survey/moral-survey-2/index.html](https://24-s1-2-c-moral-decisions.github.io/moral-survey/moral-survey-2/index.html)
+- survey backend: [https://moralmomentapi.azurewebsites.net/api](https://moralmomentapi.azurewebsites.net/api)
 - Related presentations: [presentations](Presentation/)
 - UI design:
   - Figma: https://www.figma.com/file/6PINXpuynOE8HFpRz3wDtn/Moral-Moment?type=design&node-id=141%3A9123&mode=design&t=277SwbMjeEaPBOdb-1
