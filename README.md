@@ -42,6 +42,7 @@
     - [Testing Summary](#testing-summary)
     - [User Manual](#user-manual)
     - [Develop Plan](#develop-plan)
+    - [Installation](#installation)
     - [Future Improvements](#future-improvements)
   - [Weekly Report](WeekReport/)
 
@@ -168,7 +169,41 @@ Welcome to our product! In this [user manual (TODO)]() (we will update this docu
    - **Deliverables:** A fully functional and robust back end, supporting database interaction and server management.
 
 ### Installation
-TODO
+## Getting deployment
+
+1. First, install [docker](https://docs.docker.com/get-docker/)
+
+2. clone and init repo
+```bash
+# clone repo
+git clone git@github.com:24-S1-2-C-Moral-Decisions/moral_moments.git
+
+# init submodules
+git submodule update --init --recursive
+
+# update submodules(when needed)
+git submodule update --recursive --remote
+```
+
+3. build and publish survey
+```bash
+# build and publish survey
+./build-survey.sh
+```
+
+4. set up database environment
+ 1. create a directory for environment files (e.g. `enveroments`)
+ 2. create a file named `.database.env` in the directory
+ 3. set the database connection string in the file
+
+ ```env
+DATABASE_CONN_STRING=mongodb://127.0.0.1:27017/testdb
+ ```
+
+5. build docker images
+```bash
+docker-compose up -d --build
+```
 
 
 <!-- 
