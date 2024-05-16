@@ -26,8 +26,12 @@ Development Plan | •  Discuss the wrapping up of this semester's project and t
 
 | Item                        | Who                 | Notes                                                        |
 | --------------------------- | ------------------- | ------------------------------------------------------------ |
+| Moral website's Logo     | Shiying Cai, Xuan Liu | Amend "Moral Moment" to "Moral Moments".|
+| Moral website UI design | Shiying Cai, Xuan Liu | Next semester need to design what the jump to the SURVEY page will look like.｜
+| Mobile device | Shiying Cai, Xuan Liu | Need to design a mobile device version of the Moral website next semester. |
+| Survey website | Xinlong Wu | Deployment steps for survey website |
 
 ## Client Suggestions
-
+Record the deployment steps for survey website
 
 ## Other Notes & Information
