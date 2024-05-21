@@ -239,6 +239,7 @@ During the implementation of these features, we will also prioritize team cohesi
 We use [GitHub Discussions](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/discussions) and [Github Issues](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/issues) as our forum, and Microsoft Teams for chat. These are great places to ask questions and advice from the community or to discuss projects.
 
 ## Other Resources
+- How to use multi thread in node.js: [https://www.digitalocean.com/community/tutorials/how-to-use-multithreading-in-node-js#](https://www.digitalocean.com/community/tutorials/how-to-use-multithreading-in-node-js#)
 - survey(Dev Mode): [https://24-s1-2-c-moral-decisions.github.io/moral-survey/moral-survey-2/index.html](https://24-s1-2-c-moral-decisions.github.io/moral-survey/moral-survey-2/index.html)
 - survey backend: [https://moralmomentapi.azurewebsites.net/api](https://moralmomentapi.azurewebsites.net/api)
 - Related presentations: [presentations](Presentation/)
