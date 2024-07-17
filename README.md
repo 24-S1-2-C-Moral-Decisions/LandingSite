@@ -1,13 +1,13 @@
 # Moral Decisions
 ---
 
-# Current progress
+<!-- # Current progress
 1. [Iteration of moral profile website design](https://www.figma.com/file/6PINXpuynOE8HFpRz3wDtn/Moral-Moment?type=design&node-id=141%3A9123&mode=design&t=277SwbMjeEaPBOdb-1)
 2. [Survey deployment](https://24-s1-2-c-moral-decisions.github.io/moral-survey/moral-survey-2/index.html)
 
 [Jira](https://moral-decisions.atlassian.net/jira/software/projects/SCRUM/boards/1/timeline) Username: `vincenttttwu@gmail.com` password: `MoralTeam`
 
-![Resources/moral_2024-05-08_09.52am.png](Resources/moral_2024-05-08_09.52am.png)
+![Resources/moral_2024-05-08_09.52am.png](Resources/moral_2024-05-08_09.52am.png) -->
 
 ---
 ## Table of Contents
