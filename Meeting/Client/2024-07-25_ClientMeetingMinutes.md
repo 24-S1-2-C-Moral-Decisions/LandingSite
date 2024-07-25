@@ -1,8 +1,8 @@
 # Meeting Minutes
 ## Meeting Information
-**Meeting Date/Time:** TBD
+**Meeting Date/Time:** 07/25/2024
 **Meeting Purpose:** Sync Up  
-**Meeting Location:** TBD
+**Meeting Location:** Hanna Neumann Building room 2.14
 **Note Taker:** Xinlong Wu
 
 ## Attendees

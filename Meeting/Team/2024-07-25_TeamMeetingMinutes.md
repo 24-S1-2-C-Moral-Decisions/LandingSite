@@ -1,7 +1,7 @@
 # Meeting Minutes
 ## Meeting Information
-**Meeting Date/Time:** TBD
-**Meeting Location:** TBD
+**Meeting Date/Time:** 07/25/2024
+**Meeting Location:** Hanna Neumann Building room 2.14
 **Note Taker:**  Xinlong Wu
 
 ## Attendees
