@@ -19,11 +19,10 @@ Prepare Audit 1 | Prepare necessary documents and evidence for the first audit s
 ## Discussion Items
 Item | Who | Notes 
 ---- | ---- | ---- 
+game page design | Zhenhao Li | Discuss ongoing game page design, including UI/UX improvements.
+first survey design review | Zhongzheng Huang, Xinlong Wu | Review and finalize the design of the first survey, incorporating any client feedback received.
+surveys workload distribution | All team memebers | Distribute survey-related tasks among team members to ensure efficient completion and management.
 
-## Action Items
-
-| Done? | Item                                                  | Responsible                 | Due Date   |
-| ----- | ----------------------------------------------------- | --------------------------- | ---------- |
 
 ## Other Notes & Information
 - Next Note taker: TBD
