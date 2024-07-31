@@ -11,18 +11,24 @@ People who attended: All team members.
 
 Item | Description
 ---- | ----
-Progress Check | Weekly review of individual progress on assigned tasks
-Prepare Audit 1 | Prepare necessary documents and evidence for the first audit session
-
-
+progress report | Provide updates on current project status, achievements, and any challenges encountered.
+improve and finalise git repository | Discuss necessary improvements to the Git repository structure and finalize its organization for better collaboration and version control.
 
 ## Discussion Items
 Item | Who | Notes 
 ---- | ---- | ---- 
-game page design | Zhenhao Li | Discuss ongoing game page design, including UI/UX improvements.
-first survey design review | Zhongzheng Huang, Xinlong Wu | Review and finalize the design of the first survey, incorporating any client feedback received.
-surveys workload distribution | All team memebers | Distribute survey-related tasks among team members to ensure efficient completion and management.
+Task Assignment | all | Distribute 5 survey workloads to 5 members, allocate tasks for search page development.
+Schedule Code Review | all | Plan and schedule regular code review sessions to ensure code quality and consistency.
+Responsive Design of Front End | all | Discuss and implement responsive design strategies to enhance front-end compatibility across devices.
+
+## Action Items
+| Done? | Item                                                  | Responsible                 | Due Date   |
+| ----- | ----------------------------------------------------- | --------------------------- | ---------- |
+|| Survey | Xinlong | Week 4 |
+|  | Search | Ceming | Week 4 |
+|  | Survey | Zhongzheng, Xuan, Zehua, Zhenhao | Week 4 |
+|  | Search Page | Ceming | Week 4 |
 
 
 ## Other Notes & Information
-- Next Note taker: TBD
+- Next Note taker: TBA
