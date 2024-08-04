@@ -69,6 +69,8 @@
 |u7619947|Xinglong Wu|Project coordinator and client communicator|
 |u6393399|Xuan Liu|UI/UX designer and website tester|
 |u7580107|Zhongzheng Huang|Front end developer and back end developer|
+|u7721107|Zhenhao Li|Front end developer and website tester|
+|u7693498|Zehua Kong|Front end developer and web designer|
 
 
 ## Project Management
