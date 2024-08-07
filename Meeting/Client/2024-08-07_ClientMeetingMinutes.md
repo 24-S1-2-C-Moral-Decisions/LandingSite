@@ -27,4 +27,4 @@ Search Page | Ceming Fu | Review the progress of webpage development.
 Workload distribution | All team members | Distribute tasks among team members to ensure efficient completion and management. 
 
 ## Other Notes & Information
-- Next Note taker: TBD
+- Next Note taker: Shiying Cai
