@@ -19,6 +19,10 @@ Item | Who | Notes
 ---- | ---- | ---- 
 
 
+## Action Items
+| Done? | Item                                                  | Responsible                 | Due Date   |
+| ----- | ----------------------------------------------------- | --------------------------- | ---------- |
+
 
 ## Other Notes & Information
 - Next Note taker: TBD
