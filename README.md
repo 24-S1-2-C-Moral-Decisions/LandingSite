@@ -86,7 +86,7 @@ In managing our web API development project, we faced challenges such as increas
 - We meet with our clients once a week at a set time to synchronize current project progress and to consult with them on issues. The meeting agenda is sent to the client in advance of the meeting.
 
 
-By focusing on integration, simplicity, and collaboration, we've positioned our team to work with greater agility and transparency, aligning our tooling and workflows with the specific needs and goals of our project. The full decision log can be accessed [here](DecisionLogs/ToolsforProjectManagement.md).
+By focusing on integration, simplicity, and collaboration, we've positioned our team to work with greater agility and transparency, aligning our tooling and workflows with the specific needs and goals of our project. The full decision log can be accessed [here](DecisionLogs/Semester-1/ToolsforProjectManagement.md).
 
 ### Risk Management
 
@@ -144,31 +144,11 @@ We use [GitHub Discussions](https://github.com/24-S1-2-C-Moral-Decisions/Landing
 
 For bugs and feature requests, please [raise an issue](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/issues/new) and follow the templates there.
 
-#### Testing Summary
+<!-- #### Testing Summary
 In the [testing report (TODO)](TestingSummary/), we will highlight the key testing milestones, the test strategies employed, and the outcomes of our testing activities to ensure the quality and reliability of our Product/Software/Service.
 
 #### User Manual
-Welcome to our product! In this [user manual (TODO)]() (we will update this document when the product is delivered), you will find detailed guides and instructions on how to use our product. Whether you are a beginner or an experienced user, this manual will help you get started quickly and unleash the full potential of the product. 
-
-
-#### Develop Plan
-
-1. **Milestone 1: Prototype Design**
-   - **Objective**: Design a prototype as a Demo to show what the web page will looks like. So that the Clients can give their comments befor actuall coding.
-   - **Expect Due date:** Sprint 5
-   - **Deliverables:** Prototype Document and Asserts
-2. **Milestone 2: Survey Server**
-   - **Objective**: Finish the Survey implementation. So that it can be deployed.
-   - **Expect Due date:** Sprint 6 or 7
-   - **Deliverables:** The code repo of Survey, Can be deployed by script.
-3. **Milestone 3: Front end And API**
-   - **Objective**: This phase focus on implementing the front end of the website, designing the API interfaces, and incorporating responsive design principles. The aim is  to bring the UI designs to life, and guarantee that the website provides consistent user experience across all devices.
-   - **Expect Due date:** Sprint 11
-   - **Deliverables:** An implemented homepage and survey page on the front end that adapts to various devices and a complete API documentation.
-4. **Milestone 4: Back-end Implementation**
-   - **Objective**: Develop the backend for the website, focusing on server management, database integration, and implementing the designed API interfaces. This phase includes setting up the server environment, ensuring data storage and retrieval functionality.
-   - **Timeline:** Sprint 16
-   - **Deliverables:** A fully functional and robust back end, supporting database interaction and server management.
+Welcome to our product! In this [user manual (TODO)]() (we will update this document when the product is delivered), you will find detailed guides and instructions on how to use our product. Whether you are a beginner or an experienced user, this manual will help you get started quickly and unleash the full potential of the product.  -->
 
 ### Installation
 ## Getting deployment
@@ -225,7 +205,7 @@ TODO
 TODO
 -->
 
-#### Future Improvements
+<!-- #### Future Improvements
 Considering future improvements and continuous optimization is crucial when developing a project. While our goal is to deliver a high-quality product at the current stage, we recognize that technology and market conditions are constantly changing. Therefore, we are willing to invest time and effort in thinking and planning for future enhancements.
 
 In the initial phase of project development, our focus is on implementing core features and meeting basic requirements. However, we also understand that this is just the beginning, and we look forward to continuing to improve and refine the product after delivery.
@@ -235,7 +215,7 @@ Our team will also maintain an open and flexible attitude. As the project progre
 In the [future work document (TODO)](FutureImprovements/), we have listed a continuous feature roadmap for accomplishing future objectives. These functionalities represent our team's vision and mission, serving as the guiding direction and goals for our progress.
 
 
-During the implementation of these features, we will also prioritize team cohesion and effective communication. We will actively explore new solutions and ideas, conducting experiments and testing to ensure the stability and reliability of the functionalities. Additionally, we will focus on enhancing the user experience to ensure our product truly meets the needs of our users.
+During the implementation of these features, we will also prioritize team cohesion and effective communication. We will actively explore new solutions and ideas, conducting experiments and testing to ensure the stability and reliability of the functionalities. Additionally, we will focus on enhancing the user experience to ensure our product truly meets the needs of our users. -->
 
 ## Connection
 We use [GitHub Discussions](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/discussions) and [Github Issues](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/issues) as our forum, and Microsoft Teams for chat. These are great places to ask questions and advice from the community or to discuss projects.
