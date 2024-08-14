@@ -25,7 +25,7 @@ People who attended: All team members.
 5. [SCRUM-101] - [Adjusting documentation] - [Xinlong Wu] 
 6. [SCRUM-31] - [Survey relevant] - [Zehua Kong] 
 
-***This Goals are not final and is subject to change after the regular weekly meeting. ***
+**This Goals are not final and is subject to change after the regular weekly meeting. **
 
 ## Agenda Items
 
@@ -34,6 +34,14 @@ People who attended: All team members.
 | Progress Check              | Members of the group take turns to demonstrate progress    |
 | Getting feedback from Tutor | Get more detailed feedback on Audit3                       |
 | Discuss issues              | If we run into any problems this week, we can discuss them |
+
+## Discussion Items
+
+| Item                         | Who        | Notes                                                        |
+| ---------------------------- | ---------- | ------------------------------------------------------------ |
+| Elevator Pitch               | Xinlong Wu | Suggest that our pitch needs to say: what's the core problem, how your solution and how to solve the issuses |
+| Demo                         | Xinlong Wu | Demonstrated our front-end, prototype, and figma design pages |
+| Communicate with shadow team | Zehua Kong | Create a WeChat group chat with each other                   |
 
 ------
 
