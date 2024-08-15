@@ -48,6 +48,26 @@
 
 ---
 
+## Moral Moment Project Resources
+- How to use multi thread in node.js: [https://www.digitalocean.com/community/tutorials/how-to-use-multithreading-in-node-js#](https://www.digitalocean.com/community/tutorials/how-to-use-multithreading-in-node-js#)
+- survey(Dev Mode): [https://24-s1-2-c-moral-decisions.github.io/moral-survey/moral-survey-2/index.html](https://24-s1-2-c-moral-decisions.github.io/moral-survey/moral-survey-2/index.html)
+- survey backend: [https://moralmomentapi.azurewebsites.net/api](https://moralmomentapi.azurewebsites.net/api)
+- Related presentations: [presentations](Presentation/)
+- UI design:
+  - Figma: [https://www.figma.com/file/6PINXpuynOE8HFpRz3wDtn/Moral-Moment?type=design&node-id=141%3A9123&mode=design&t=277SwbMjeEaPBOdb-1](https://www.figma.com/file/6PINXpuynOE8HFpRz3wDtn/Moral-Moment?type=design&node-id=141%3A9123&mode=design&t=277SwbMjeEaPBOdb-1)
+- website frontend: [https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end](https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end)
+- Repo:
+  - Main Survey: [https://github.com/24-S1-2-C-Moral-Decisions/moral-survey](https://github.com/24-S1-2-C-Moral-Decisions/moral-survey)
+  - Survey 1: [https://github.com/24-S1-2-C-Moral-Decisions/moral-survey-1](https://github.com/24-S1-2-C-Moral-Decisions/moral-survey-1)
+  - Survey 2: [https://github.com/24-S1-2-C-Moral-Decisions/moral-survey-2](https://github.com/24-S1-2-C-Moral-Decisions/moral-survey-2)
+- AI Model:
+  - [https://huggingface.co/joshnguyen/mformer-authority](https://huggingface.co/joshnguyen/mformer-authority)
+  - [https://huggingface.co/joshnguyen/mformer-care](https://huggingface.co/joshnguyen/mformer-care)
+  - [https://huggingface.co/joshnguyen/mformer-fairness](https://huggingface.co/joshnguyen/mformer-fairness)
+  - [https://huggingface.co/joshnguyen/mformer-loyalty](https://huggingface.co/joshnguyen/mformer-loyalty)
+  - [https://huggingface.co/joshnguyen/mformer-sanctity](https://huggingface.co/joshnguyen/mformer-sanctity)
+- Jira: [Moral](https://moral-decisions.atlassian.net/jira/software/projects/SCRUM/boards/1/timeline?shared=&atlOrigin=eyJpIjoiNzgzMjA0NTBiZjdlNGRhYThhYWE0MDVkMWM1OWIyMDQiLCJwIjoiaiJ9)
+
 ## Project Description
 - **Developers:** COMP8715 Computing Project, Australian National University, Australia
 - **Background:** In recent years, the intersection of artificial intelligence (AI) and ethics has emerged as a critical area of research. Projects such as Ask Delphi and the Moral Machine Experiment have made significant strides in understanding how AI can be aligned with human moral values. However, these projects often focus on idealized or extreme moral dilemmas, such as the trolley problem, which may not fully capture the complexity of everyday moral decision-making.
@@ -215,23 +235,3 @@ During the implementation of these features, we will also prioritize team cohesi
 
 ## Connection
 We use [GitHub Discussions](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/discussions) and [Github Issues](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/issues) as our forum, and Microsoft Teams for chat. These are great places to ask questions and advice from the community or to discuss projects.
-
-## Other Resources
-- How to use multi thread in node.js: [https://www.digitalocean.com/community/tutorials/how-to-use-multithreading-in-node-js#](https://www.digitalocean.com/community/tutorials/how-to-use-multithreading-in-node-js#)
-- survey(Dev Mode): [https://24-s1-2-c-moral-decisions.github.io/moral-survey/moral-survey-2/index.html](https://24-s1-2-c-moral-decisions.github.io/moral-survey/moral-survey-2/index.html)
-- survey backend: [https://moralmomentapi.azurewebsites.net/api](https://moralmomentapi.azurewebsites.net/api)
-- Related presentations: [presentations](Presentation/)
-- UI design:
-  - Figma: https://www.figma.com/file/6PINXpuynOE8HFpRz3wDtn/Moral-Moment?type=design&node-id=141%3A9123&mode=design&t=277SwbMjeEaPBOdb-1
-- website frontend: [https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end](https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end)
-- Repo:
-  - Main Survey: https://github.com/24-S1-2-C-Moral-Decisions/moral-survey
-  - Survey 1: https://github.com/24-S1-2-C-Moral-Decisions/moral-survey-1
-  - Survey 2: https://github.com/24-S1-2-C-Moral-Decisions/moral-survey-2
-- AI Model:
-  - [https://huggingface.co/joshnguyen/mformer-authority](https://huggingface.co/joshnguyen/mformer-authority)
-  - [https://huggingface.co/joshnguyen/mformer-care](https://huggingface.co/joshnguyen/mformer-care)
-  - [https://huggingface.co/joshnguyen/mformer-fairness](https://huggingface.co/joshnguyen/mformer-fairness)
-  - [https://huggingface.co/joshnguyen/mformer-loyalty](https://huggingface.co/joshnguyen/mformer-loyalty)
-  - [https://huggingface.co/joshnguyen/mformer-sanctity](https://huggingface.co/joshnguyen/mformer-sanctity)
-- Jira: [Moral](https://moral-decisions.atlassian.net/jira/software/projects/SCRUM/boards/1/timeline?shared=&atlOrigin=eyJpIjoiNzgzMjA0NTBiZjdlNGRhYThhYWE0MDVkMWM1OWIyMDQiLCJwIjoiaiJ9)
