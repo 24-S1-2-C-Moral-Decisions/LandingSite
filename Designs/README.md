@@ -12,7 +12,8 @@ For a more interactive look at our designs, including the ability to comment, su
 
 ## Access Each Version PDF
 
-| **Semester-1**                  | [Version 1 - v1](Semster-1/v1/) <br />[Version 2 - v2](Semster-1/v2/) <br />[Version 3 - v3](Semster-1/v3/)<br />[Version 4 - v4](Semster-1/v4/)<br />[Version 5 - v5](Semster-1/v5/)<br />[Version 6 - v6](Semster-1/v6/) <br />[Version 7 - v7](Semster-1/v7/)<br />[Version 8 - v8](Semster-1/v8/) |
-| ------------------------------- | :----------------------------------------------------------- |
-| **Semester-1Delivery Document** | [MoralMoment-DeliveryDocument](DeliveryDocument/)            |
-| **Semester-2**                  |                                                              |
+| **Semester-1**                   | [Version 1 - v1](Semester-1/v1/) <br />[Version 2 - v2](Semester-1/v2/) <br />[Version 3 - v3](Semester-1/v3/)<br />[Version 4 - v4](Semester-1/v4/)<br />[Version 5 - v5](Semester-1/v5/)<br />[Version 6 - v6](Semester-1/v6/) <br />[Version 7 - v7](Semester-1/v7/)<br />[Version 8 - v8](Semester-1/v8/) |
+| -------------------------------- | :----------------------------------------------------------- |
+| **Semester-1 Delivery Document** | [MoralMoment-DeliveryDocument](DeliveryDocument/)            |
+| **Semester-2**                   | [Version 9 - v9](Semester-2/v9/) <br />                      |
+
