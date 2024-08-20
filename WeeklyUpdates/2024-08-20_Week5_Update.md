@@ -15,7 +15,7 @@
 3. [SCRUM-30] - [Survey inrelevant] - [Zhongzheng Huang] 
 4. [SCRUM-105] - [The layout of survey's information-gathering pages is not adapted to large screen sizes.] - [Zehua Kong] 
 5. [SCRUM-103] - [fix issue: "Inconsistent fonts and icons between design prototype and page implementation"] - [Zhenghao Li] 
-6. [SCRUM-104] - [API Design] - [Xinlong Wu & Ceming Fu]
+6. [SCRUM-106] - [Merge all front-end pages for debugging] - [Xinlong Wu & Ceming Fu]
 
 
 ## What deliverables/milestones have been signed off by the client as completed?
