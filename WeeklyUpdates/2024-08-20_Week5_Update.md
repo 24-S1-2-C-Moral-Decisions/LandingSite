@@ -19,5 +19,5 @@
 
 
 ## What deliverables/milestones have been signed off by the client as completed?
-1. N/A
+1. SOW
 
