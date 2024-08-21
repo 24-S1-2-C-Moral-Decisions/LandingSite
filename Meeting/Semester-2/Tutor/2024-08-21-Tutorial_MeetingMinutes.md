@@ -16,8 +16,6 @@
 
 People who attended: All team members, tutor and the shadow team
 
- 
-
 ## Agenda Items
 
 | Item                | Description                                                           |
@@ -28,12 +26,18 @@ People who attended: All team members, tutor and the shadow team
 
 ## Discussion Items
 
-| Item | Who | Notes |
-| ---- | --- | ----- |
-|      |     |       |
-|      |     |       |
-|      |     |       |
+| Item           | Who                  | Notes                                                                                                                                                                                                   |
+| -------------- | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Elevator pitch | Alexander            | pitching to the investor, this will help make video in the future                                                                                                                                       |
+| Audit time     | Alexander            | Fourth group to do presentation                                                                                                                                                                         |
+| Audit 2        | Alenxander, Xuan Liu | live demo and slide for audit 2                                                                                                                                                                         |
+| Decision log   | All                  | The decision that new team members will conduct the initial peer review and a more experienced team member will perform the final review will be recorded in the decision log to formalize the process. |
+| Jira tasks     | All                  | Improve jira tickets, add description, checklist                                                                                                                                                        |
+| Decision log   | All                  | Add task ticket for decision                                                                                                                                                                            |
+|                |                      |                                                                                                                                                                                                         |
 
 ------
 
 **Prepared by:** Xuan Liu
+
+pitching to the investor help making video in the future
