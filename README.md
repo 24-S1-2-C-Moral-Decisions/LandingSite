@@ -24,9 +24,9 @@
 - Meeting
   - [Records and schedules](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/6/views/1)
   - [Meeting Minutes](Meeting/)
-    - [Client Meeting]([Meeting/Client](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/Meeting/Semester-2/Client))
-    - [Team Meeting]([Meeting/Team](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/Meeting/Semester-2/Team))
-    - [Tutorial Meeting]([Meeting/Tutorial](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/Meeting/Semester-2/Tutor))
+    - [Client Meeting](Meeting/Semester-1/Client)
+    - [Team Meeting](Meeting/Semester-1/Team)
+    - [Tutorial Meeting](Meeting/Semester-1/Tutorial)
 
 - Project Logs
   - [Decision Log](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/3)
