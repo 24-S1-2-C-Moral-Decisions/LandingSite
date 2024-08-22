@@ -2,7 +2,9 @@
 
 ## Meeting Information
 
-**Note Taker:**  Xuan Liu**Meeting Date/Time:** 21/08/2024 
+**Note Taker:**  Xuan Liu
+
+**Meeting Date/Time:** 21/08/2024 
 
 **Meeting Location:** Zoom(online): [Launch Meeting - Zoom](https://anu.zoom.us/j/82320892529?pwd=r1sFRKhalHhXKuCi4eFE72RrBUwuor.1) 
 

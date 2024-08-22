@@ -10,7 +10,7 @@
 
 ## Attendees
 
-People who attended: All team members.
+People who attended: All team members
 
 ## Agenda Items
 
@@ -32,7 +32,7 @@ People who attended: All team members.
 
 ## Reviewed PR
 
-- [SCRUM-93-Survey-Feedback-page](https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end/pull/19)](link)
+- [SCRUM-93-Survey-Feedback-page](https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end/pull/19)
 - [integrate database](https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end/pull/18)
 - [[SCRUM-99] situation animation](https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end/actions/runs/10483420872)
 
@@ -40,7 +40,7 @@ People who attended: All team members.
 
 | Done? | Item                                                                   | Responsible     | Due Date   |
 | ----- | ---------------------------------------------------------------------- | --------------- | ---------- |
-|       | feedback page improvement and font import                              | Xuan Liu        | 28/08/2024 |
+| Done  | feedback page improvement and font import                              | Xuan Liu        | 28/08/2024 |
 |       | Survey feedback page improvement - add personality and decision radars | Xuan Liu        | 04/09/2024 |
 |       | Finish the mobile page design                                          | Shiying Cai     | 28/08/2024 |
 |       | Topic page improvement - add label                                     | Ceming Fu       | 28/08/2024 |

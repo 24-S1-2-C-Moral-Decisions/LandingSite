@@ -3,12 +3,14 @@
 ## Meeting Information
 
 **Meeting Date/Time:** 08/14/2024
+
 **Meeting Location:** Zoom(online): https://anu.zoom.us/j/82320892529?pwd=r1sFRKhalHhXKuCi4eFE72RrBUwuor.1
+
 **Note Taker:**  Shiying Cai
 
 ## Attendees
 
-People who attended: All team members.
+People who attended: All team members
 
 ## Agenda Items
 
@@ -38,8 +40,8 @@ People who attended: All team members.
 | Done? | Item                                 | Responsible                  | Due Date |
 | ----- | ------------------------------------ | ---------------------------- | -------- |
 | Done  | Survey                               | Zhongzheng Huang, Zehua Kong | Week 5   |
-|       | Moral moment's front end development | Xuan Liu, Zhenhao Li         | Week 5   |
-|       | Api design                           | Ceming Fu, Xinlong Wu        | Week 5   |
+| Done  | Moral moment's front end development | Xuan Liu, Zhenhao Li         | Week 5   |
+| Done  | Api design                           | Ceming Fu, Xinlong Wu        | Week 5   |
 |       | UI design                            | Shiying Cai                  | Week 5   |
 
 ## Other Notes & Information

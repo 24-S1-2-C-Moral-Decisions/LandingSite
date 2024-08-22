@@ -1,5 +1,7 @@
 **Team Name:** Moral Decisions
+
 **Date:** 14/08/2024
+
 **Tutorial Time:** 5-7pm
 
 ------
@@ -9,6 +11,7 @@
 People who attended: All team members.
 
 ## Last Week's Progress
+
 1. [SCRUM-99] - [typewriter effect] - [Zhenhao Li] 
 2. [SCRUM-94] - [Attention Check] - [Xinlong Wu] 
 3. [SCRUM-30] - [Survey relevant] - [Zhongzheng Huang] 
@@ -18,6 +21,7 @@ People who attended: All team members.
 7. [SCRUM-30] - [Controversy & Uncertainty] - [Zehua Kong] 
 
 ## This Week's Goals
+
 1. [SCRUM-31] - [Survey relevant] - [Zhongzheng Huang] 
 2. [SCRUM-98] - [Search Page UI (Mobile)] - [Shiying Cai] 
 3. [SCRUM-93] - [Survey feedback page] - [Xuan Liu] 
@@ -37,11 +41,11 @@ People who attended: All team members.
 
 ## Discussion Items
 
-| Item                         | Who        | Notes                                                        |
-| ---------------------------- | ---------- | ------------------------------------------------------------ |
+| Item                         | Who        | Notes                                                                                                        |
+| ---------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------ |
 | Elevator Pitch               | Xinlong Wu | Suggest that our pitch needs to say: what's the core problem, how your solution and how to solve the issuses |
-| Demo                         | Xinlong Wu | Demonstrated our front-end, prototype, and figma design pages |
-| Communicate with shadow team | Zehua Kong | Create a WeChat group chat with each other                   |
+| Demo                         | Xinlong Wu | Demonstrated our front-end, prototype, and figma design pages                                                |
+| Communicate with shadow team | Zehua Kong | Create a WeChat group chat with each other                                                                   |
 
 ------
 
