@@ -42,7 +42,7 @@ People who attended: All team members
 | Done  | Survey                               | Zhongzheng Huang, Zehua Kong | Week 5   |
 | Done  | Moral moment's front end development | Xuan Liu, Zhenhao Li         | Week 5   |
 | Done  | Api design                           | Ceming Fu, Xinlong Wu        | Week 5   |
-|       | UI design                            | Shiying Cai                  | Week 5   |
+| Done  | UI design                            | Shiying Cai                  | Week 5   |
 
 ## Other Notes & Information
 
