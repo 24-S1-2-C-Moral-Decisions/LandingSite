@@ -1,6 +1,19 @@
 # Moral Decisions
 ---
 
+## Important: Resources Ready for Audit 2:
+
+- [Prototype](https://www.figma.com/file/6PINXpuynOE8HFpRz3wDtn/Moral-Moment?type=design&node-id=141%3A9123&mode=design&t=277SwbMjeEaPBOdb-1)
+- [Front End: https://moralfrontend.azurewebsites.net/en](https://moralfrontend.azurewebsites.net/en)
+- [Survey: https://24-s1-2-c-moral-decisions.github.io/moral-survey/](https://24-s1-2-c-moral-decisions.github.io/moral-survey/)
+- [Deployable Docker File: https://github.com/24-S1-2-C-Moral-Decisions/moral_moments](https://github.com/24-S1-2-C-Moral-Decisions/moral_moments)
+
+- [Jira](https://moral-decisions.atlassian.net/jira/software/projects/SCRUM/boards/1/timeline) Username: `vincenttttwu@gmail.com` password: `MoralTeam`
+- [Meeting](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/6)
+- [Risk](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/7)
+- [Decision](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/3)
+- [Reflection](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/2)
+
 <!-- # Current progress
 1. [Iteration of moral profile website design](https://www.figma.com/file/6PINXpuynOE8HFpRz3wDtn/Moral-Moment?type=design&node-id=141%3A9123&mode=design&t=277SwbMjeEaPBOdb-1)
 2. [Survey deployment](https://24-s1-2-c-moral-decisions.github.io/moral-survey/moral-survey-2/index.html)
