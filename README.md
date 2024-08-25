@@ -4,8 +4,10 @@
 ## Important: Resources Ready for Audit 2:
 
 - [Prototype](https://www.figma.com/file/6PINXpuynOE8HFpRz3wDtn/Moral-Moment?type=design&node-id=141%3A9123&mode=design&t=277SwbMjeEaPBOdb-1)
-- [Front End: https://moralfrontend.azurewebsites.net/en](https://moralfrontend.azurewebsites.net/en)
-- [Survey: https://24-s1-2-c-moral-decisions.github.io/moral-survey/](https://24-s1-2-c-moral-decisions.github.io/moral-survey/)
+- [Front End website: https://moralfrontend.azurewebsites.net/en](https://moralfrontend.azurewebsites.net/en)
+- [Front End GitHub Repository: https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end](https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end)
+- [Survey website: https://24-s1-2-c-moral-decisions.github.io/moral-survey/](https://24-s1-2-c-moral-decisions.github.io/moral-survey/)
+- [Survey GitHub Repository: https://github.com/24-S1-2-C-Moral-Decisions/moral-survey](https://github.com/24-S1-2-C-Moral-Decisions/moral-survey)
 - [Deployable Docker File: https://github.com/24-S1-2-C-Moral-Decisions/moral_moments](https://github.com/24-S1-2-C-Moral-Decisions/moral_moments)
 
 - [Jira](https://moral-decisions.atlassian.net/jira/software/projects/SCRUM/boards/1/timeline) Username: `vincenttttwu@gmail.com` password: `MoralTeam`
