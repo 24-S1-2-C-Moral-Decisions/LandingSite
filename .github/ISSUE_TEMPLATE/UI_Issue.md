@@ -1,5 +1,5 @@
 ---
-name: new Issue
+name: new UI Issue
 about: Create a report to help us improve
 title: '[UI Issue]'
 labels: 'Issue'
