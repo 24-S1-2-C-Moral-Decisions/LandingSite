@@ -23,35 +23,31 @@ People who attended: All team members
 
 ## Discussion Items
 
-| Item            | Who | Notes                                        |
-| --------------- | --- | -------------------------------------------- |
-| Task assignment | All | Distributed workloads to team members        |
-| Approve the PR  | All | Checked all submitted pr are approved        |
-| Code Review     | All | Reviewd code commit by all team members      |
-| Audit 2         | All | Discussed audit 2 and assigned audit 2 tasks |
+| Item | Who  | Notes |
+| ---- | ---- | ----- |
+|      |      |       |
+|      |      |       |
+|      |      |       |
+|      |      |       |
 
 ## Reviewed PR
 
-- [Implement Search Page](https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end/pull/22)
-- [SCRUM-107-Add-Scroll-Down-Indicator-and-Import-Font](https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end/pull/21)
-- [Revert "integrate database"](https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end/pull/20)
-- [[Scrum-108] change to new logo](https://github.com/24-S1-2-C-Moral-Decisions/moral-survey/pull/29)
-- [[SCRUM-30] Controversy and Uncertainty](https://github.com/24-S1-2-C-Moral-Decisions/moral-survey/pull/24)
+- 
 
 ## Action Items
 
-| Done? | Item                                                         | Responsible     | Due Date   |
-| ----- | ------------------------------------------------------------ | --------------- | ---------- |
-| Done  | feedback page improvement and font import                    | Xuan Liu        | 28/08/2024 |
-|       | Survey feedback page improvement - add personality and decision radars | Xuan Liu        | 04/09/2024 |
-| Done  | Finish the mobile page design                                | Shiying Cai     | 28/08/2024 |
-| Done  | Topic page improvement - add label                           | Ceming Fu       | 28/08/2024 |
-| Done  | Entry page improvement                                       | Zhenhao Li      | 28/08/2024 |
-| Done  | Survey page improvement                                      | Zehua Kong      | 28/08/2024 |
-|       | Survey 5 implementation                                      | Zhongzhen Huang | 04/09/2024 |
-| Done  | Audit documentation improvement                              | All             | 25/08/2024 |
-| Done  | Audit slide                                                  | All             | 25/08/2024 |
-| Done  | Improve jira task details                                    | Xinlong Wu      | 25/08/2024 |
+| Done? | Item | Responsible | Due Date |
+| ----- | ---- | ----------- | -------- |
+|       |      |             |          |
+|       |      |             |          |
+|       |      |             |          |
+|       |      |             |          |
+|       |      |             |          |
+|       |      |             |          |
+|       |      |             |          |
+|       |      |             |          |
+|       |      |             |          |
+|       |      |             |          |
 
 ## Other Notes & Information
 
