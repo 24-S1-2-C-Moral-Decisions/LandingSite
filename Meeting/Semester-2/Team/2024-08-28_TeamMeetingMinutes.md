@@ -23,32 +23,43 @@ People who attended: All team members
 
 ## Discussion Items
 
-| Item | Who  | Notes |
-| ---- | ---- | ----- |
-|      |      |       |
-|      |      |       |
-|      |      |       |
-|      |      |       |
+| Item            | Who | Notes                                        |
+| --------------- | --- | -------------------------------------------- |
+| Task assignment | All | Distributed workloads to team members        |
+| Approve the PR  | All | Checked all submitted pr are approved        |
+| Code Review     | All | Reviewd code commit by all team members      |
+| Audit 2         | All | Discussed audit 2 and assigned audit 2 tasks |
 
 ## Reviewed PR
 
-- 
+- [Implement Search Page](https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end/pull/22)
+- [SCRUM-107-Add-Scroll-Down-Indicator-and-Import-Font](https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end/pull/21)
+- [Revert "integrate database"](https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end/pull/20)
+- [[Scrum-108] change to new logo](https://github.com/24-S1-2-C-Moral-Decisions/moral-survey/pull/29)
+- [[SCRUM-30] Controversy and Uncertainty](https://github.com/24-S1-2-C-Moral-Decisions/moral-survey/pull/24)
 
 ## Action Items
 
-| Done? | Item | Responsible | Due Date |
-| ----- | ---- | ----------- | -------- |
-|       |      |             |          |
-|       |      |             |          |
-|       |      |             |          |
-|       |      |             |          |
-|       |      |             |          |
-|       |      |             |          |
-|       |      |             |          |
-|       |      |             |          |
-|       |      |             |          |
-|       |      |             |          |
+| Done? | Item                                                         | Responsible       | Due Date     |
+| ----- | ------------------------------------------------------------ | ----------------- | ------------ |
+|       | Survey 5 implementation                                      | Zhongzhen Huang   | 04/09/2024   |
+|       | feedback page improvement and font import                    | Xuan Liu          | 11/09/2024   |
+|       | Survey feedback page improvement - add personality and decision radars | Xuan Liu          | 11/09/2024   |
+|       | Frontend prototype,  dialogue feature improvement            | One group member  | undetermined |
+|       | Backend framework                                            | All other members | undetermined |
+|       | Finish the mobile page design, modify navigate bar, use bigger font size | Shiying Cai       | 11/09/2024   |
+|       | Use router instead of useState hook in search bar, put hot page into the pop-up list of search bar | Ceming Fu         | 11/09/2024   |
+|       | Change the link of survey icon                               | Zehua Kong        | 11/09/2024   |
+
 
 ## Other Notes & Information
 
 - Next Note taker: Zhenhao Li
+
+- Next meeting: 
+
+  - Decide what data need to be used on backend
+
+  - Build backend framework
+
+    

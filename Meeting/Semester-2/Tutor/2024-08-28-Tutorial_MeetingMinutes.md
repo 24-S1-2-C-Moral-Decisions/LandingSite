@@ -21,20 +21,14 @@ People who attended: All team members, tutor, client and the shadow team
 | Item                 | Description                                                  |
 | -------------------- | ------------------------------------------------------------ |
 | Audit 2 Presentation | Members of the group give presentation on Audit 2            |
-| Progress Check       | Members of the group take turns to demonstrate progress      |
-| Issue  discussion    | Address and discuss any problems or challenges encountered this week, check and discuss tasks for the upcoming week |
+| Answer questions     | Members of the group answer questions raised by shadow team, other teams, and tutor |
 
 ## Discussion Items
 
-| Item | Who  | Notes |
-| ---- | ---- | ----- |
-|      |      |       |
-|      |      |       |
-|      |      |       |
-|      |      |       |
-|      |      |       |
-|      |      |       |
-|      |      |       |
+| Item             | Who                             | Notes                        |
+| ---------------- | ------------------------------- | ---------------------------- |
+| Presentation     | All                             | Give presentation on Audit 2 |
+| Answer questions | Xinlong Wu, Ceming Fu, Xuan Liu | Answer questions             |
 
 ------
 
