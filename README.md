@@ -95,15 +95,15 @@
 - **Stakeholders:** [Stakerholders analysis](StakeholdersListAndImpact.md)
 
 ### Team Members and Roles
-|UID|Name|Role|
-|:---------|:------------:|:-------------------------------------:|
-|u7574421|Ceming Fu|Front end developer and API designer|
-|u7580335|Shiying Cai|UI/UX designer and website tester|
-|u7619947|Xinglong Wu|Project coordinator and client communicator|
-|u6393399|Xuan Liu|UI/UX designer and website tester|
-|u7580107|Zhongzheng Huang|Front end developer and back end developer|
-|u7721107|Zhenhao Li|Front end developer and website tester|
-|u7693498|Zehua Kong|Front end developer and web designer|
+|UID|Name|Role|GitHub username
+|:---------|:------------:|:-------------------------------------:|:-------------------:|
+|u7574421|Ceming Fu|Front end developer and API designer|c1c4da3300|
+|u7580335|Shiying Cai|UI/UX designer and website tester|Valencia-Choi|
+|u7619947|Xinglong Wu|Project coordinator and client communicator|Xinlong-Wu|
+|u6393399|Xuan Liu|UI/UX designer and website tester|wwssllxxGithub|
+|u7580107|Zhongzheng Huang|Front end developer and back end developer|Eddyhzz|
+|u7721107|Zhenhao Li|Front end developer and website tester|lzh12311|
+|u7693498|Zehua Kong|Front end developer and web designer|Universe-E|
 
 
 ## Project Management
