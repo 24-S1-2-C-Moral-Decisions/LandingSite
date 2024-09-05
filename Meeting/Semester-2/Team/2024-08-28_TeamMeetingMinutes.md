@@ -14,11 +14,11 @@ People who attended: All team members
 
 ## Agenda Items
 
-| Item               | Description                                                  |
-| ------------------ | ------------------------------------------------------------ |
-| Progress review    | Discuss together the current progress and the difficulties faced. |
-| Code updates       | Co-operate GitHub to push and review everyone's work updates. |
-| Task Allocation    | Plan and distribute tasks for the upcoming week.             |
+| Item               | Description                                                              |
+| ------------------ | ------------------------------------------------------------------------ |
+| Progress review    | Discuss together the current progress and the difficulties faced.        |
+| Code updates       | Co-operate GitHub to push and review everyone's work updates.            |
+| Task Allocation    | Plan and distribute tasks for the upcoming week.                         |
 | Audit 2 discussion | Assign PPT tasks for each team members, discuss presentation in audit 2. |
 
 ## Discussion Items
@@ -40,26 +40,19 @@ People who attended: All team members
 
 ## Action Items
 
-| Done? | Item                                                         | Responsible       | Due Date     |
-| ----- | ------------------------------------------------------------ | ----------------- | ------------ |
-|       | Survey 5 implementation                                      | Zhongzhen Huang   | 04/09/2024   |
-|       | feedback page improvement and font import                    | Xuan Liu          | 11/09/2024   |
-|       | Survey feedback page improvement - add personality and decision radars | Xuan Liu          | 11/09/2024   |
-|       | Frontend prototype,  dialogue feature improvement            | One group member  | undetermined |
-|       | Backend framework                                            | All other members | undetermined |
-|       | Finish the mobile page design, modify navigate bar, use bigger font size | Shiying Cai       | 11/09/2024   |
-|       | Use router instead of useState hook in search bar, put hot page into the pop-up list of search bar | Ceming Fu         | 11/09/2024   |
-|       | Change the link of survey icon                               | Zehua Kong        | 11/09/2024   |
-
+| Done? | Item                                                                   | Responsible       | Due Date     | Jira Ticket                                                         |
+| ----- | ---------------------------------------------------------------------- | ----------------- | ------------ | ------------------------------------------------------------------- |
+|       | Survey 5 implementation                                                | Zhongzhen Huang   | 04/09/2024   |                                                                     |
+|       | Survey feedback page improvement - add personality and decision radars | Xuan Liu          | 11/09/2024   | [SCRUM-143](https://moral-decisions.atlassian.net/browse/SCRUM-143) |
+|       | Frontend prototype,  dialogue feature improvement                      | One group member  | undetermined |                                                                     |
+|       | Backend framework                                                      | All other members | undetermined |                                                                     |
 
 ## Other Notes & Information
 
 - Next Note taker: Zhenhao Li
 
 - Next meeting: 
-
+  
   - Decide what data need to be used on backend
-
+  
   - Build backend framework
-
-    
