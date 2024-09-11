@@ -17,6 +17,7 @@ People who attended: All team members
 | Item                     | Description                                                             |
 | ------------------------ | ----------------------------------------------------------------------- |
 | Audit 2 feedback review   | Review feedback received from Audit 2 and discuss necessary improvements |
+| Jira ticket optimization | Add acceptance criteria to Jira tickets for clearer task management| 
 | Task planning & allocation | Plan and distribute tasks for the next phase                           |
 
 ## Discussion Items
