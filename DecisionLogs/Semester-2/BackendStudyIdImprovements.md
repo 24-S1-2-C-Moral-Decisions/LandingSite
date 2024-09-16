@@ -1,7 +1,7 @@
 # DECISION LOG
 
 ## Decision Details
-- **Date:** 16/09/2024
+- **Date:** 12/09/2024
 - **Decision Maker:** Backend development team
 
 ## Background
