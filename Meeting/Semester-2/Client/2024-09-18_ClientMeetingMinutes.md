@@ -18,8 +18,8 @@ People who attended: All team members and the client
 | ------------------------ | ------------------------------------------------------------ |
 | Mobile UI design   | Discuss the mobile UI design |
 | Progress Check           | Review individual progress and completed tasks               |
-| Landing page review      | Review the landing page, make adjustments to risks, meetings, and decisions based on Audit 2 feedback |
 | Jira ticket discussion    | Discuss Jira tickets and add acceptance criteria for each item |
+| Discuss next week's plan | Discuss the plan on week 7, assign new tasks                 |
 | Router test    | Discuss the router implementation |
 
 ## Discussion Items
