@@ -2,11 +2,11 @@
 
 ## Meeting Information
 
-**Meeting Date/Time:** 12/09/2024
+**Meeting Date/Time:** 18/09/2024
 
 **Meeting Location:** Zoom (online): [Launch Meeting - Zoom](https://anu.zoom.us/j/82320892529?pwd=r1sFRKhalHhXKuCi4eFE72RrBUwuor.1)
 
-**Note Taker:** Ceming Fu
+**Note Taker:** Zhenhao Li
 
 ## Attendees
 
@@ -16,9 +16,10 @@ People who attended: All team members
 
 | Item                     | Description                                                             |
 | ------------------------ | ----------------------------------------------------------------------- |
-| Audit 2 feedback review   | Review feedback received from Audit 2 and discuss necessary improvements |
+| UI design (mobile UI)   | Discuss the mobile UI design |
 | Jira ticket optimization | Add acceptance criteria to Jira tickets for clearer task management| 
 | Task planning & allocation | Plan and distribute tasks for the next phase                           |
+| Router test | Discuss the router implementation |
 
 ## Discussion Items
 
@@ -31,14 +32,13 @@ People who attended: All team members
 
 ## Reviewed PR
 
-- [Survey-feedback-page-improvement](https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end/pull/25)
 
 ## Action Items
 
 | Done? | Item                                             | Responsible       | Due Date     | Jira Ticket |
 | ----- | ------------------------------------------------ | ----------------- | ------------ | ----------- |
 |       | Modify chart labels on the Feedback page         |     Xuan Liu              |    18/09/2024          |             |
-|       | Design routing for several front-end pages       |     Zehua Kong              |   18/09/2024            |             |
+|       | Design routing for several front-end pages       |     Zhenhao Li            |   18/09/2024            |             |
 |       | Complete API documentation design                |     Xinlong Wu              |   18/09/2024            |             |
 |       | Implement mobile UI for the search page          |     Ceming Fu, Shiying Cai              |    18/09/2024           |             |
 |       | Optimize the decision and reflection sections on the landing page |    Zhenhao Li               |    18/09/2024           |             |
