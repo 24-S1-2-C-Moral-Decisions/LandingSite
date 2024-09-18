@@ -37,9 +37,10 @@ People who attended: All team members, tutor, client and the shadow team
 
 | Item             | Who                             | Notes                        |
 | ---------------- | ------------------------------- | ---------------------------- |
-|      |                           |  |
-|  |  |           |
-
+| Search page responsive design       | Ceming Fu              | Displayed the search page (PC and Mobile)    |
+| Survey UI improvements              | Zhongzheng Huang               | Solved the font issues on the survey page. Ready for merge. |
+| Argue for assessment grade| Xuan Liu | Agured the decision log| 
+ 
 ------
 
 **Prepared by:** Zhenhao Li

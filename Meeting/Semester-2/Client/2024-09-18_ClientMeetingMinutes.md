@@ -26,12 +26,14 @@ People who attended: All team members and the client
 
 | Item                                | Who               | Notes                                                        |
 | ----------------------------------- | ----------------- | ------------------------------------------------------------ |
-| Feedback page modification          | Xuan Liu               | Discussed updating the chart labels' colors and wrapping the chart into a component for use on other pages. |
-| Search page mobile prototype        | Shiying Cai               | Displayed the mobile prototype design for the search page.    |
-| Entry and game page modifications   | Zhenhao Li               | Update the logo on the top left of the entry page and fix the issue where images on the game page don't scale with the page size. |
+| UI search page design         | Shiying Cai              | Discussed search page UI design  |
+| Search page responsive design       | Ceming Fu              | Displayed the search page (PC and Mobile)    |
+| API design   | Xinlong Wu               | Discussed the API design.  |
 | Routing design                      | Zhenhao Li               | Discussed routing design for the entry page, game page, and feedback page. |
-| Survey UI improvements              | Xinlong Wu, Zhongzheng Huang               | Presented the UI-optimized survey, but font issues on the survey page were identified. |
-| Search page responsive design       | Ceming Fu, Shiying Cai               | Discussed responsive design for the search page on desktop devices. |
+| Survey UI improvements              | Zhongzheng Huang               | Solved the font issues on the survey page. Ready for merge. |
+| Feedback page banner update       | Shiying Cai              | Discussed the feedback page banner update. |
+| Speed up the game       | Zhongzheng Huang             | Speed up the game page. |
+| Link index page and survey page      | Zehua Kong              | Need to link index page and survey page. |
 
 ## Other Notes & Information
 

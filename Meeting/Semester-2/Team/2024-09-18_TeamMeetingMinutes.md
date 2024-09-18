@@ -29,6 +29,9 @@ People who attended: All team members
 | Search API design                   | All | Discussed the search API design, including search types and corresponding APIs. |
 | Jira ticketing system               | All | Decided to add a Jira ticket for each task, including a description, requirements, and criteria. |
 | Task allocation                     | All | Assigned tasks for the next phase of the project.               |
+| Router implmentation                | All | Discussed the route implementation. |
+| Link index page and survey page     | All | Link index page and survey page.|
+| Use local storage to save the game choice | All | Use localStorage to save game choice|
 
 ## Reviewed PR
 
@@ -37,14 +40,16 @@ People who attended: All team members
 
 | Done? | Item                                             | Responsible       | Due Date     | Jira Ticket |
 | ----- | ------------------------------------------------ | ----------------- | ------------ | ----------- |
-|       | Modify chart labels on the Feedback page         |     Xuan Liu              |    18/09/2024          |             |
-|       | Design routing for several front-end pages       |     Zhenhao Li            |   18/09/2024            |             |
-|       | Complete API documentation design                |     Xinlong Wu              |   18/09/2024            |             |
-|       | Implement mobile UI for the search page          |     Ceming Fu, Shiying Cai              |    18/09/2024           |             |
-|       | Optimize the decision and reflection sections on the landing page |    Zhenhao Li               |    18/09/2024           |             |
+|       | Survey page implementation         |     Zhongzheng Huang            |    24/09/2024          |             |
+|       | Design routing for several front-end pages       |     Zhenhao Li            |   24/09/2024            |             |
+|       | Complete API documentation design                |     Xinlong Wu              |   24/09/2024            |             |
+|       | Implement mobile UI for the search page          |     Ceming Fu, Shiying Cai              |    24/09/2024           |             |
+|       | Optimize the decision and reflection sections on the landing page |    Zhenhao Li               |    24/09/2024           |             |
+|       | Link index page and survey page | Zehua Kong | 24/09/2024 |      |
+|       | Game speed up and save game choice in local storage| Zhongzheng Huang | 24/09/2024 | |
 
 ## Other Notes & Information
 
-- Next Note taker: TBD
+- Next Note taker: Zhenhao Li
 
 ---
