@@ -34,6 +34,6 @@ People who attended: All team members and the client
 
 ## Other Notes & Information
 
-- Next Note taker: TBD
+- Next Note taker: Zhenhao Li
 
 ---
