@@ -45,6 +45,6 @@ People who attended: All team members
 
 ## Other Notes & Information
 
-- Next Note taker: TBD
+- Next Note taker: Zhenhao Li
 
 ---
