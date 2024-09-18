@@ -32,6 +32,7 @@ People who attended: All team members, tutor, client and the shadow team
 | Progress check |      | Members of the group take turns to demonstrate progress 
 | Discuss issues    | If we run into any problems this week, we can discuss them  |
 | Getting feedback from Tutor | Get more detailed feedback on Audit3                       |
+| Reviewing landing page | Reflection, meeting log, decision log, risk log|
 
 ## Discussion Items
 
@@ -40,7 +41,8 @@ People who attended: All team members, tutor, client and the shadow team
 | Search page responsive design       | Ceming Fu              | Displayed the search page (PC and Mobile)    |
 | Survey UI improvements              | Zhongzheng Huang               | Solved the font issues on the survey page. Ready for merge. |
 | Argue for assessment grade| Xuan Liu | Agured the decision log| 
- 
+| Reviewing landing page | Reflection, meeting log, decision log, risk log|
+
 ------
 
 **Prepared by:** Zhenhao Li
