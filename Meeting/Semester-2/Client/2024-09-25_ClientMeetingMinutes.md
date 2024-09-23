@@ -18,7 +18,7 @@ People who attended: All team members and the client
 | ------------------------ | ------------------------------------------------------------ |
 | Discuss the track of risks(feedback from audit 2)   | Discuss feedback from audit2         |
 | review frontend data fetching       | Review frontend data fetching                        |
-| Discuss next week's plan | Discuss the plan on week 7, assign new tasks                    |
+| Discuss next week's plan | Discuss the plan on week 9, assign new tasks                    |
 | Router test    | Discuss the router implementation |
 
 ## Discussion Items
