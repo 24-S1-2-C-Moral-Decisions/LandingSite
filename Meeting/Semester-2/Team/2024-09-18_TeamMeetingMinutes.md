@@ -39,16 +39,16 @@ People who attended: All team members
 
 | Done? | Item                                                                                    | Responsible            | Due Date   | Jira Ticket                                                                                    |
 | ----- | --------------------------------------------------------------------------------------- | ---------------------- | ---------- | ---------------------------------------------------------------------------------------------- |
-|       | Survey page implementation                                                              | Zhongzheng Huang       | 24/09/2024 |                                                                                                |
-|       | Design routing for several front-end pages                                              | Zhenhao Li             | 24/09/2024 |                                                                                                |
-|       | Complete API documentation design                                                       | Xinlong Wu             | 24/09/2024 |                                                                                                |
-|       | Implement mobile UI for the search page                                                 | Ceming Fu, Shiying Cai | 24/09/2024 |                                                                                                |
-|       | Improve game feedback page UI design                                                    | Shiying Cai            | 24/09/2024 |                                                                                                |
-|       | Improve game feedback page including text analysis and new banner design implementation | Xuan Liu               | 02/10/2024 | [Improve game feedback page-SCRUM-161](https://moral-decisions.atlassian.net/browse/SCRUM-161) |
-|       | Video                                                                                   | Shiying Cai, Xuan Liu  | 02/10/2024 |                                                                                                |
-|       | Optimize the decision and reflection sections on the landing page                       | Zhenhao Li             | 24/09/2024 |                                                                                                |
-|       | Link index page and survey page                                                         | Zehua Kong             | 24/09/2024 |                                                                                                |
-|       | Game speed up and save game choice in local storage                                     | Zhongzheng Huang       | 24/09/2024 |                                                                                                |
+|  Done  | Survey page implementation                                                              | Zhongzheng Huang       | 24/09/2024 |                                                                                                |
+|    Done   | Design routing for several front-end pages                                              | Zhenhao Li             | 24/09/2024 |                                                                                                |
+|    Done   | Complete API documentation design                                                       | Xinlong Wu             | 24/09/2024 |                                                                                                |
+| Done| Implement mobile UI for the search page                                                 | Ceming Fu, Shiying Cai | 24/09/2024 |                                                                                                |
+|    Done   | Improve game feedback page UI design                                                    | Shiying Cai            | 24/09/2024 |                                                                                                |
+|    Done   | Improve game feedback page including text analysis and new banner design implementation | Xuan Liu               | 02/10/2024 | [Improve game feedback page-SCRUM-161](https://moral-decisions.atlassian.net/browse/SCRUM-161) |
+|       | Video                                                                                   | Shiying Cai, Xuan Liu  | 02/10/2024 |    168                                                                                            |
+|   Done    | Optimize the decision and reflection sections on the landing page                       | Zhenhao Li             | 24/09/2024 |                                                                                                |
+|    Done  | Link index page and survey page                                                         | Zehua Kong             | 24/09/2024 |                                                                                                |
+|    Done   | Game speed up and save game choice in local storage                                     | Zhongzheng Huang       | 24/09/2024 |                                                                                                |
 
 ## Other Notes & Information
 
