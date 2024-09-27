@@ -20,6 +20,7 @@ People who attended: All team members and the client
 | review frontend data fetching       | Review frontend data fetching                        |
 | Discuss next week's plan | Discuss the plan on week 9, assign new tasks                    |
 | Router test    | Discuss the router implementation |
+| Change user story from 3 to 2 |  Change user story from 3 to 2. |
 
 ## Discussion Items
 
