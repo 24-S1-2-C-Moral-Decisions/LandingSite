@@ -29,7 +29,7 @@ People who attended: All team members
 | Search API design                         | All | Discussed the search API design, including search types and corresponding APIs.                                  |
 | Task allocation                           | All | Assigned tasks for the next phase of the project.                                                                |
 | Router implmentation                      | All | Discussed the route implementation.                                                                              |
-| home page 
+
 
 ## Reviewed PR
 
