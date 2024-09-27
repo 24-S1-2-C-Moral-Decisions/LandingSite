@@ -42,13 +42,11 @@ People who attended: All team members
 
 | Done? | Item                                                                                    | Responsible            | Due Date   | Jira Ticket                                                                                    |
 | ----- | --------------------------------------------------------------------------------------- | ---------------------- | ---------- | ---------------------------------------------------------------------------------------------- |
-|    | UI check                                                 | All team member  | 3/10/2024 |          [Check all UI implementation](https://moral-decisions.atlassian.net/browse/SCRUM-169)                                                                                     |
-|    | Use axios to get data                                                         | Zehua Kong             | 3/10/2024 |            [Use axios to get data from database]( https://moral-decisions.atlassian.net/browse/SCRUM-170 )                                                                                  |
-|    | Game result and show in the feedback page                                  | Zehua Kong      | 3/10/2024 |     [Show game result in feedback page]( https://moral-decisions.atlassian.net/browse/SCRUM-171 )                                                                                         |
+|    | UI check                                                 | All team member  | 3/10/2024 |          [Check all UI implementation](https://moral-decisions.atlassian.net/browse/SCRUM-169)    |
+|    | Use axios to get data                                                         | Zehua Kong             | 3/10/2024 |            [Use axios to get data from database]( https://moral-decisions.atlassian.net/browse/SCRUM-170 ) |
+|    | Game result and show in the feedback page                                  | Zehua Kong      | 3/10/2024 |     [Show game result in feedback page]( https://moral-decisions.atlassian.net/browse/SCRUM-171 ) |
 |    | video and poster for audit 3 | Shiying Cai & Xuan Liu | 3/10/2024 | [Video and poster for audit 3]( https://moral-decisions.atlassian.net/browse/SCRUM-83) |
-
 |    | Check if the choice results are stored successfully in the database  | Zhongzheng Huang  & Xinlong Wu  | 3/10/2024 | [Check if all the choice results are stored successfully](https://moral-decisions.atlassian.net/browse/SCRUM-172) |
-
 |    | Router update & application test | Zhenhao Li |  3/10/2024 | [Test application]( https://moral-decisions.atlassian.net/browse/SCRUM-173) |
 ## Other Notes & Information
 
