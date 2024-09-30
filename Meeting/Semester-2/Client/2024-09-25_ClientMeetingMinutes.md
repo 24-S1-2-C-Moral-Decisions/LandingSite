@@ -20,22 +20,22 @@ People who attended: All team members and the client
 | review frontend data fetching       | Review frontend data fetching                        |
 | Discuss next week's plan | Discuss the plan on week 9, assign new tasks                    |
 | Router test    | Discuss the router implementation |
+| Change user story from 3 to 2 |  Change user story from 3 to 2. |
 
 ## Discussion Items
 
 | Item                                | Who               | Notes                                                        |
 | ----------------------------------- | ----------------- | ------------------------------------------------------------ |
-| UI search page design         | Shiying Cai              | Discussed search page UI design  |
-| Search page responsive design       | Ceming Fu              | Displayed the search page (PC and Mobile)    |
+| UI banner design         | Shiying Cai              | Discussed banner UI design  |
+| Fecth data from database      | Ceming Fu              | Fecthing data from database    |
 | API design   | Xinlong Wu               | Discussed the API design.  |
 | Routing design                      | Zhenhao Li               | Discussed routing design for the entry page, game page, and feedback page. |
-| Survey UI improvements              | Zhongzheng Huang               | Solved the font issues on the survey page. Ready for merge. |
-| Feedback page banner update       | Shiying Cai              | Discussed the feedback page banner update. |
 | Speed up the game       | Zhongzheng Huang             | Speed up the game page. |
-| Link index page and survey page      | Zehua Kong              | Need to link index page and survey page. |
+| Get survey url based on the  environment     | Zehua Kong              | get survey url based on the environment. |
+| Change user story from 3 to 2 |  | Change user story from 3 to 2. |
 
 ## Other Notes & Information
 
-- Next Note taker: Zhenhao Li
+- Next Note taker: TBD
 
 ---
