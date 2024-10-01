@@ -18,12 +18,13 @@ People who attended: All team members, tutor, client and the shadow team
 
 ## Last Week's Progress
 
-1. [SCRUM-176] - [Match Prototype and implementation] - [Ceming Fu & Zhenghao Li & Zehua Kong]
-1. [SCRUM-178] - [link home page and survey] - [Ceming Fu & Zhenghao Li & Zehua Kong]
-2. [SCRUM-178] - [Survey jump to feadback page] - [Zhongzheng Huang] 
-3. [Scrum-179] - [get and show survey result] - [Xuan Liu]
-4. [SCRUM-163] - [Search function] - [Xinlong Wu]
-5. [SCRUM-177] - [Video] - [Shiying Cai]
+SCRUM-176] - [Match Prototype and implementation] - [Ceming Fu & Zhenghao Li & Zehua Kong]
+[SCRUM-178] - [link home page and survey] - [Ceming Fu & Zhenghao Li & Zehua Kong]
+[SCRUM-178] - [Survey jump to feadback page] - [Zhongzheng Huang]
+[Scrum-179] - [get and show survey result] - [Zehua Kong]
+[SCRUM-163] - [Search function] - [Xinlong Wu]
+[SCRUM-168] - [Project Video] - [Shiying Cai, Xuan Liu]
+[SCRUM-161] - [Update feedback page banner] - [Xuan Liu]
 
 ## Agenda Items
 
