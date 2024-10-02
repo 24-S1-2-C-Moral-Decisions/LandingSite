@@ -41,11 +41,11 @@ People who attended: All team members
 | Done? | Item                                                                   | Responsible     | Due Date   |
 | ----- | ---------------------------------------------------------------------- | --------------- | ---------- |
 | Done  | feedback page improvement and font import                              | Xuan Liu        | 28/08/2024 |
-|Delayed| Finish the mobile page design                                          | Shiying Cai     | 28/08/2024 |
+| Done  | Finish the mobile page design                                          | Shiying Cai     | 28/08/2024 |
 | Done  | Topic page improvement - add label                                     | Ceming Fu       | 28/08/2024 |
 | Done  | Entry page improvement                                                 | Zhenhao Li      | 28/08/2024 |
 | Done  | Survey page improvement                                                | Zehua Kong      | 28/08/2024 |
-|       | Survey 5 implementation                                                | Zhongzhen Huang | 04/09/2024 |
+| Done  | Survey 5 implementation                                                | Zhongzhen Huang | 04/09/2024 |
 | Done  | Audit documentation improvement                                        | All             | 25/08/2024 |
 | Done  | Audit slide                                                            | All             | 25/08/2024 |
 | Done  | Improve jira task details                                              | Xinlong Wu      | 25/08/2024 |
