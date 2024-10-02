@@ -24,9 +24,11 @@ People who attended: All team members and the client
 
 | Item                                | Who               | Notes                                                        |
 | ----------------------------------- | ----------------- | ------------------------------------------------------------ |
+| Did server has enough memory for Backend | Xinlong | Has |
+| What kind document client need | Xinlong |  |
 
 ## Other Notes & Information
 
-- Next Note taker: Xinlong Wu
+- Next Note taker: ZhongZheng Huang
 
 ---

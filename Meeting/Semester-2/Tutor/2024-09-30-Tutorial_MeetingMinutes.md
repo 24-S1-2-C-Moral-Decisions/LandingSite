@@ -36,6 +36,7 @@ People who attended: All team members, tutor, client and the shadow team
 
 | Item             | Who                             | Notes                        |
 | ---------------- | ------------------------------- | ---------------------------- |
+| which points should we focus on in Audti 3 | All |  |
 
 ------
 

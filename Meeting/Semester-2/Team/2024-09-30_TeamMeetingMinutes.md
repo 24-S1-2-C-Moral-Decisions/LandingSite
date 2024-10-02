@@ -25,16 +25,28 @@ People who attended: All team members
 | Item                                      | Who | Notes                                                                                                            |
 | ----------------------------------------- | --- | ---------------------------------------------------------------------------------------------------------------- |
                                |
+| Audit 3 task assignment | All | Decide templete of slide |
+| Landsite Check | All | check anything need be improve for audit 3 |
+| UI Document | All | Have any futher paly |
+| Jira Maintain | How to orgnize Jira  |
 
 ## Reviewed PR
 
 ## Action Items
 
-| Done? | Item                                                                                    | Responsible            | Due Date   | Jira Ticket                                                                                    |
+| Done? | Item | Responsible | Due Date   | Jira Ticket |
 | ----- | --------------------------------------------------------------------------------------- | ---------------------- | ---------- | ---------------------------------------------------------------------------------------------- |
+|| Risc check & complemetion| zhenhao | | |
+|| reflection check & complemetion | Zehua | | |
+|| Decision check & complemetion | ceming | | |
+|| UI Check | Shiying | | |
+|| Meeting & fix UI | Xuanliu | | |
+|| Jira check & complemetion | Xinlong | | |
+|| survey | Zhengzheng | | |
+
 
 ## Other Notes & Information
 
-- Next Note taker: Zhenhao Li
+- Next Note taker: Zhongzheng Huang
 
 ---
