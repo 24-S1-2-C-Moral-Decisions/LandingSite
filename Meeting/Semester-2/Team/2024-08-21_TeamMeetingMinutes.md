@@ -41,7 +41,7 @@ People who attended: All team members
 | Done? | Item                                                                   | Responsible     | Due Date   |
 | ----- | ---------------------------------------------------------------------- | --------------- | ---------- |
 | Done  | feedback page improvement and font import                              | Xuan Liu        | 28/08/2024 |
-|Delayed| Finish the mobile page design                                          | Shiying Cai     | 28/08/2024 |
+| Done  | Finish the mobile page design                                          | Shiying Cai     | 28/08/2024 |
 | Done  | Topic page improvement - add label                                     | Ceming Fu       | 28/08/2024 |
 | Done  | Entry page improvement                                                 | Zhenhao Li      | 28/08/2024 |
 | Done  | Survey page improvement                                                | Zehua Kong      | 28/08/2024 |
