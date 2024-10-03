@@ -4,7 +4,7 @@
 
 **Team Name:** Moral Decisions
 
-**Meeting Date/Time:** 30/09/2024  5-7pm
+**Meeting Date/Time:** 02/10/2024  5-7pm
 
 **Meeting Location:** Zoom(online): [Launch Meeting - Zoom](https://anu.zoom.us/j/86482877424?pwd=08A5lKE4rWT8hokwu7NvYmeomaLKHc.1)
 
@@ -34,18 +34,17 @@ SCRUM-176] - [Match Prototype and implementation] - [Ceming Fu & Zhenghao Li & Z
 
 ## Agenda Items
 
-| Item                 | Description                                                  |
-| -------------------- | ------------------------------------------------------------ |
-| Progress check |  Members of the group take turns to demonstrate progress     | 
-| Video Review    |  Get more detailed feedback |
+| Item           | Description                                             |
+| -------------- | ------------------------------------------------------- |
+| Progress check | Members of the group take turns to demonstrate progress |
+| Video Review   | Get more detailed feedback                              |
 
 ## Discussion Items
 
-| Item             | Who                             | Notes                        |
-| ---------------- | ------------------------------- | ---------------------------- |
-| which points should we focus on in Audti 3 | All |  |
+| Item                                       | Who | Notes |
+| ------------------------------------------ | --- | ----- |
+| which points should we focus on in Audti 3 | All |       |
 
 ------
 
 **Prepared by:** Xinlong Wu
-

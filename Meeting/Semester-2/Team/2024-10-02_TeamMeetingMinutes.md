@@ -2,7 +2,7 @@
 
 ## Meeting Information
 
-**Meeting Date/Time:** 30/09/2024
+**Meeting Date/Time:** 02/10/2024
 
 **Meeting Location:** Zoom (online): [Launch Meeting - Zoom](https://anu.zoom.us/j/82320892529?pwd=r1sFRKhalHhXKuCi4eFE72RrBUwuor.1)
 

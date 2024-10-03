@@ -2,7 +2,7 @@
 
 ## Meeting Information
 
-**Meeting Date/Time:** 30/09/2024
+**Meeting Date/Time:** 02/10/2024
 
 **Meeting Location:** Zoom (online): [Launch Meeting - Zoom](https://anu.zoom.us/j/82320892529?pwd=r1sFRKhalHhXKuCi4eFE72RrBUwuor.1)
 
@@ -14,18 +14,18 @@ People who attended: All team members and the client
 
 ## Agenda Items
 
-| Item                     | Description                                                  |
-| ------------------------ | ------------------------------------------------------------ |
-| Don't forget tag report for Audit 3   | |
+| Item                                        | Description                          |
+| ------------------------------------------- | ------------------------------------ |
+| Don't forget tag report for Audit 3         |                                      |
 | Whether the Client's Surver can run Backend | Backend will use about 4-5 GB Memory |
-| Demo the product ||
+| Demo the product                            |                                      |
 
 ## Discussion Items
 
-| Item                                | Who               | Notes                                                        |
-| ----------------------------------- | ----------------- | ------------------------------------------------------------ |
-| Did server has enough memory for Backend | Xinlong | Has |
-| What kind document client need | Xinlong |  |
+| Item                                     | Who     | Notes |
+| ---------------------------------------- | ------- | ----- |
+| Did server has enough memory for Backend | Xinlong | Has   |
+| What kind document client need           | Xinlong |       |
 
 ## Other Notes & Information
 
