@@ -23,13 +23,12 @@ People who attended: All team members
 
 ## Discussion Items
 
-| Item                                      | Who | Notes                                                                                                            |
-| ----------------------------------------- | --- | ---------------------------------------------------------------------------------------------------------------- |
-| API documentation design                  | All | Discussed the API design, focusing on the survey and the data required for the front-end and back-end responses. |
-| Search API design                         | All | Discussed the search API design, including search types and corresponding APIs.                                  |
-| Task allocation                           | All | Assigned tasks for the next phase of the project.                                                                |
-| Router implmentation                      | All | Discussed the route implementation.                                                                              |
-
+| Item                     | Who | Notes                                                                                                            |
+| ------------------------ | --- | ---------------------------------------------------------------------------------------------------------------- |
+| API documentation design | All | Discussed the API design, focusing on the survey and the data required for the front-end and back-end responses. |
+| Search API design        | All | Discussed the search API design, including search types and corresponding APIs.                                  |
+| Task allocation          | All | Assigned tasks for the next phase of the project.                                                                |
+| Router implmentation     | All | Discussed the route implementation.                                                                              |
 
 ## Reviewed PR
 
@@ -40,14 +39,15 @@ People who attended: All team members
 
 ## Action Items
 
-| Done? | Item                                                                                    | Responsible            | Due Date   | Jira Ticket                                                                                    |
-| ----- | --------------------------------------------------------------------------------------- | ---------------------- | ---------- | ---------------------------------------------------------------------------------------------- |
-|    | UI check                                                 | All team member  | 3/10/2024 |          [Check all UI implementation](https://moral-decisions.atlassian.net/browse/SCRUM-169)    |
-|    | Use axios to get data                                                         | Zehua Kong             | 3/10/2024 |            [Use axios to get data from database]( https://moral-decisions.atlassian.net/browse/SCRUM-170 ) |
-|    | Game result and show in the feedback page                                  | Zehua Kong      | 3/10/2024 |     [Show game result in feedback page]( https://moral-decisions.atlassian.net/browse/SCRUM-171 ) |
-|    | video and poster for audit 3 | Shiying Cai & Xuan Liu | 3/10/2024 | [Video and poster for audit 3]( https://moral-decisions.atlassian.net/browse/SCRUM-83) |
-|    | Check if the choice results are stored successfully in the database  | Zhongzheng Huang  & Xinlong Wu  | 3/10/2024 | [Check if all the choice results are stored successfully](https://moral-decisions.atlassian.net/browse/SCRUM-172) |
-|    | Router update & application test | Zhenhao Li |  3/10/2024 | [Test application]( https://moral-decisions.atlassian.net/browse/SCRUM-173) |
+| Done? | Item                                                                | Responsible                    | Due Date  | Jira Ticket                                                                                                       |
+| ----- | ------------------------------------------------------------------- | ------------------------------ | --------- | ----------------------------------------------------------------------------------------------------------------- |
+|       | UI check                                                            | All team member                | 3/10/2024 | [Check all UI implementation](https://moral-decisions.atlassian.net/browse/SCRUM-169)                             |
+|       | Use axios to get data                                               | Zehua Kong                     | 3/10/2024 | [Use axios to get data from database]( https://moral-decisions.atlassian.net/browse/SCRUM-170 )                   |
+|       | Game result and show in the feedback page                           | Zehua Kong                     | 3/10/2024 | [Show game result in feedback page]( https://moral-decisions.atlassian.net/browse/SCRUM-171 )                     |
+|       | video and poster for audit 3                                        | Shiying Cai & Xuan Liu         | 3/10/2024 | [Project Video]( https://moral-decisions.atlassian.net/browse/SCRUM-168)                                          |
+|       | Check if the choice results are stored successfully in the database | Zhongzheng Huang  & Xinlong Wu | 3/10/2024 | [Check if all the choice results are stored successfully](https://moral-decisions.atlassian.net/browse/SCRUM-172) |
+|       | Router update & application test                                    | Zhenhao Li                     | 3/10/2024 | [Test application]( https://moral-decisions.atlassian.net/browse/SCRUM-173)                                       |
+
 ## Other Notes & Information
 
 - Next Note taker: Xinlong Wu

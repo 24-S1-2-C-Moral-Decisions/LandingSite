@@ -40,12 +40,12 @@ People who attended: All team members
 
 ## Action Items
 
-| Done? | Item                                                                   | Responsible       | Due Date     | Jira Ticket                                                         |
-| ----- | ---------------------------------------------------------------------- | ----------------- | ------------ | ------------------------------------------------------------------- |
-|       | Survey 5 implementation                                                | Zhongzhen Huang   | 04/09/2024   |                                                                     |
-| Done  | Survey feedback page improvement - add personality and decision radars | Xuan Liu          | 11/09/2024   | [SCRUM-143](https://moral-decisions.atlassian.net/browse/SCRUM-143) |
-| D     | Frontend prototype,  dialogue feature improvement                      | One group member  | undetermined |                                                                     |
-|       | Backend framework                                                      | All other members | undetermined |                                                                     |
+| Done? | Item                                                                   | Responsible       | Due Date   |
+| ----- | ---------------------------------------------------------------------- | ----------------- | ---------- |
+| Done  | Survey 5 implementation                                                | Zhongzhen Huang   | 04/09/2024 |
+| Done  | Survey feedback page improvement - add personality and decision radars | Xuan Liu          | 11/09/2024 |
+| Done  | Frontend prototype,  dialogue feature improvement                      | Shiying Cai       | 11/09/2024 |
+| Done  | Backend framework                                                      | All other members | 11/09/2024 |
 
 ## Other Notes & Information
 
