@@ -4,7 +4,7 @@
 
 **Meeting Date/Time:** 09/10/2024
 
-**Meeting Location:** 
+**Meeting Location:** Hanna Neumann Building room 2.14
 
 **Note Taker:** Zhongzheng Huang
 
