@@ -16,9 +16,9 @@ People who attended: All team members
 
 | Item            | Description |
 | --------------- | ----------- |
-| Review UI       |             |
-| task assignment |             |
-| Documents       |             |
+| Review UI       | Review and discuss the user interface (UI) for improvements |
+| task assignment |  Assign tasks for next week |
+| Documents       |  Review and discuss the landing page documentation for Audit 3 |
 
 ## Discussion Items
 
@@ -28,7 +28,7 @@ People who attended: All team members
 | Audit 3 task assignment | All                 | Decide templete of slide                   |
 | Landsite Check          | All                 | check anything need be improve for audit 3 |
 | UI Document             | All                 | Have any futher paly                       |
-| Jira Maintain           | How to orgnize Jira |                                            |
+| Jira Maintain           | All                 | How to organize Jira                       |
 
 ## Reviewed PR
 
@@ -36,13 +36,13 @@ People who attended: All team members
 
 | Done? | Item                            | Responsible | Due Date | Jira Ticket |
 | ----- | ------------------------------- | ----------- | -------- | ----------- |
-|       | Risc check & complemetion       | zhenhao     |          |             |
-|       | reflection check & complemetion | Zehua       |          |             |
-|       | Decision check & complemetion   | ceming      |          |             |
-|       | UI Check                        | Shiying     |          |             |
-|       | Meeting & fix UI                | Xuanliu     |          |             |
-|       | Jira check & complemetion       | Xinlong     |          |             |
-|       | survey                          | Zhengzheng  |          |             |
+|  Done | Risc check & complemetion       | zhenhao     |06/10/2024|     N/A     |
+|  Done | reflection check & complemetion | Zehua       |06/10/2024|     N/A     |
+|  Done | Decision check & complemetion   | ceming      |06/10/2024|     N/A     |
+|  Done | UI Check                        | Shiying     |09/10/2024|     N/A     |
+|  Done | Meeting & fix UI                | Xuanliu     |06/10/2024| [SCRUM-161 Improve game feedback page](https://moral-decisions.atlassian.net/browse/SCRUM-161) |
+|  Done | Jira check & complemetion       | Xinlong     |06/10/2024|     N/A     |
+|       | survey                          | Zhongzheng  |09/10/2024|             |
 
 ## Other Notes & Information
 
