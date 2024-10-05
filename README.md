@@ -13,10 +13,12 @@
 - [Deployable Docker File: https://github.com/24-S1-2-C-Moral-Decisions/moral_moments](https://github.com/24-S1-2-C-Moral-Decisions/moral_moments)
 
 - [Jira](https://moral-decisions.atlassian.net/jira/software/projects/SCRUM/boards/1/timeline) Username: `vincenttttwu@gmail.com` password: `MoralTeam`
-- [Meeting](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/6)
-- [Risk](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/7)
-- [Decision](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/3)
-- [Reflection](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/2)
+- [Meeting Logs](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/6)
+- [Meeting Minutes Files](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/Meeting/Semester-2)
+- [Risk Logs](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/7)
+- [Decision Logs](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/3)
+- [Decision Log files](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/DecisionLogs/Semester-2)
+- [Reflection Logs](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/2)
 
 <!-- # Current progress
 1. [Iteration of moral profile website design](https://www.figma.com/file/6PINXpuynOE8HFpRz3wDtn/Moral-Moment?type=design&node-id=141%3A9123&mode=design&t=277SwbMjeEaPBOdb-1)
