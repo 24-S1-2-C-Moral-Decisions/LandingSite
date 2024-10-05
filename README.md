@@ -59,7 +59,7 @@
     - [WorkFlow](Workflow/Coding)
     - [Getting Start](#getting-start)
     - [Installation](#installation)
-  - [Weekly Report](WeekReport/)
+  - [Weekly Update](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/WeeklyUpdates)
 
 - [Connection](#connection)
 
