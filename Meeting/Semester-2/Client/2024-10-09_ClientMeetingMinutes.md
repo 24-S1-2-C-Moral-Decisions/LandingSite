@@ -17,7 +17,7 @@ People who attended: All team members and the client
 | Item                                        | Description                          |
 | ------------------------------------------- | ------------------------------------ |
 | Check the peoject again.| Discussion of taking over the project |
-| Review Audit 3 | Give feedback on the content of Audit3 |
+| Review Audit 3 | Give feedback about Audit3 |
 
 ## Discussion Items
 
