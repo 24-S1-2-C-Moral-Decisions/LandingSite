@@ -17,8 +17,8 @@ People who attended: All team members
 | Item            | Description |
 | --------------- | ----------- |
 | Check Audit 3 preparation | The team works together to check everyone's content.|
-| Check documentation | |
-| Task assignment | |
+| Check documentation | Landing page and any documentation|
+| Task assignment | Everyone's task|
 
 ## Discussion Items
 
