@@ -3,7 +3,7 @@
 
 ## Important: Resources Ready for Audit 3:
 
-- [Audit 3 Slide](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/Presentation/)
+<!-- - [Audit 3 Slide](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/Presentation/) -->
 
 - [Prototype](https://www.figma.com/file/6PINXpuynOE8HFpRz3wDtn/Moral-Moment?type=design&node-id=141%3A9123&mode=design&t=277SwbMjeEaPBOdb-1)
 - [Front End website: https://moralfrontend.azurewebsites.net/en](https://moralfrontend.azurewebsites.net/en)
@@ -19,6 +19,10 @@
 - [Decision Logs](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/3)
 - [Decision Log files](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/DecisionLogs/Semester-2)
 - [Reflection Logs](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/2)
+
+- [UI Issues](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/9/views/2)
+
+![Current Status of UI Issues](Resources/image.png)
 
 <!-- # Current progress
 1. [Iteration of moral profile website design](https://www.figma.com/file/6PINXpuynOE8HFpRz3wDtn/Moral-Moment?type=design&node-id=141%3A9123&mode=design&t=277SwbMjeEaPBOdb-1)
