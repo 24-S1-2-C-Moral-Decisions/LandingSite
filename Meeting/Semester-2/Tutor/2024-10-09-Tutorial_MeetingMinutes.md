@@ -20,7 +20,7 @@ People who attended: All team members, tutor, client and the shadow team
 
 [SCRUM-178] - [link home page and survey] - [Ceming Fu & Zhenghao Li & Zehua Kong]
 
-[SCRUM-176] - [Front-End UI Bugs Fix] - [Ceming Fu]
+[SCRUM-180] - [Survey: Redirect User to Feedback Page After Survey Submission] - [Zhongzheng Huang]
 
 [Scrum-179] - [get and show survey result] - [Zehua Kong]
 
