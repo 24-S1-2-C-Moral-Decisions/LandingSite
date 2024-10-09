@@ -42,7 +42,7 @@ People who attended: All team members
 |  Done | UI Check                                                 | Shiying     |09/10/2024|     N/A     |
 |  Done | Meeting & fix UI                                         | Xuanliu     |06/10/2024| [SCRUM-161 Improve game feedback page](https://moral-decisions.atlassian.net/browse/SCRUM-161) |
 |  Done | Jira check & complemetion                                | Xinlong     |06/10/2024|     N/A     |
-|       | Redirect to Survey Feedback Page After Survey Submission | Zhongzheng  |09/10/2024| [SCRUM-180 Redirect User to Feedback Page After Survey Submission](https://moral-decisions.atlassian.net/browse/SCRUM-180) |
+|  Done | Redirect to Survey Feedback Page After Survey Submission | Zhongzheng  |09/10/2024| [SCRUM-180 Redirect User to Feedback Page After Survey Submission](https://moral-decisions.atlassian.net/browse/SCRUM-180) |
 
 ## Other Notes & Information
 
