@@ -23,8 +23,8 @@ People who attended: All team members and the client
 
 | Item                                     | Who     | Notes |
 | ---------------------------------------- | ------- | ----- |
-
-
+|Project delivery| All team members| |
+|Documentation of project delivery | Xinlong, Shiying, Ceming, Xuan Liu and Zhongzheng| |
 ## Other Notes & Information
 
 - Next Note taker: Someone
