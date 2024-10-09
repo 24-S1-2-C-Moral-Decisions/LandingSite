@@ -24,8 +24,8 @@ People who attended: All team members
 
 | Item                    | Who                 | Notes                                      |
 | ----------------------- | ------------------- | ------------------------------------------ |
-|                         |                     |                                            |
-
+| Finish Tag report      |   All team members     |                                            |
+| Prepare Wpp3      |   All team members     |                                            |
 
 ## Reviewed PR
 
