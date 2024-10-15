@@ -4,7 +4,7 @@
 ## Important: Resources Ready for Audit 3:
 
 <!-- - [Audit 3 Slide](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/Presentation/) -->
-
+- [Audit 3 slide](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/Presentation/Semester-2/moral%20moments-pre3.pdf)
 - [Prototype](https://www.figma.com/file/6PINXpuynOE8HFpRz3wDtn/Moral-Moment?type=design&node-id=141%3A9123&mode=design&t=277SwbMjeEaPBOdb-1)
 - [Front End website: https://moralfrontend.azurewebsites.net/en](https://moralfrontend.azurewebsites.net/en)
 - [Front End GitHub Repository: https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end](https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end)

@@ -41,11 +41,11 @@ People who attended: All team members
 
 | Done? | Item                                                                | Responsible                    | Due Date   | Jira Ticket                                                                                                                 |
 | ----- | ------------------------------------------------------------------- | ------------------------------ | ---------- | --------------------------------------------------------------------------------------------------------------------------- |
-|       | Use axios to get data                                               | Zehua Kong                     | 12/10/2024 | [SCRUM-170 Use axios to get data from database]( https://moral-decisions.atlassian.net/browse/SCRUM-170 )                   |
-|       | Game result and show in the feedback page                           | Zehua Kong                     | 12/10/2024 | [SCRUM-171 Show game result in feedback page]( https://moral-decisions.atlassian.net/browse/SCRUM-171 )                     |
+|       | Use axios to get data                                               | Zehua Kong                     | 16/10/2024 | [SCRUM-170 Use axios to get data from database]( https://moral-decisions.atlassian.net/browse/SCRUM-170 )                   |
+|       | Game result and show in the feedback page                           | Zehua Kong                     | 16/10/2024 | [SCRUM-171 Show game result in feedback page]( https://moral-decisions.atlassian.net/browse/SCRUM-171 )                     |
 | Done  | video and poster for audit 3                                        | Shiying Cai & Xuan Liu         | 3/10/2024  | [SCRUM-168 Project Video]( https://moral-decisions.atlassian.net/browse/SCRUM-168)                                          |
 | Done  | Check if the choice results are stored successfully in the database | Zhongzheng Huang  & Xinlong Wu | 3/10/2024  | [SCRUM-172 Check if all the choice results are stored successfully](https://moral-decisions.atlassian.net/browse/SCRUM-172) |
-|       | application test                                                    | Zhenhao Li                     | 12/10/2024 | [SCRUM-173 Test application]( https://moral-decisions.atlassian.net/browse/SCRUM-173)                                       |
+| Done  | application test                                                    | Zhenhao Li                     | 12/10/2024 | [SCRUM-173 Test application]( https://moral-decisions.atlassian.net/browse/SCRUM-173)                                       |
 
 ## Other Notes & Information
 
