@@ -1,7 +1,9 @@
 # Moral Decisions
 ---
 
-## Important: Resources Ready for Audit 3:
+## Important: Resources
+
+This is a continuing project, we have classified into 2024S1, 2024S2, and 2025S1 in each directory for logs, meetings and other documents. Please see 2025S1 for 2025 Semester 1.
 
 <!-- - [Audit 3 Slide](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/Presentation/) -->
 - [Audit 3 slide](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/Presentation/Semester-2/moral%20moments-pre3.pdf)
@@ -12,12 +14,12 @@
 - [Survey GitHub Repository: https://github.com/24-S1-2-C-Moral-Decisions/moral-survey](https://github.com/24-S1-2-C-Moral-Decisions/moral-survey)
 - [Deployable Docker File: https://github.com/24-S1-2-C-Moral-Decisions/moral_moments](https://github.com/24-S1-2-C-Moral-Decisions/moral_moments)
 
-- [Jira](https://moral-decisions.atlassian.net/jira/software/projects/SCRUM/boards/1/timeline) Username: `vincenttttwu@gmail.com` password: `MoralTeam`
+- [Jira](https://moral-decisions.atlassian.net/jira/software/projects/SCRUM/boards/1/timeline) (Currently unavailable) Username: `vincenttttwu@gmail.com` password: `MoralTeam`
 - [Meeting Logs](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/6)
-- [Meeting Minutes Files](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/Meeting/Semester-2)
+- [Meeting Minutes Files](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/Meeting/2025S1)
 - [Risk Logs](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/7)
 - [Decision Logs](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/3)
-- [Decision Log files](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/DecisionLogs/Semester-2)
+- [Decision Log files](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/DecisionLogs/2025S1)
 - [Reflection Logs](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/2)
 
 - [UI Issues](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/9/views/2)
