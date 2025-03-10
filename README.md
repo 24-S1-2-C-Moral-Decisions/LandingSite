@@ -47,9 +47,9 @@
 - Meeting
   - [Records and schedules](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/6/views/1)
   - [Meeting Minutes](Meeting/)
-    - [Client Meeting](Meeting/Semester-2/Client)
-    - [Team Meeting](Meeting/Semester-2/Team)
-    - [Tutorial Meeting](Meeting/Semester-2/Tutor)
+    - [Client Meeting](Meeting/2024S2/Client)
+    - [Team Meeting](Meeting/2024S2/Team)
+    - [Tutorial Meeting](Meeting/2024S2/Tutor)
 
 - Project Logs
   - [Decision Log](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/3)
@@ -125,7 +125,7 @@ In managing our web API development project, we faced challenges such as increas
 - We meet with our clients once a week at a set time to synchronize current project progress and to consult with them on issues. The meeting agenda is sent to the client in advance of the meeting.
 
 
-By focusing on integration, simplicity, and collaboration, we've positioned our team to work with greater agility and transparency, aligning our tooling and workflows with the specific needs and goals of our project. The full decision log can be accessed [here](DecisionLogs/Semester-1/ToolsforProjectManagement.md).
+By focusing on integration, simplicity, and collaboration, we've positioned our team to work with greater agility and transparency, aligning our tooling and workflows with the specific needs and goals of our project. The full decision log can be accessed [here](DecisionLogs/2024S1/ToolsforProjectManagement.md).
 
 ### Risk Management
 
