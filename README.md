@@ -101,15 +101,15 @@
 - **Stakeholders:** [Stakerholders analysis](StakeholdersListAndImpact.md)
 
 ### Team Members and Roles
-| UID      |       Name       |                    Role                     | GitHub username |
-|:---------|:----------------:|:-------------------------------------------:|:---------------:|
-| u7574421 |    Ceming Fu     |    Front end developer and API designer     |   c1c4da3300    |
-| u7580335 |   Shiying Cai    |      UI/UX designer and website tester      |  Valencia-Choi  |
-| u7619947 |   Xinglong Wu    | Project coordinator and client communicator |   Xinlong-Wu    |
-| u6393399 |     Xuan Liu     |      UI/UX designer and website tester      | wwssllxxGithub  |
-| u7580107 | Zhongzheng Huang | Front end developer and back end developer  |     Eddyhzz     |
-| u7721107 |    Zhenhao Li    |   Front end developer and website tester    |    lzh12311     |
-| u7693498 |    Zehua Kong    |    Front end developer and web designer     |   Universe-E    |
+| UID      |      Name       |                    Role                     |  GitHub username   |
+|:---------|:---------------:|:-------------------------------------------:|:------------------:|
+| u7827936 |     Fei Li      |    Front end developer and API designer     |     FeiLi-lab      |
+| u7768183 | Lingziluo Xiong |        Backend Developer and Tester         |   LingziluoXiong   |
+| U7670957 |      Yu Ma      |              Backend Developer              | yuma-tietiedaxiang |
+| u7759893 |    Zihao Li     |            Full Stack Developer             |   SealTheBrother   |
+| u6825537 |   Shutong Li    |    Front end developer and UIUX designer    |  pikapikapikachu6  |
+| u7721107 |   Zhenhao Li    |   Front end developer and website tester    |      lzh12311      |
+| u7693498 |   Zehua Kong    | Front end developer and client communicator |     Universe-E     |
 
 
 ## Project Management
