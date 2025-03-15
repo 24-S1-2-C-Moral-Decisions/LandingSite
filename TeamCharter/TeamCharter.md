@@ -44,15 +44,15 @@
 **Stakeholders:** Refer to Stakeholders Analysis
 
 ## Team Members and Roles
-| UID       | Name            | Role                                       |
-|-----------|-----------------|--------------------------------------------|
-| u7574421  | Ceming Fu        | Front end developer and API designer       |
-| u7580335  | Shiying Cai      | UI/UX designer and website tester          |
-| u7619947  | Xinglong Wu      | Project coordinator and client communicator|
-| u6393399  | Xuan Liu         | UI/UX designer and website tester          |
-| u7580107  | Zhongzheng Huang | Front end developer and back end developer |
-| u7721107  | Zhenhao Li       | Front end developer and website tester     |
-| u7693498  | Zehua Kong       | Front end developer and web designer       |
+| UID      |      Name       |                    Role                     |
+|:---------|:---------------:|:-------------------------------------------:|
+| u7827936 |     Fei Li      |    Front end developer and API designer     |
+| u7768183 | Lingziluo Xiong |        Backend Developer and Tester         |
+| U7670957 |      Yu Ma      |              Backend Developer              |
+| u7759893 |    Zihao Li     |            Full Stack Developer             |
+| u6825537 |   Shutong Li    |    Front end developer and UIUX designer    |
+| u7721107 |   Zhenhao Li    |   Front end developer and website tester    |
+| u7693498 |   Zehua Kong    | Front end developer and client communicator |
 
 ## Project Management
 - **Version Control:** Git will be used to facilitate collaboration and prevent conflicts.
