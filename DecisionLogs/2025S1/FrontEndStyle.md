@@ -17,7 +17,7 @@ To address these issues, ensure that pages display well on various devices, and 
 - **Option 3:** Implement responsive design using custom CSS media queries and handcrafted styles without introducing a new framework.
 
 ## Decision Rationale 
-After evaluation, the team concluded:
+After evaluation, We concluded:
 
 - **Option 1** lacks a systematic approach and cannot ensure consistent styles across all pages, leading to high long-term maintenance costs;
 - **Option 3** might meet some requirements, but completely custom development is labor-intensive and prone to errors;
@@ -44,17 +44,13 @@ It is decided to develop a unified frontend style guide and select a responsive 
 
 ## Risks and Mitigation
 
-- Risk:
+- Risk: A temporary inconsistency in UI may occur during the transition period.
 
-   A temporary inconsistency in UI may occur during the transition period.
+   - **Mitigation:** Maintain a test version concurrently and deploy updates in phases to ensure a smooth transition.
 
-  - **Mitigation:** Maintain a test version concurrently and deploy updates in phases to ensure a smooth transition.
+- Risk: The learning curve associated with the new framework for team members.
 
-- Risk:
-
-   The learning curve associated with the new framework for team members.
-
-  - **Mitigation:** Organize training sessions and internal workshops, and provide detailed documentation and support materials.
+   - **Mitigation:** Organize training sessions and internal workshops, and provide detailed documentation and support materials.
 
 ## Follow-up Actions
 1. Hold a review meeting two weeks later to assess implementation progress and gather user feedback;
