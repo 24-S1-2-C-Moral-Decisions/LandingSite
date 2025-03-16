@@ -29,7 +29,7 @@ People who attended: All team members and the client
 | Item                                        | Who  | Notes                                                        |
 | ------------------------------------------- | ---- | ------------------------------------------------------------ |
 | UIUX consistency                            | all  | Discussed the need for consistent frontend styles, and possibility to use some existing front-end component libraries |
-| Dispaly issue                               | all  | Discussed how project will display on different screen sizes. |
+| Display issue                               | all  | Discussed how project will display on different screen sizes. |
 | UI designer appointed                       | all  | Discussed who will be responsible for the UI design of the entire project |
 | Expected results of this semester's project | all  | Make sure everyone is clear about the expected outcomes of the project by the end of the semester |
 | Project management method                   | all  | decided to use GitHub for project management this semester and give up the  Jira. |
