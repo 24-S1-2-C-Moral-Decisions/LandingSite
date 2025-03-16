@@ -6,9 +6,8 @@
 This is a continuing project, we have classified into 2024S1, 2024S2, and 2025S1 in each directory for logs, meetings and other documents. Please see 2025S1 for 2025 Semester 1.
 
 <!-- - [Audit 3 Slide](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/Presentation/) -->
-- [Audit 3 slide](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/Presentation/Semester-2/moral%20moments-pre3.pdf)
 - [Prototype](https://www.figma.com/file/6PINXpuynOE8HFpRz3wDtn/Moral-Moment?type=design&node-id=141%3A9123&mode=design&t=277SwbMjeEaPBOdb-1)
-- [Front End website: https://moralfrontend.azurewebsites.net/en](https://moralfrontend.azurewebsites.net/en)
+- [Front End website: https://moral-decision-front-end-lzh-f0cre7hrhjhmewa9.australiaeast-01.azurewebsites.net/en](https://moral-decision-front-end-lzh-f0cre7hrhjhmewa9.australiaeast-01.azurewebsites.net/en)
 - [Front End GitHub Repository: https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end](https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end)
 - [Survey website: https://24-s1-2-c-moral-decisions.github.io/moral-survey/](https://24-s1-2-c-moral-decisions.github.io/moral-survey/?prolificId=test1)
 - [Survey GitHub Repository: https://github.com/24-S1-2-C-Moral-Decisions/moral-survey](https://github.com/24-S1-2-C-Moral-Decisions/moral-survey)
