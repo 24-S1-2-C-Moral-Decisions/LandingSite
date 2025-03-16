@@ -8,7 +8,7 @@
 
 **Meeting Location:** online meeting
 
-**Note Taker:**Fei Li
+**Note Taker:** Fei Li
 
 ## Attendees
 
