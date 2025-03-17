@@ -24,7 +24,8 @@ People who attended: All team members and the client
 
 
 ## Discussion Items
-| Item                    | Who    | Notes |
+| Item                    | Who    | Notes                                                                 |
+| ----------------------- | ------ | --------------------------------------------------------------------- |
 | Deployment Requirements | Client | Identify technical specs and access levels required for Nectar.       |
 | IP Address              | Client | Discuss ensuring the security of IP addresses provided to the client. |
 | Prioritization Process  | Tutor  | Detail the method for client to prioritize user stories.              |
