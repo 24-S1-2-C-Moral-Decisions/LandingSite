@@ -8,36 +8,36 @@
 
 **Meeting Location:** online meeting
 
-**Note Taker:** Fei Li
+**Note Taker:** Lingziluo Xiong
 
 ## Attendees
 
 People who attended: All team members and the client
 
-## Agenda Items
 
-| Item                    | Description                                                  |
-| ----------------------- | ------------------------------------------------------------ |
-| Backend Deployment      | Reconnect backend using azure servers                        |
-| Mobile Page             | Redesign page skeletons to adapt mobile page                 |
-| Page Layout Unification | Discuss unifying the layout of frontpage and the compatibility of internationalization |
-| Task Distribution       | Distribute frontend framework tasks to the corresponding team members |
+## Agenda Items
+| Item                      | Description                                                         |
+| ------------------------- | ------------------------------------------------------------------- |
+| Nectar Project Deployment | Discuss steps and requirements for deploying projects on Nectar.    |
+| IP Address Provisioning   | Review process for students to provide IP addresses to clients.     |
+| User Story Prioritization | Outline the importance of prioritizing user stories for the client. |
 
 
 ## Discussion Items
-
 | Item | Who  | Notes |
-| ---- | ---- | ----- |
-|      |      |       |
-|      |      |       |
-|      |      |       |
-|      |      |       |
-|      |      |       |
+| Deployment Requirements | Client | Identify technical specs and access levels required for Nectar. |
+| IP Address              | Client | Discuss ensuring the security of IP addresses provided to the client. |
+| Prioritization Process  | Tutor  | Detail the method for client to prioritize user stories.  |
+
 
 ## Client Suggestions
-
+- Prioritize Core Features.
+- Ensures timely delivery of main functionalities.
+- Determine feasibility within the project timeline. 
 
 
 ## Other Notes & Information
-
+- Ensure all team members are clear on their roles and responsibilities for the deployment.
+- Schedule a follow-up meeting to assess the progress on user story prioritization and IP address provisioning.
+- Confirm that all security protocols are in place for handling client data.
 
