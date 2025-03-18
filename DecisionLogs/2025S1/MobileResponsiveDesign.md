@@ -36,7 +36,7 @@ We decided to implement a comprehensive responsive design approach that adapts t
    - Resources: Design system, responsive framework documentation
 
 3. Implementation and testing across device types
-   - Responsible: Zhenhao Li, Zihao Li
+   - Responsible: Yu Ma, Zhenhao Li, Zihao Li
    - Resources: Device testing lab, browser emulators
 
 ## Risks and Mitigation 

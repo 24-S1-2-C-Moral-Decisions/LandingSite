@@ -28,10 +28,10 @@ We decided to migrate our backend services to Azure platform. This decision was 
 ## Implementation Plan 
 
 1.  Set up Azure environment and configure network settings
-   - Responsible: Zhenhao Li, Lingziluo Xiong
+   - Responsible: Yu Ma, Zhenhao Li, Lingziluo Xiong
    - Resources: Azure subscription, network configuration documentation
 
-4. Testing, monitoring setup, and performance optimization
+2.  Testing, monitoring setup, and performance optimization
    - Responsible: Zehua Kong, Fei Li, Shutong Li, Zihao Li
    - Resources: Testing protocols, Azure Monitor configuration
 
