@@ -1,12 +1,12 @@
-# DECISION LOG 
-## Decision Details 
+# Planning and Organization Logs
+## Planning Details 
 - Date: March 11, 2025
-- Decision Maker: All Members
+- Planning Maker: All Members
   
 ## Background 
 We encountered persistent issues with the backend remote server becoming unavailable, causing significant disruptions to our service reliability. These outages resulted in degraded user experience and increased support tickets. After analyzing the situation, we determined that our current hosting solution lacked proper redundancy.
 
-## Decision Options 
+## Planning Options 
 
 The following options were considered to address the backend server unavailability issue:
 
@@ -17,12 +17,12 @@ The following options were considered to address the backend server unavailabili
 - Option 3: Switch to a different cloud provider (AWS or Google Cloud Platform)
 
 
-## Decision Rationale 
+## Planning Rationale 
 Our development team has existing experience with Microsoft Azure services and the associated development tools. A comparative cost analysis showed that Azure offered the best balance of features and pricing for our specific workload patterns.
 
 
 
-## Decision Outcome 
+## Planning Outcome 
 We decided to migrate our backend services to Azure platform. This decision was primarily based on Azure's robust reliability features, including regional redundancy and comprehensive monitoring tools. This method provided the most straightforward migration path given our team's existing expertise.
 
 ## Implementation Plan 

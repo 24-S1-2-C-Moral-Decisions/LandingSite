@@ -1,5 +1,5 @@
-# DECISION LOG 
-## Decision Details 
+# Planning and Organization Logs
+## Planning Details 
 - Date: 11/03/2025
 - Decision Maker: All members
   
@@ -11,12 +11,12 @@ During this week's meeting, both the team and the client raised suggestions to i
 
 To address these issues, ensure that pages display well on various devices, and enhance overall user experience, the team decided to discuss and make a decision regarding standardizing frontend styles and implementing responsive design.
 
-## Decision Options 
+## Planning Options 
 - **Option 1:** Maintain the existing method of managing frontend styles and address each display issue individually.
 - **Option 2:** Establish a unified frontend style guide and adopt a mature responsive CSS framework (e.g., Bootstrap) to standardize page appearance and layout.
 - **Option 3:** Implement responsive design using custom CSS media queries and handcrafted styles without introducing a new framework.
 
-## Decision Rationale 
+## Planning Rationale 
 After evaluation, We concluded:
 
 - **Option 1** lacks a systematic approach and cannot ensure consistent styles across all pages, leading to high long-term maintenance costs;
@@ -25,7 +25,7 @@ After evaluation, We concluded:
 
 Therefore, the final decision is to adopt **Option 2**.
 
-## Decision Outcome 
+## Planning Outcome 
 It is decided to develop a unified frontend style guide and select a responsive CSS framework to ensure that pages have a consistent visual appearance and deliver a good user experience across different screen sizes.
 
 ## Implementation Plan
