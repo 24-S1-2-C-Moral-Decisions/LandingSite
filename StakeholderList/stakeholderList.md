@@ -1,4 +1,4 @@
-# Stakeholder List for Psychological Testing Website
+# Stakeholder List for Moral-Decision Project
 
 | **Stakeholder**       | **Role Description**                                                                 | **Key Concerns**                                                                 |
 |------------------------|--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
