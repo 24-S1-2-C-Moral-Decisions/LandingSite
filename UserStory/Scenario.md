@@ -1,27 +1,27 @@
-### Developer Scenario
+## **Developer Perspective**
 
-Zhang Lei is a full-stack developer responsible for the technical aspects of the psychological test website. One evening, he receives user feedback about slow loading on the mobile version of the test submission page. He uses the browser’s developer tools and finds that uncompressed image assets are causing the delay. The next morning, he optimizes the image files and implements lazy loading to improve performance. Then, he checks the questionnaire logic to ensure that each question behaves correctly based on user selections. During a routine code review, he also enhances user data encryption to meet GDPR compliance and introduces an "anonymous mode" option to further protect user privacy. To ensure scalability, he deploys the backend to a cloud service with elastic scaling and runs tests across multiple devices and browsers to confirm cross-device compatibility. Once the work is done, Zhang writes a technical documentation summary for team reference. His efforts not only solve user-reported issues but also improve the site’s performance, privacy, and long-term stability.
-
-------
-
-### Client Scenario
-
-Mr. Li is the business director of a psychology institution and the primary sponsor of the project. After the website launches, he closely monitors user registrations and test completion rates on the analytics dashboard. Although user acquisition is on track, he notices low return visits. In a team meeting, he proposes adding features like “email test reminders” and “test recommendation sharing” to boost user engagement. He also analyzes competitors and suggests a monetization strategy: offering paid in-depth analysis for test results. To evaluate business potential, he collaborates with the marketing team to run a “Psychology Test Month” campaign on social media. At the same time, he requests the development team to track user flow to identify drop-off points. As the project decision-maker, Mr. Li is constantly focused on commercial viability, brand credibility, and how to turn user interest into sustainable growth.
+Zhang, the lead full-stack developer of the project, receives repeated feedback from users about broken layouts on mobile devices. After thorough testing across various screen sizes, he identifies compatibility issues with older Android browsers. He quickly reworks the responsive layout using Bootstrap 5 to ensure consistent UI across all devices. At the same time, he notices that the Nectar Cloud bill is skyrocketing. By analyzing storage and bandwidth logs, he discovers that static survey data wasn’t being cached. He implements CDN caching and sets appropriate expiration headers, cutting costs by nearly 40%. As the tech steward of the platform, Zhang focuses on delivering smooth user experience, cross-device stability, and long-term operational efficiency — all supported by these core features.
 
 ------
 
-### General User Scenario
+## **Client Perspective**
 
-Lin Wang is a recent university graduate who comes across a friend’s shared test result link on social media. Out of curiosity, she clicks on it and lands on the website’s homepage. The clean and friendly UI design catches her attention, and she chooses the “Explore Your Emotional Energy” test. The test process is smooth—she only needs to click on answer options without page reloads or delays. She’s using her phone, and everything fits well without the need to zoom or scroll awkwardly. After finishing the test, she receives a short, visually appealing result report that feels accurate and thoughtful. It even includes a small piece of advice, which makes her feel seen. She notices a “Share to WeChat” button and decides to post it on her Moments. Later, she receives an email suggesting a “detailed interpretation” upgrade. Although she doesn’t purchase it yet, the experience leaves a good impression, and she plans to return. For her, ease of use, visual appeal, and data privacy are essential.
-
-------
-
-### Research User Scenario
-
-Dr. Chen is a psychology researcher at a university lab, focusing on emotion recognition and personality profiling. After testing the website himself, he finds that the questionnaire logic is solid and potentially valuable for academic research. He appreciates that the test results include citations and references, as well as basic reliability and validity data. After contacting the site, he is granted research access, allowing him to download anonymized datasets. Dr. Chen uses these for factor analysis, aiming to validate the questionnaire on a Chinese sample. He also utilizes the site’s “batch test link generation” feature to distribute the test to over 200 participants. Throughout this process, his focus is on the scientific rigor of the test, data accessibility, and user consent. This scenario reflects how the website, if designed well, can serve both casual users and the research community through transparent and ethical data use.
+Mr. Li, the project sponsor and business lead at a psychology institute, wants the site to attract not only general users but also research partners. After reviewing early usage reports, he proposes adding a “Research Purpose Introduction” to the landing page to explain the intent and values behind the test. He also requests a feature to support A/B testing by creating separate versions of the survey for control and treatment groups. To promote the platform externally, he asks the development team to publish a public demo site for easy sharing. During a partnership discussion with university collaborators, he easily exports anonymized raw survey data, gaining recognition for the site’s research readiness. For Mr. Li, these features help bridge research integrity, business scalability, and public credibility.
 
 ------
 
-### Attractive User Scenario
+## **General User Perspective**
 
-Liu Jie is a university student who loves browsing TikTok. One day, he sees a creator post a link to a fun-sounding test titled “Which Inner Animal Are You?”. Intrigued by the playful tone, he clicks the link and lands on a vibrant homepage with a catchy slogan: “Discover Your Inner Power in 5 Minutes.” The site offers a free preview of the first 10 questions, which lowers the barrier to entry. As he takes the test, he enjoys the interactive UI and the little animations between questions. After completing the test, he receives a personalized results card along with a ready-made social media caption that’s witty and shareable. With one click, he shares it to his Weibo feed, where friends quickly comment that they want to try it too. While he doesn’t upgrade to a paid version yet, the experience leaves a memorable impression. For potential users like Liu Jie, a low entry barrier and high “shareability” are key to conversion and long-term engagement.
+Linda, a college student, clicks on a “Social Intelligence Quiz” her roommate shared. She uses her phone to access the site, which loads smoothly and adapts perfectly to her screen. As she progresses through the questions, she gets interrupted by a phone call. Thankfully, when she returns later, her progress is saved automatically — no need to start over. Upon completing the test, she sees a visual report with clear and relatable insights. The system also shows statistics comparing her answers to those of other users. Impressed and amused, she shares the results to her WeChat Moments, sparking conversations with friends. For Linda, the seamless experience, shareable insights, and mobile compatibility make the site feel modern and fun.
+
+------
+
+## **Research User Perspective**
+
+Dr. Chen, a university psychology professor, is planning a study on anxiety and social withdrawal. He finds the platform’s ability to include a “research goals” section helpful in meeting ethics review standards. More importantly, the system supports creating distinct control and treatment groups through separate survey versions, which aligns perfectly with his experimental design. After data collection, he downloads a well-structured, anonymized dataset for analysis. The file format is standardized, saving him hours of data cleaning. With proper user consent and platform support, he considers using the site for his next peer-reviewed publication. For Dr. Chen, the platform isn’t just a tool — it’s a full-featured research assistant.
+
+------
+
+## **Attractive User Perspective**
+
+Jie, a young content creator, discovers a link to the “Emotional Energy Quiz” while browsing TikTok. The landing page is vibrant and welcoming, promising “Discover your emotional power in 5 minutes.” He tries the demo version without needing to sign up. The test flows smoothly with engaging animations. Upon completion, the site generates a personalized results card and even suggests a social media caption. He shares it to his Instagram story, where it receives immediate reactions from followers. Although he doesn't register or purchase anything, the experience leaves a strong impression. For users like Jie, features that are playful, shareable, and free to try are what draw them in — and keep them coming back.
