@@ -2,7 +2,7 @@
 
 ## Meeting Information
 
-**Meeting Date/Time:** 24/04/2025
+**Meeting Date/Time:** 24/03/2025
 
 **Meeting Purpose:** Sync Up  
 
