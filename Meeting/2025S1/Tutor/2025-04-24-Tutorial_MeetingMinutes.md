@@ -4,7 +4,7 @@
 
 **Team Name:** Moral Decisions
 
-**Meeting Date/Time:** 24/04/2025  11:00 - 11:30 am
+**Meeting Date/Time:** 24/03/2025  11:00 - 11:30 am
 
 **Note Taker:** Yu Ma
 
