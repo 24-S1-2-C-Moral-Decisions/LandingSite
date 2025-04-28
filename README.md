@@ -1,76 +1,90 @@
 # Moral Decisions
----
-
 ## Important: Resources
 
-This is a continuing project, we have classified into 2024S1, 2024S2, and 2025S1 in each directory for logs, meetings and other documents. Please see 2025S1 for 2025 Semester 1.
+**This is a continuing project, we have classified into 2024S1, 2024S2, and 2025S1 in each directory for logs, meetings and other documents. Please see 2025S1 for 2025 Semester 1.**
 
-<!-- - [Audit 3 Slide](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/Presentation/) -->
-- [Prototype](https://www.figma.com/file/6PINXpuynOE8HFpRz3wDtn/Moral-Moment?type=design&node-id=141%3A9123&mode=design&t=277SwbMjeEaPBOdb-1)
-- [Front End website: https://moral-decision-front-end-lzh-f0cre7hrhjhmewa9.australiaeast-01.azurewebsites.net/en](https://moral-decision-front-end-lzh-f0cre7hrhjhmewa9.australiaeast-01.azurewebsites.net/en)
-- [Front End GitHub Repository: https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end](https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end)
-- [Survey website: https://24-s1-2-c-moral-decisions.github.io/moral-survey/](https://24-s1-2-c-moral-decisions.github.io/moral-survey/?prolificId=test1)
-- [Survey GitHub Repository: https://github.com/24-S1-2-C-Moral-Decisions/moral-survey](https://github.com/24-S1-2-C-Moral-Decisions/moral-survey)
-- [Deployable Docker File: https://github.com/24-S1-2-C-Moral-Decisions/moral_moments](https://github.com/24-S1-2-C-Moral-Decisions/moral_moments)
+### Team Members and Roles
 
-- [Jira](https://moral-decisions.atlassian.net/jira/software/projects/SCRUM/boards/1/timeline) (Currently unavailable) Username: `vincenttttwu@gmail.com` password: `MoralTeam`
-- [Meeting Logs](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/6)
-- [Meeting Minutes Files](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/Meeting/2025S1)
-- [Risk Logs](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/7)
-- [Decision Logs](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/3)
-- [Decision Log files](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/DecisionLogs/2025S1)
-- [Reflection Logs](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/2)
+| UID      |      Name       |                    Role                     |  GitHub username   |
+| :------- | :-------------: | :-----------------------------------------: | :----------------: |
+| u7827936 |     Fei Li      |    Front end developer and API designer     |     FeiLi-lab      |
+| u7768183 | Lingziluo Xiong |        Backend Developer and Tester         |   LingziluoXiong   |
+| U7670957 |      Yu Ma      |              Backend Developer              | yuma-tietiedaxiang |
+| u7759893 |    Zihao Li     |            Full Stack Developer             |   SealTheBrother   |
+| u6825537 |   Shutong Li    |    Front end developer and UIUX designer    |  pikapikapikachu6  |
+| u7721107 |   Zhenhao Li    |   Front end developer and website tester    |      lzh12311      |
+| u7693498 |   Zehua Kong    | Front end developer and client communicator |     Universe-E     |
 
-- [UI Issues](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/9/views/2)
 
-![Current Status of UI Issues](Resources/image.png)
 
-<!-- # Current progress
-1. [Iteration of moral profile website design](https://www.figma.com/file/6PINXpuynOE8HFpRz3wDtn/Moral-Moment?type=design&node-id=141%3A9123&mode=design&t=277SwbMjeEaPBOdb-1)
-2. [Survey deployment](https://24-s1-2-c-moral-decisions.github.io/moral-survey/moral-survey-2/index.html)
+# Moral Decisions Project Sprint 2
 
-[Jira](https://moral-decisions.atlassian.net/jira/software/projects/SCRUM/boards/1/timeline) Username: `vincenttttwu@gmail.com` password: `MoralTeam`
+## Process
 
-![Resources/moral_2024-05-08_09.52am.png](Resources/moral_2024-05-08_09.52am.png) -->
+### 1. DevOps and Infrastructure
 
----
-## Table of Contents
-- [Project Description](#project-description)
-  - [Project Description](#project-description)
-  - [Team Members and Roles](#team-members-and-roles)
-  - [Statement of Work](StatementOfWork/)
+- Nectar Deployment
+- CI/CD Environment and Infrastructure Configuration
+- Development Environment Setup Guide
+- Automatic API Documentation Generation
 
-- [Project Management](#project-management)
-  - [Project Management](#project-management)
-  - [Risk Management](#risk-management)
-  - [Conflict Resolution Protocol](#conflict-resolution-protocol)
+### 2. Architecture and Documentation
 
-- Meeting
-  - [Records and schedules](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/6/views/1)
-  - [Meeting Minutes](Meeting/)
-    - [Client Meeting](Meeting/2024S2/Client)
-    - [Team Meeting](Meeting/2024S2/Team)
-    - [Tutorial Meeting](Meeting/2024S2/Tutor)
+- Architecture Design Documentation
+- Project Architecture and Design Decision Documentation
+- Statement of Work
+- Stakeholder List
+- Sprint Planning Document
+- Meeting Minutes
+- Technical Documentation
+- Reflection Document
 
-- Project Logs
-  - [Decision Log](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/3)
-  - [Reflection Log](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/2/views/2)
-  - [Risk Log](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/7/views/1)
-  - [Issue Log](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/issues?q=is%3Aissue+label%3AIssue)
+### 3. Feature Development and Testing
 
-- [Project Documentations](#project-documentation)
-  - [Design Documentation](#design-documentation)
-  - [Develoing Document](#develoing-document)
-    - [WorkFlow](Workflow/Coding)
-    - [Getting Start](#getting-start)
-    - [Installation](#installation)
-  - [Weekly Update](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/WeeklyUpdates)
+- Game and Game Result Pages Development and Testing
+- Core Interaction Logic Implementation
+- Client Access and Raw Data Export
+- Research and Investigation
 
-- [Connection](#connection)
+### 4. User Flow and Research
 
-- [Other Resources](#other-resources)
+- User Story Writing Workshop
+- Survey Page Development
+- Page Layout and Functionality
+- Survey Purpose Introduction
+- Immediate Feedback and Statistics
+- Control Version Integration
+- Experience Flow Demo
+- Survey Public Release
+- Save Survey Progress
+- Social Sharing of Survey Results
 
----
+### 5. Frontend and UI
+
+- Initial UI Design for Landing Page (Moral Search Website)
+
+## All Documents
+
+### Tutor Required
+
+| Item                      | Link                                                         |
+| :------------------------ | :----------------------------------------------------------- |
+| Statement of Work (SOW)   | [LandingSite/StatementOfWork/2025S1/SoW.pdf at main · 24-S1-2-C-Moral-Decisions/LandingSite](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/StatementOfWork/2025S1/SoW.pdf) |
+| Risk Register             | [RiskLog · 24-S1-2-C-Moral-Decisions](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/7/views/3) |
+| Stakeholder List          | [LandingSite/StakeholderList/stakeholderList.md at main · 24-S1-2-C-Moral-Decisions/LandingSite](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/StakeholderList/stakeholderList.md) |
+| Reflection                | [LandingSite/Reflection/2025S1 at main · 24-S1-2-C-Moral-Decisions/LandingSite](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/Reflection/2025S1) |
+| Planning and Organization | [LandingSite/PlanningAndOrganization/2025S1 at main · 24-S1-2-C-Moral-Decisions/LandingSite](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/PlanningAndOrganization/2025S1) |
+| Technical Doc             | [LandingSite/TechStack.md at main · 24-S1-2-C-Moral-Decisions/LandingSite](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/TechStack.md) |
+
+### Other Documents
+
+- [User Story](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/UserStory/User%20story.xlsx)
+- [Feature List](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/UserStory/FeatureList.md)
+- [Scenario](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/UserStory/Scenario.md)
+- [Meeting Minutes](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/Meeting/2025S1)
+- [Summary Archive](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main)
+
+
 
 ## Moral Moment Project Resources
 - How to use multi thread in node.js: [https://www.digitalocean.com/community/tutorials/how-to-use-multithreading-in-node-js#](https://www.digitalocean.com/community/tutorials/how-to-use-multithreading-in-node-js#)
@@ -90,7 +104,7 @@ This is a continuing project, we have classified into 2024S1, 2024S2, and 2025S1
   - [https://huggingface.co/joshnguyen/mformer-fairness](https://huggingface.co/joshnguyen/mformer-fairness)
   - [https://huggingface.co/joshnguyen/mformer-loyalty](https://huggingface.co/joshnguyen/mformer-loyalty)
   - [https://huggingface.co/joshnguyen/mformer-sanctity](https://huggingface.co/joshnguyen/mformer-sanctity)
-- Jira: [Moral](https://moral-decisions.atlassian.net/jira/software/projects/SCRUM/boards/1/timeline?shared=&atlOrigin=eyJpIjoiNzgzMjA0NTBiZjdlNGRhYThhYWE0MDVkMWM1OWIyMDQiLCJwIjoiaiJ9)
+- Jira: [https://moraldecisions.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog](https://moraldecisions.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog)
 
 ## Project Description
 - **Developers:** COMP8715 Computing Project, Australian National University, Australia
@@ -101,19 +115,10 @@ This is a continuing project, we have classified into 2024S1, 2024S2, and 2025S1
 - **Tech Stack:** [Tech Stack Documentation](TechStack.md)
 - **Stakeholders:** [Stakerholders analysis](StakeholdersListAndImpact.md)
 
-### Team Members and Roles
-| UID      |      Name       |                    Role                     |  GitHub username   |
-|:---------|:---------------:|:-------------------------------------------:|:------------------:|
-| u7827936 |     Fei Li      |    Front end developer and API designer     |     FeiLi-lab      |
-| u7768183 | Lingziluo Xiong |        Backend Developer and Tester         |   LingziluoXiong   |
-| U7670957 |      Yu Ma      |              Backend Developer              | yuma-tietiedaxiang |
-| u7759893 |    Zihao Li     |            Full Stack Developer             |   SealTheBrother   |
-| u6825537 |   Shutong Li    |    Front end developer and UIUX designer    |  pikapikapikachu6  |
-| u7721107 |   Zhenhao Li    |   Front end developer and website tester    |      lzh12311      |
-| u7693498 |   Zehua Kong    | Front end developer and client communicator |     Universe-E     |
 
 
 ## Project Management
+
 In managing our web API development project, we faced challenges such as increasing complexity, the need for consistency in development environments, version control requirements, and time and resource constraints. To address these, we made the following decisions:
 
 - Use Git as our version control system to facilitate collaboration and prevent conflicts.
@@ -152,7 +157,6 @@ Document all identified risks, assessments, response strategies, and implementat
 ### Conflict Resolution Protocol
 - **Purpose:**
 <p>The purpose of this document is to outline a well-defined protocol for handling conflicts within our development team. This protocol is intended to ensure that disagreements and issues are resolved efficiently and effectively, allowing us to maintain a healthy and collaborative work environment while focusing on the completion of our APP design and testing tasks.</p>
-
 - **Protocol:**
   - **Identifying the Conflict:**
     <p>Team members should openly and respectfully communicate any concerns or disagreements that arise during the course of the project. This may be done in-person, through 
