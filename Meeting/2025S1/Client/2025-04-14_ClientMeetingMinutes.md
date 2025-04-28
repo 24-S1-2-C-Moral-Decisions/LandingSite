@@ -4,7 +4,7 @@
 
 **Meeting Date/Time:** 14/04/2025
 
-**Meeting Purpose:** 
+**Meeting Purpose:** Sync Up
 
 **Meeting Location:** CSS HIVE
 
