@@ -20,8 +20,8 @@ To address these issues, ensure that pages display well on various devices, and 
 After evaluation, We concluded:
 
 - **Option 1** lacks a systematic approach and cannot ensure consistent styles across all pages, leading to high long-term maintenance costs;
-- **Option 3** might meet some requirements, but completely custom development is labor-intensive and prone to errors;
-- **Option 2** leverages an established responsive framework that quickly achieves a uniform style and multi-device compatibility while reducing future maintenance efforts.
+- **Option 2** might meet some requirements, but completely custom development is labor-intensive and prone to errors;
+- **Option 3** leverages an established responsive framework that quickly achieves a uniform style and multi-device compatibility while reducing future maintenance efforts.
 
 Therefore, the final decision is to adopt **Option 2**.
 
