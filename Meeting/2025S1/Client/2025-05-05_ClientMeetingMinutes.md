@@ -2,13 +2,13 @@
 
 ## Meeting Information
 
-**Meeting Date/Time:** 28/04/2025
+**Meeting Date/Time:** 05/05/2025
 
 **Meeting Purpose:** Sync Up
 
 **Meeting Location:** CSS HIVE
 
-**Note Taker:** Shutong Li
+**Note Taker:** Zhenhao Li
 
 ## Attendees
 
@@ -17,10 +17,10 @@ People who attended: All team members and the client
 ## Agenda Items
 
 
-| Item                                | Description                                                                                                                  |
-| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| Review of Sprint 2 Progress         | Review of completed work including Survey and Nectar setup; discussion of challenges encountered and how they were resolved. |
-| Discussion on Sprint 3 Requirements | Identifying key features and priorities for Sprint 3, setting expectations on timeline and deliverables.                     |
+| Item                           | Description                                                                                                                  |
+| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+| Review of Sprint 3 Progress    | Review of completed work including Survey and Nectar setup; discussion of challenges encountered and how they were resolved. |
+| Discussion on Sprint 3 process | Identifying key features and priorities for Sprint 3, setting expectations on timeline and deliverables.                     |
 
 ## Discussion Items
 
