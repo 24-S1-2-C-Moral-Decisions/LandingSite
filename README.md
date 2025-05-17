@@ -1,7 +1,7 @@
 # Moral Decisions
 ## Important: Resources
 
-**This is a continuing project, we have classified into 2024S1, 2024S2, and 2025S1 in each directory for logs, meetings and other documents. Please see 2025S1 for 2025 Semester 1.**
+**This is a continuing project, we have classified into 2024S1, 2024S2, and 2025S1 in each directory for logs, meetings and other documents. Please see "25S1" for 2025 Semester 1.**
 
 ### Team Members and Roles
 
@@ -90,7 +90,7 @@
 - How to use multi thread in node.js: [https://www.digitalocean.com/community/tutorials/how-to-use-multithreading-in-node-js#](https://www.digitalocean.com/community/tutorials/how-to-use-multithreading-in-node-js#)
 - survey(Dev Mode): [https://24-s1-2-c-moral-decisions.github.io/moral-survey/moral-survey-2/index.html](https://24-s1-2-c-moral-decisions.github.io/moral-survey/moral-survey-2/index.html)
 - survey backend: [https://moralmomentapi.azurewebsites.net/api](https://moralmomentapi.azurewebsites.net/api)
-- Related presentations: [presentations](Presentation/)
+- Related presentations: [presentations](Old/Presentation/)
 - UI design:
   - Figma: [https://www.figma.com/file/6PINXpuynOE8HFpRz3wDtn/Moral-Moment?type=design&node-id=141%3A9123&mode=design&t=277SwbMjeEaPBOdb-1](https://www.figma.com/file/6PINXpuynOE8HFpRz3wDtn/Moral-Moment?type=design&node-id=141%3A9123&mode=design&t=277SwbMjeEaPBOdb-1)
 - website frontend: [https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end](https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end)
@@ -112,8 +112,8 @@
 
 - **Objective:** The "AI + Human Exploration of Daily Moral Decisions" project aims to bridge this gap by focusing on the nuances of everyday moral dilemmas. By leveraging AI and human collaboration, the project seeks to provide a more comprehensive understanding of how people navigate moral decisions in their daily lives. The project will involve the development of an interactive Moral Profile Website, which will assist humans in appreciating the rich and nuanced aspects of moral life, and a large-scale Opinion Survey Website, including exploring whether individuals are willing to change their opinions under the influence of others.
 
-- **Tech Stack:** [Tech Stack Documentation](TechStack.md)
-- **Stakeholders:** [Stakerholders analysis](StakeholdersListAndImpact.md)
+- **Tech Stack:** [Tech Stack Documentation](25S1/TechStack.md)
+- **Stakeholders:** [Stakerholders analysis](25S1/StakeholdersListAndImpact.md)
 
 
 
@@ -131,7 +131,7 @@ In managing our web API development project, we faced challenges such as increas
 - We meet with our clients once a week at a set time to synchronize current project progress and to consult with them on issues. The meeting agenda is sent to the client in advance of the meeting.
 
 
-By focusing on integration, simplicity, and collaboration, we've positioned our team to work with greater agility and transparency, aligning our tooling and workflows with the specific needs and goals of our project. The full decision log can be accessed [here](PlanningAndOrganization/2024S1/ToolsforProjectManagement.md).
+By focusing on integration, simplicity, and collaboration, we've positioned our team to work with greater agility and transparency, aligning our tooling and workflows with the specific needs and goals of our project. The full decision log can be accessed [here](25S1/PlanningAndOrganization/2024S1/ToolsforProjectManagement.md).
 
 ### Risk Management
 
@@ -177,12 +177,12 @@ Document all identified risks, assessments, response strategies, and implementat
 
 The design documentation for our project, including logos and web design prototypes, can be found in the "Designs" folder within our project repository. This documentation provides a comprehensive overview of the visual and interaction design aspects of our project.
 
-**Location**: [Designs Folder](Designs)
+**Location**: [Designs Folder](Old/Designs)
 
 ### Develoing Document
 
 #### Getting Start
-See the [online documentation](Reference/) for references we referenced in the project.
+See the [online documentation](25S1/Reference/) for references we referenced in the project.
 
 We use [GitHub Discussions](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/discussions) as our forum, and Microsoft Teams for chat. These are great places to ask questions and advice from the community or to discuss projects.
 
