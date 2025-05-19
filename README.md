@@ -17,7 +17,7 @@
 
 
 
-# Moral Decisions Project Sprint 2
+# Moral Decisions Project Sprint 3
 
 ## Process
 
