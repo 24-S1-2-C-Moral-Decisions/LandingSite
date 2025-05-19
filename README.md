@@ -17,19 +17,21 @@
 
 
 
-# Moral Decisions Project Sprint 2
+# Moral Decisions Project Sprint 3
 
 ## Process
 
 ### 1. DevOps and Infrastructure
 
-- Nectar Deployment
+- Deployment to Nectar Platform
 - CI/CD Environment and Infrastructure Configuration
 - Development Environment Setup Guide
-- Automatic API Documentation Generation
 
 ### 2. Architecture and Documentation
 
+- Talk about Managing Stakeholder Expectations
+- User Manual and Help Center Content Creation
+- Technology Stack Evaluation Report
 - Architecture Design Documentation
 - Project Architecture and Design Decision Documentation
 - Statement of Work
@@ -41,27 +43,19 @@
 
 ### 3. Feature Development and Testing
 
-- Game and Game Result Pages Development and Testing
-- Core Interaction Logic Implementation
-- Client Access and Raw Data Export
-- Research and Investigation
+- Page interaction logic design and implementation
+- Immediate Feedback and Statistical Results
+- Save Survey Progress
 
 ### 4. User Flow and Research
 
-- User Story Writing Workshop
-- Survey Page Development
-- Page Layout and Functionality
-- Survey Purpose Introduction
-- Immediate Feedback and Statistics
-- Control Version Integration
-- Experience Flow Demo
-- Survey Public Release
-- Save Survey Progress
-- Social Sharing of Survey Results
+- Make UI consistent and user friendly in both mobile and laptop version
+- UI Consistency on Mobile and Laptop
 
 ### 5. Frontend and UI
 
-- Initial UI Design for Landing Page (Moral Search Website)
+- Standardizing the Frontend Styles and Adopting a Responsive CSS Framework
+- Mobile Responsive Design for Compatibility on Multiple Devices
 
 ## All Documents
 
@@ -69,22 +63,20 @@
 
 | Item                      | Link                                                         |
 | :------------------------ | :----------------------------------------------------------- |
-| Statement of Work (SOW)   | [LandingSite/StatementOfWork/2025S1/SoW.pdf at main · 24-S1-2-C-Moral-Decisions/LandingSite](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/StatementOfWork/2025S1/SoW.pdf) |
+| Statement of Work (SOW)   | [LandingSite/StatementOfWork/2025S1/SoW.pdf at main · 24-S1-2-C-Moral-Decisions/LandingSite](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/25S1/StatementOfWork) |
 | Risk Register             | [RiskLog · 24-S1-2-C-Moral-Decisions](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/7/views/3) |
-| Stakeholder List          | [LandingSite/StakeholderList/stakeholderList.md at main · 24-S1-2-C-Moral-Decisions/LandingSite](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/StakeholderList/stakeholderList.md) |
-| Reflection                | [LandingSite/Reflection/2025S1 at main · 24-S1-2-C-Moral-Decisions/LandingSite](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/Reflection/2025S1) |
-| Planning and Organization | [LandingSite/PlanningAndOrganization/2025S1 at main · 24-S1-2-C-Moral-Decisions/LandingSite](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/PlanningAndOrganization/2025S1) |
-| Technical Doc             | [LandingSite/TechStack.md at main · 24-S1-2-C-Moral-Decisions/LandingSite](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/TechStack.md) |
+| Stakeholder List          | [LandingSite/StakeholderList/stakeholderList.md at main · 24-S1-2-C-Moral-Decisions/LandingSite](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/25S1/StakeholderList) |
+| Reflection                | [LandingSite/Reflection/2025S1 at main · 24-S1-2-C-Moral-Decisions/LandingSite](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/25S1/Reflection) |
+| Planning and Organization | [LandingSite/PlanningAndOrganization/2025S1 at main · 24-S1-2-C-Moral-Decisions/LandingSite](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/25S1/PlanningAndOrganization) |
+| Technical Doc             | [LandingSite/TechStack.md at main · 24-S1-2-C-Moral-Decisions/LandingSite](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/25S1/TechStack.md) |
 
 ### Other Documents
 
-- [User Story](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/UserStory/User%20story.xlsx)
-- [Feature List](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/UserStory/FeatureList.md)
-- [Scenario](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/UserStory/Scenario.md)
-- [Meeting Minutes](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/Meeting/2025S1)
-- [Summary Archive](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main)
-
-
+- [User Story](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/25S1/UserStory)
+- [Feature List](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/25S1/UserStory/FeatureList.md)
+- [Scenario](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/25S1/UserStory/Scenario.md)
+- [Meeting Minutes](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/25S1/Meeting)
+- [Summary Archive](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/25S1)
 
 ## Moral Moment Project Resources
 - How to use multi thread in node.js: [https://www.digitalocean.com/community/tutorials/how-to-use-multithreading-in-node-js#](https://www.digitalocean.com/community/tutorials/how-to-use-multithreading-in-node-js#)
