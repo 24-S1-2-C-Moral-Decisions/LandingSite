@@ -23,13 +23,15 @@
 
 ### 1. DevOps and Infrastructure
 
-- Nectar Deployment
+- Deployment to Nectar Platform
 - CI/CD Environment and Infrastructure Configuration
 - Development Environment Setup Guide
-- Automatic API Documentation Generation
 
 ### 2. Architecture and Documentation
 
+- Talk about Managing Stakeholder Expectations
+- User Manual and Help Center Content Creation
+- Technology Stack Evaluation Report
 - Architecture Design Documentation
 - Project Architecture and Design Decision Documentation
 - Statement of Work
@@ -41,27 +43,19 @@
 
 ### 3. Feature Development and Testing
 
-- Game and Game Result Pages Development and Testing
-- Core Interaction Logic Implementation
-- Client Access and Raw Data Export
-- Research and Investigation
+- Page interaction logic design and implementation
+- Immediate Feedback and Statistical Results
+- Save Survey Progress
 
 ### 4. User Flow and Research
 
-- User Story Writing Workshop
-- Survey Page Development
-- Page Layout and Functionality
-- Survey Purpose Introduction
-- Immediate Feedback and Statistics
-- Control Version Integration
-- Experience Flow Demo
-- Survey Public Release
-- Save Survey Progress
-- Social Sharing of Survey Results
+- Make UI consistent and user friendly in both mobile and laptop version
+- UI Consistency on Mobile and Laptop
 
 ### 5. Frontend and UI
 
-- Initial UI Design for Landing Page (Moral Search Website)
+- Standardizing the Frontend Styles and Adopting a Responsive CSS Framework
+- Mobile Responsive Design for Compatibility on Multiple Devices
 
 ## All Documents
 
