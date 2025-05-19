@@ -63,22 +63,20 @@
 
 | Item                      | Link                                                         |
 | :------------------------ | :----------------------------------------------------------- |
-| Statement of Work (SOW)   | [LandingSite/StatementOfWork/2025S1/SoW.pdf at main · 24-S1-2-C-Moral-Decisions/LandingSite](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/StatementOfWork/2025S1/SoW.pdf) |
+| Statement of Work (SOW)   | [LandingSite/StatementOfWork/2025S1/SoW.pdf at main · 24-S1-2-C-Moral-Decisions/LandingSite](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/25S1/StatementOfWork) |
 | Risk Register             | [RiskLog · 24-S1-2-C-Moral-Decisions](https://github.com/orgs/24-S1-2-C-Moral-Decisions/projects/7/views/3) |
-| Stakeholder List          | [LandingSite/StakeholderList/stakeholderList.md at main · 24-S1-2-C-Moral-Decisions/LandingSite](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/StakeholderList/stakeholderList.md) |
-| Reflection                | [LandingSite/Reflection/2025S1 at main · 24-S1-2-C-Moral-Decisions/LandingSite](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/Reflection/2025S1) |
-| Planning and Organization | [LandingSite/PlanningAndOrganization/2025S1 at main · 24-S1-2-C-Moral-Decisions/LandingSite](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/PlanningAndOrganization/2025S1) |
-| Technical Doc             | [LandingSite/TechStack.md at main · 24-S1-2-C-Moral-Decisions/LandingSite](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/TechStack.md) |
+| Stakeholder List          | [LandingSite/StakeholderList/stakeholderList.md at main · 24-S1-2-C-Moral-Decisions/LandingSite](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/25S1/StakeholderList) |
+| Reflection                | [LandingSite/Reflection/2025S1 at main · 24-S1-2-C-Moral-Decisions/LandingSite](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/25S1/Reflection) |
+| Planning and Organization | [LandingSite/PlanningAndOrganization/2025S1 at main · 24-S1-2-C-Moral-Decisions/LandingSite](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/25S1/PlanningAndOrganization) |
+| Technical Doc             | [LandingSite/TechStack.md at main · 24-S1-2-C-Moral-Decisions/LandingSite](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/25S1/TechStack.md) |
 
 ### Other Documents
 
-- [User Story](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/UserStory/User%20story.xlsx)
-- [Feature List](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/UserStory/FeatureList.md)
-- [Scenario](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/UserStory/Scenario.md)
-- [Meeting Minutes](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/Meeting/2025S1)
-- [Summary Archive](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main)
-
-
+- [User Story](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/25S1/UserStory)
+- [Feature List](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/25S1/UserStory/FeatureList.md)
+- [Scenario](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/blob/main/25S1/UserStory/Scenario.md)
+- [Meeting Minutes](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/25S1/Meeting)
+- [Summary Archive](https://github.com/24-S1-2-C-Moral-Decisions/LandingSite/tree/main/25S1)
 
 ## Moral Moment Project Resources
 - How to use multi thread in node.js: [https://www.digitalocean.com/community/tutorials/how-to-use-multithreading-in-node-js#](https://www.digitalocean.com/community/tutorials/how-to-use-multithreading-in-node-js#)
