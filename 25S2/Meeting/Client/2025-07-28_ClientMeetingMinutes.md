@@ -3,7 +3,7 @@
 ## Meeting Information
 
 **Meeting Date/Time:** 28/07/2025 (Week 2)  
-**Meeting Purpose:** Tutor meeting and requirement gathering  
+**Meeting Purpose:** Client meeting and requirement gathering  
 **Meeting Location:** CSIT Hive  
 **Note Taker:** Lingziluo Xiong
 ## Attendees
