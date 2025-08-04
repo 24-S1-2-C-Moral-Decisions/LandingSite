@@ -12,8 +12,6 @@
 | U7670957 |      Yu Ma      |              Backend Developer              | yuma-tietiedaxiang |
 | u7759893 |    Zihao Li     |            Full Stack Developer             |   SealTheBrother   |
 | u6825537 |   Shutong Li    |    Front end developer and UIUX designer    |  pikapikapikachu6  |
-| u7721107 |   Zhenhao Li    |   Front end developer and website tester    |      lzh12311      |
-| u7693498 |   Zehua Kong    | Front end developer and client communicator |     Universe-E     |
 
 
 
