@@ -61,7 +61,7 @@ The Moral Decisions system uses **four separate MongoDB databases**:
 
 ---
 
-## 2. Database Connection Information - 如何连接
+## 2. Database Connection Information
 
 ### 2.1 Connection Prerequisites
 
