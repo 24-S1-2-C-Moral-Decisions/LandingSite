@@ -46,7 +46,7 @@ https://github.com/24-S1-2-C-Moral-Decisions/LandingSite
 
 ### 1.2 Key Components
 - **Frontend:** Next.js 
-  Provides UI/UX for Moral Profile and Opinion Survey
+- Provides UI/UX for Moral Profile and Opinion Survey
   Uses Next.js API Routes for some data reads (especially index), reducing backend overhead
   May include SSR/ISR and build cache (.next)
 
