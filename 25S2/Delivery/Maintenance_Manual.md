@@ -25,11 +25,50 @@ The Moral Decisions project supports “AI + Human Exploration of Daily Moral De
 
 The goal is to leverage AI–human collaboration to build a data-driven platform for everyday, nuanced moral reasoning, creating a scalable foundation for ethical AI research.
 
+Tech stack and deployment highlights (from the LandingSite repo and linked resources):
+
+Deployment: Azure Web App (Docker supported)
+Frontend: Next.js (with API Routes; index page may directly access DB to simplify backend)
+Backend: NestJS (separate from frontend; interacts via REST API)
+API: Two key endpoints
+Deliver survey questions by studyId
+Receive survey responses by prolificId (documentation also mentions “profilicId”; use actual implementation in code)
+Version Control: Git (GitHub)
+Dev environment: Unified via server + Docker
+Testing: Postman for API testing
+Audience and impact:
+
+Users: Global participants
+Beneficiaries: Researchers in AI ethics, moral psychology, and social computing
+Client: Ziyu Chen (Computational Media Lab)
+Reference repository:
+https://github.com/24-S1-2-C-Moral-Decisions/LandingSite
+
 ### 1.2 Key Components
-- **Frontend:** [Description]
-- **Backend:** [Description]
-- **Database:** [Description]
-- **[Other components]:** [Description]
+- **Frontend:** Next.js 
+  Provides UI/UX for Moral Profile and Opinion Survey
+  Uses Next.js API Routes for some data reads (especially index), reducing backend overhead
+  May include SSR/ISR and build cache (.next)
+
+- **Backend:** NestJS
+  Decoupled from frontend; exposes REST APIs
+  Communicates with frontend via API calls
+  
+- **Database:** MangoDB
+
+- **API:** 
+  GET /api/survey?studyId=<ID>: returns survey by studyId
+  POST /api/response: accepts responses with prolificId/profilicId and answer payload
+  Actual paths/params must follow code in the repos
+  
+- **Deployment:** 
+  Azure Web App (Linux), container-friendly
+  Environment variable management (PORT, DATABASE_URL, etc.)
+
+- **Tooling:**
+  Git (GitHub)
+  Docker (local and/or cloud images)
+  Postman (API testing)
 
 ### 1.3 Components Requiring Maintenance
 - [Component 1 and maintenance requirements]
