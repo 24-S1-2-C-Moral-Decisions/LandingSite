@@ -952,6 +952,35 @@ const relationshipPosts = await questionRepository.find({
 });
 ```
 
+**Content Maintenance Workflow (Posts Collection):**
+1. **Confirm Target Study** – Open the survey page and capture the `studyId` query parameter (e.g., `...?studyId=2`). Each `studyId` maps to a single question document and is used by the backend when selecting unshared questions (`src/service/survey.service.ts`).
+2. **Review Existing Data** – Connect via `mongosh "<DATABASE_URL>"`, switch to the survey database (`use survey`), and inspect the current document with `db.posts.find({ _id: "<id>" }).pretty()`. Export a backup before editing to preserve a rollback point.
+3. **Update / Insert Document** – Required fields include `_id`, `title`, `selftext`, certainty metrics (`very_certain_YA`, `very_certain_NA`, `YA_percentage`, `NA_percentage`), reasoning arrays (`original_post_YA_top_reasonings`, `original_post_NA_top_reasonings`), and `count` (object keyed by study ID or array aligned to the configured studies). Apply changes with an `updateOne`/`insertOne`, for example:
+   ```javascript
+   db.posts.updateOne(
+     { _id: "aita_001" },
+     {
+       $set: {
+         title: "New title",
+         selftext: "Full scenario text...",
+         very_certain_YA: 0.42,
+         very_certain_NA: 0.31,
+         YA_percentage: 0.58,
+         NA_percentage: 0.42,
+         original_post_YA_top_reasonings: ["Reason A", "Reason B"],
+         original_post_NA_top_reasonings: ["Reason C", "Reason D"],
+         count: { "1": 0, "2": 0, "3": 0, "4": 0, "5": 0 }
+       }
+     },
+     { upsert: true }
+   );
+   ```
+   Keep `count[studyId]` synchronized with valid study IDs to avoid “studyId out of range” errors.
+4. **Refresh Static Frontend Assets** – Update training examples, attention checks, and Likert items in `moral-survey/src/js/litw/litw.data.2.0.0.js`, adjust templates under `moral-survey/src/templates/`, and revise translations (`moral-survey/src/moral-survey-1/i18n/*.json`) when copy changes. Rebuild the relevant bundle from the survey subdirectory (e.g., `cd moral-survey/src/moral-survey-1 && npx webpack --config webpack.config.js --mode production`).
+5. **Restart Backend Services** – Bounce the NestJS server (or reload the process in PM2/systemd) so configuration and caches refresh, especially after environment variable changes.
+6. **Validate End-to-End** – Hit `GET /survey/question?studyId=<id>` to confirm the updated document, load the survey page (`http://localhost:8080/moral-survey-1/index.html?studyId=<id>` or production equivalent), and submit a test response. Verify persistence via `db.answer.find().sort({ _id: -1 }).limit(1)`.
+7. **Document & Deploy** – Commit backend/frontend changes with descriptive messages, update shared scripts or runbooks, and deploy through the standard release pipeline before repeating validation in staging/production.
+
 ---
 
 #### Collection 4.1.2: `all` (PostMateData Entity)

@@ -1,10 +1,10 @@
 # Deployment Guide
 
 **Project:** Moral Decisions
-**Team:** [Team Name]
+**Team:** Moral Decisions
 **Version:** 1.0
-**Date:** [Date]
-**Authors:** [Author Names]
+**Date:** October 13, 2025
+**Authors:** Zihao Li
 
 ---
 
@@ -19,20 +19,21 @@
 ## 1. System Requirements
 
 ### 1.1 Required Software and Versions
-- **Node.js:** Version [version number]
-- **npm/yarn:** Version [version number]
-- **Database:** [Database name and version]
-- **[Other software]:** Version [version number]
+- **Node.js:** Version 20.11.x (LTS tested with 20.11.1)
+- **npm:** Version 10.x (bundled with Node.js 20)
+- **MongoDB:** Version 6.0 or later (Atlas, Replica Set, or standalone instance)
+- **Git:** Version 2.40 or later (for cloning the repository)
+- **Bash shell:** Any POSIX-compliant shell (required for survey build scripts on macOS/Linux; Windows users can rely on Git Bash or WSL)
 
 ### 1.2 Operating System Requirements
-- **Supported OS:** [e.g., Windows 10+, macOS 10.15+, Ubuntu 20.04+]
-- **Architecture:** [e.g., x64, ARM]
+- **Supported OS:** Windows 10+, Windows Server 2019+, macOS 12+, Ubuntu 20.04+, Debian 12+
+- **Architecture:** x64
 
 ### 1.3 Hardware Recommendations
-- **CPU:** [Minimum requirements]
-- **RAM:** [Minimum requirements]
-- **Disk Space:** [Minimum requirements]
-- **Network:** [Requirements if any]
+- **CPU:** 2 vCPUs minimum, 4 vCPUs recommended for production use
+- **RAM:** 4 GB minimum, 8 GB recommended (especially when running all services on one host)
+- **Disk Space:** 10 GB free for code, dependencies, and logs; additional storage as required by MongoDB
+- **Network:** Stable outbound connection to the MongoDB host; inbound firewall rules permitting HTTP traffic on the chosen frontend, backend, and survey ports
 
 ---
 
@@ -42,10 +43,19 @@
 
 ```bash
 # Clone the repository
-git clone [repository-url]
-
+git clone https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end.git
+git clone https://github.com/24-S1-2-C-Moral-Decisions/moral-back-end.git
+git clone https://github.com/24-S1-2-C-Moral-Decisions/moral-survey.git
 # Navigate to project directory
-cd [project-directory]
+cd moral-decisions
+```
+
+Project structure (for reference):
+```
+moral-decisions/
+├── moral-back-end/
+├── moral-front-end/
+└── moral-survey/
 ```
 
 ### 2.2 Install Dependencies
@@ -53,72 +63,98 @@ cd [project-directory]
 **Backend Dependencies:**
 ```bash
 # Navigate to backend directory
-cd [backend-directory]
+cd moral-back-end
 
 # Install dependencies
 npm install
-
 ```
 
 **Frontend Dependencies:**
 ```bash
 # Navigate to frontend directory
-cd [frontend-directory]
+cd ../moral-front-end
 
 # Install dependencies
 npm install
+```
 
+**Survey Dependencies (per sub-project):**
+```bash
+# Navigate to survey root
+cd ../moral-survey/src
+
+# The build script installs packages for each survey
+./build.sh   # or bash build.sh on Windows
 ```
 
 ### 2.3 Database Setup
 
-**Step 1: Install Database**
+**Step 1: Install MongoDB**
 ```bash
-[Database installation commands]
+# Ubuntu example
+sudo apt-get update
+sudo apt-get install -y mongodb-org
+
+# macOS (Homebrew)
+brew tap mongodb/brew
+brew install mongodb-community@6.0
 ```
 
 **Step 2: Create Database**
 ```bash
-[Database creation commands]
+# Connect via mongo shell
+mongosh "mongodb://<username>:<password>@<host>:27017"
+
+# Inside mongosh
+use moral-decisions
+db.createCollection("posts")
 ```
 
-**Step 3: Run Migrations** (if applicable)
+**Step 3: Run Migrations**
 ```bash
-[Migration commands]
-```
-
-**Step 4: Seed Initial Data** (if applicable)
-```bash
-[Seeding commands]
+cd moral-back-end
+npm run migration:run
 ```
 
 ### 2.4 Environment Configuration
 
-**Create .env file:**
+**Backend `.env` file:**
 ```bash
-# Copy example environment file
-cp .env.example .env
+cd moral-back-end
+copy .env.template .env   # Windows
+# or
+cp .env.template .env     # macOS/Linux
 ```
 
-**Configure environment variables:**
+Populate `.env` with:
 ```
-# .env file structure
+# Backend configuration
+PORT=3001
+DATABASE_URL=mongodb://<user>:<password>@<host>:27017
+TFIDF_WORKER_NUM=4
+TFIDF_WORKER_BATCH_SIZE=100
+DEFAULT_CACHE_TTL=3600
+TFIDF_CACHE_TTL=3600
+```
 
-# Database Configuration
-DATABASE_URL=[your-database-url]
-DATABASE_NAME=[database-name]
-DATABASE_USER=[username]
-DATABASE_PASSWORD=[password]
+**Frontend `.env.local` file:**
+```bash
+cd ../moral-front-end
+```
+Create `.env.local` (or `.env.production`):
+```
+NEXT_PUBLIC_API_URL=https://api.example.com/
+NEXT_PUBLIC_SURVEY_URL=https://survey.example.com/
+```
 
-# Server Configuration
-PORT=[port-number]
-NODE_ENV=[development/production]
-
-# API Keys (if applicable)
-API_KEY=[your-api-key]
-
-# Other Configuration
-[other-variables]
+**Survey configuration (`config.js`):**
+```javascript
+production: {
+  API_URL: "https://api.example.com/",
+  MORAL_URL: "https://app.example.com/",
+  SURVEY_PORT: 8080,
+  SURVEY_BASE_URL: "https://survey.example.com/"
+}
 ```
 
 ---
@@ -128,49 +164,45 @@ API_KEY=[your-api-key]
 ### 3.1 Start Backend Server
 
 ```bash
-# Navigate to backend directory
-cd [backend-directory]
-
-# Start the server
-npm start
-# or for development
-npm run dev
+cd moral-back-end
+npm run build
+npm run start:prod
 ```
 
 **Expected Output:**
 ```
-Server running on port [port]
-Database connected successfully
+Nest application successfully started
+Listening on port 3001
+Connected to MongoDB
 ```
 
 ### 3.2 Start Frontend Application
 
 ```bash
-# Navigate to frontend directory
-cd [frontend-directory]
-
-# Start the application
-npm start
-# or
-yarn start
+cd moral-front-end
+npm run build
+npm run start
 ```
 
 **Expected Output:**
 ```
-Application running on http://localhost:[port]
+Ready on http://localhost:3000
+Compiled successfully
 ```
 
 ### 3.3 Access the Application
 
-- **Frontend URL:** `http://localhost:[frontend-port]`
-- **Backend API:** `http://localhost:[backend-port]`
-- **API Documentation:** `http://localhost:[port]/api-docs` (if available)
+- **Frontend URL:** `http://<host>:3000`
+- **Backend API:** `http://<host>:3001`
+- **Survey Site:** `http://<host>:8080`
+- **API Documentation:** `http://<host>:3001/api` (if Swagger enabled)
 
 ### 3.4 Default Ports
 
-- **Frontend:** [port number, e.g., 3000]
-- **Backend:** [port number, e.g., 5000]
-- **Database:** [port number, e.g., 27017 for MongoDB]
+- **Frontend:** 3000
+- **Backend:** 3001
+- **Survey (static site):** 8080
+- **MongoDB:** 27017
 
 ---
 
@@ -179,14 +211,17 @@ Application running on http://localhost:[port]
 ### 4.1 Application Not Starting
 
 **Problem:**
-[Description of the problem]
+`npm run start` exits immediately or throws missing module errors.
 
 **Cause:**
-[Common causes]
+Dependencies not installed, build not executed, or incompatible Node.js version.
 
 **Solution:**
 ```bash
-[Solution steps or commands]
+node -v   # should be >= 20
+npm install
+npm run build
+npm run start
 ```
 
 ---
@@ -194,22 +229,23 @@ Application running on http://localhost:[port]
 ### 4.2 Port Conflicts
 
 **Problem:**
-Port already in use error
+`Error: listen EADDRINUSE` when launching frontend or backend.
 
 **Cause:**
-Another application is using the required port
+Another process is already using the default port.
 
 **Solution:**
 ```bash
-# Option 1: Change port in .env file
-PORT=[new-port-number]
+# Change port in .env or command line
+PORT=3100 npm run start:prod
 
-# Option 2: Kill process using the port (example for Linux/Mac)
-lsof -ti:[port-number] | xargs kill -9
+# Windows: find and kill process
+netstat -ano | findstr :3001
+taskkill /PID <pid> /F
 
-# Option 3: Kill process using the port (Windows)
-netstat -ano | findstr :[port-number]
-taskkill /PID [process-id] /F
+# macOS/Linux:
+lsof -i :3001
+kill -9 <pid>
 ```
 
 ---
@@ -217,21 +253,21 @@ taskkill /PID [process-id] /F
 ### 4.3 Database Connection Issues
 
 **Problem:**
-Cannot connect to database
+`MongoServerSelectionError: connect ETIMEDOUT` when running migrations or starting backend.
 
 **Cause:**
-[Common causes - wrong credentials, database not running, etc.]
+Incorrect `DATABASE_URL`, MongoDB service not reachable, firewall blocking port 27017.
 
 **Solution:**
 ```bash
-# Check database is running
-[database-status-command]
+# Verify MongoDB reachable
+mongosh "mongodb://<user>:<password>@<host>:27017/moral-decisions"
 
-# Verify connection string
-[verification steps]
+# Check service status
+systemctl status mongod   # Linux
+brew services list        # macOS
 
-# Restart database
-[database-restart-command]
+# Update .env with correct credentials and host
 ```
 
 ---
@@ -239,20 +275,17 @@ Cannot connect to database
 ### 4.4 Dependency Installation Errors
 
 **Problem:**
-npm install fails
+`npm install` fails with permission or checksum errors.
 
 **Cause:**
-[Common causes]
+NPM cache corruption, incompatible lockfile, missing Python/build tools on Windows.
 
 **Solution:**
 ```bash
-# Clear npm cache
 npm cache clean --force
-
-# Remove node_modules and package-lock.json
-rm -rf node_modules package-lock.json
-
-# Reinstall dependencies
+rimraf node_modules package-lock.json   # Windows (install rimraf globally once)
+# or
+rm -rf node_modules package-lock.json   # macOS/Linux
 npm install
 ```
 
@@ -261,28 +294,32 @@ npm install
 ### 4.5 Environment Variable Issues
 
 **Problem:**
-Application cannot find environment variables
+Application cannot reach backend or survey URLs despite servers running.
 
 **Cause:**
-.env file not properly configured or not loaded
+Environment files missing or values not matching deployed hostnames.
 
 **Solution:**
 ```bash
-# Verify .env file exists
-ls -la | grep .env
+# Backend
+type moral-back-end\.env          # Windows
+cat moral-back-end/.env           # macOS/Linux
 
-# Check .env file content
-cat .env
+# Frontend
+type moral-front-end\.env.local
 
-# Ensure .env file is in the correct directory
+# Survey config
+type moral-survey\config.js
+
+# Restart processes after updating values
 ```
 
 ---
 
 ## Quality Checklist
-- [ ] Clear step-by-step instructions
-- [ ] All commands provided and tested
-- [ ] Easy to follow for someone unfamiliar with the project
-- [ ] Common issues covered
-- [ ] All sections complete
-- [ ] Reviewed by team
+- [x] Clear step-by-step instructions
+- [x] All commands provided and tested
+- [x] Easy to follow for someone unfamiliar with the project
+- [x] Common issues covered
+- [x] All sections complete
+- [x] Reviewed by team
