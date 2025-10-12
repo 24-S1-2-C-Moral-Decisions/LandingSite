@@ -46,34 +46,39 @@ https://github.com/24-S1-2-C-Moral-Decisions/LandingSite
 
 ### 1.2 Key Components
 - **Frontend:** Next.js 
-- - Provides UI/UX for Moral Profile and Opinion Survey
-- - Uses Next.js API Routes for some data reads (especially index), reducing backend overhead
-- - May include SSR/ISR and build cache (.next)
+  - Provides UI/UX for Moral Profile and Opinion Survey
+  - Uses Next.js API Routes for some data reads (especially index), reducing backend overhead
+  - May include SSR/ISR and build cache (.next)
 
 - **Backend:** NestJS
-- - Decoupled from frontend; exposes REST APIs
-- - Communicates with frontend via API calls
+  - Decoupled from frontend; exposes REST APIs
+  - Communicates with frontend via API calls
   
 - **Database:** MangoDB
 
 - **API:** 
-  GET /api/survey?studyId=<ID>: returns survey by studyId
-  POST /api/response: accepts responses with prolificId/profilicId and answer payload
-  Actual paths/params must follow code in the repos
+  - GET /api/survey?studyId=<ID>: returns survey by studyId
+  - POST /api/response: accepts responses with prolificId/profilicId and answer payload
+  - Actual paths/params must follow code in the repos
   
 - **Deployment:** 
-  Azure Web App (Linux), container-friendly
-  Environment variable management (PORT, DATABASE_URL, etc.)
+  - Azure Web App (Linux), container-friendly
+  - Environment variable management (PORT, DATABASE_URL, etc.)
 
 - **Tooling:**
-  Git (GitHub)
-  Docker (local and/or cloud images)
-  Postman (API testing)
+  - Git (GitHub)
+  - Docker (local and/or cloud images)
+  - Postman (API testing)
 
 ### 1.3 Components Requiring Maintenance
-- [Component 1 and maintenance requirements]
-- [Component 2 and maintenance requirements]
-- [Component 3 and maintenance requirements]
+- Azure Web App: availability, scaling, logs, monitoring
+- Next.js app: builds, dependencies, env vars, ISR/cache
+- NestJS service: API uptime, dependencies, configuration
+- Database: backups, indexing, health
+- Container images: base image updates, security patches, rebuilds
+- Logging and monitoring: retention, rotation, alert thresholds
+- Secrets and credentials: env vars, key rotation
+- Postman collections: keep in sync with API contracts
 
 ---
 
@@ -83,10 +88,10 @@ https://github.com/24-S1-2-C-Moral-Decisions/LandingSite
 
 | Frequency | Tasks | Estimated Time |
 |-----------|-------|----------------|
-| Daily | [Task list] | [Time] |
-| Weekly | [Task list] | [Time] |
-| Monthly | [Task list] | [Time] |
-| Quarterly | [Task list] | [Time] |
+| Daily | Health checks, error log review, resource monitoring | 15–25 min |
+| Weekly | DB backup, log management, dependency checks and minor updates | 45–60 min |
+| Monthly | System health review, DB optimization, security review | 80–105 min |
+| Quarterly | DR drills, security assessment/pen test, Node LTS/base image upgrades | 8-20 hrs |
 
 ---
 
@@ -98,17 +103,19 @@ https://github.com/24-S1-2-C-Moral-Decisions/LandingSite
 **Priority:** High
 
 **Steps:**
-1. [Step 1]
-2. [Step 2]
-3. [Step 3]
+1. Visit homepage and key pages (survey page, results page), expect HTTP 200.
+2. Probe core APIs:
+   - GET /api/survey?studyId=<testID>
+   - POST /api/response with minimal valid payload
+3. Check Azure Web App runtime status and error trend in the last hour
 
 **Expected Results:**
-- [Expected result 1]
-- [Expected result 2]
+- Pages and APIs return 2xx.
+- No new fatal errors (e.g., spike in 5xx).
 
 **What to do if issues found:**
-- [Action 1]
-- [Action 2]
+- Grab logs and triage (see Logs and Common Issues).
+- Consider restart/rollback during off-peak; create a GitHub issue to track.
 
 ---
 
@@ -118,45 +125,57 @@ https://github.com/24-S1-2-C-Moral-Decisions/LandingSite
 **Priority:** High
 
 **Steps:**
-1. Access log files at `[log-file-location]`
-2. Check for errors or warnings
-3. Review critical errors
-4. Document any recurring issues
+1. Access log files at `Azure App Service: /home/LogFiles`
+2. Scan error/warn entries: MangoDB connection errors, timeouts, memory errors.
+3. Summarize recurring and new exceptions; add to issue list.
+4. For known issues, confirm mitigation/fix status.
 
 **Expected Results:**
 - No critical errors
-- Normal application warnings only
+- Routine warnings do not affect functionality.
 
 **What to do if issues found:**
-- [Troubleshooting steps]
+- Correlate with commits/config changes, rollback or fix.
+- Escalate priority and notify owners.
 
 ---
 
 ### 2.3 Weekly Maintenance Tasks
 
 #### Task 2.3.1: Database Backup
-**Frequency:** Weekly (Every Monday at [time])
-**Estimated Time:** 15-20 minutes
+**Frequency:** Weekly (Every Monday at Monday 10:00 am)
+**Estimated Time:** 45–120 minutes
 **Priority:** Critical
 
 **Steps:**
-1. [Step 1]
-2. [Step 2]
-3. [Step 3]
+1. Confirm DB engine and connection string (DATABASE_URL)
+2. Create backup (choose per actual DB)
+3. Upload to backup storage (recommend Azure Blob Storage) with date/version tags.
 
 **Backup Location:**
 ```
-[Backup directory path]
+Azure Blob Storage: <STORAGE_ACCOUNT>/<CONTAINER>/backups/moral-decisions/
 ```
 
 **Backup Commands:**
 ```bash
-[Backup command]
+az storage blob upload \
+  --account-name <STORAGE_ACCOUNT> \
+  --container-name <CONTAINER> \
+  --file "$FILE" \
+  --name "backups/moral-decisions/$FILE"
 ```
 
 **Verification:**
 ```bash
-[Verification command]
+az storage blob list \
+  --account-name <STORAGE_ACCOUNT> \
+  --container-name <CONTAINER> \
+  --prefix "backups/moral-decisions/" \
+  --output table
+
+# Sample restore validation (Postgres)
+pg_restore -l "$FILE" >/dev/null
 ```
 
 ---
@@ -168,8 +187,8 @@ https://github.com/24-S1-2-C-Moral-Decisions/LandingSite
 
 **Steps:**
 1. Check log file sizes at `[log-directory]`
-2. Archive logs older than [X days]
-3. Delete logs older than [X months]
+2. Archive logs older than [7 days]
+3. Delete logs older than [3 months]
 4. Verify log rotation is working
 
 **Log Locations:**
@@ -179,14 +198,14 @@ https://github.com/24-S1-2-C-Moral-Decisions/LandingSite
 
 **Commands:**
 ```bash
-# Check log sizes
-du -sh [log-directory]/*
+du -sh /home/LogFiles/*
 
-# Archive old logs
-[archive-command]
+# Archive > 7 days
+find /home/LogFiles -type f -mtime +7 -name "*.txt" -print \
+  -exec tar -czf "/home/LogFiles/archive_$(date +%F).tgz" {} +
 
-# Delete old logs
-[delete-command]
+# Delete > 90 days
+find /home/LogFiles -type f -mtime +90 -delete
 ```
 
 ---
@@ -204,11 +223,12 @@ du -sh [log-directory]/*
 
 **Commands:**
 ```bash
-# Check for npm updates
+npm ci
 npm outdated
-
-# Check for security vulnerabilities
 npm audit
+# Selective upgrades
+npm install <pkg>@<version>
+npm run build && npm test
 ```
 
 ---
@@ -221,9 +241,10 @@ npm audit
 **Priority:** High
 
 **Steps:**
-1. [Step 1]
-2. [Step 2]
-3. [Step 3]
+1. Review p95/p99 latency, error rate, throughput, and capacity (CPU/mem/connections).
+2. Review deployment changes and open risks.
+3. Evaluate cost and scaling plan (Azure SKU).
+4. Update runbook and known issues.
 
 ---
 
@@ -240,7 +261,13 @@ npm audit
 
 **Commands:**
 ```bash
-[Database optimization commands]
+-- PostgreSQL
+VACUUM (VERBOSE, ANALYZE);
+REINDEX DATABASE moral_decisions;
+-- Use EXPLAIN ANALYZE to optimize key queries
+
+# MongoDB (in maintenance window)
+db.runCommand({ compact: "<collection>" })
 ```
 
 ---
@@ -263,42 +290,43 @@ npm audit
 ### 3.1 Application Not Starting
 
 **Symptoms:**
-- [Symptom 1]
-- [Symptom 2]
+- Deployment “succeeds” but container/process exits immediately
+- Initial page/API 
 
 **Possible Causes:**
-1. [Cause 1]
-2. [Cause 2]
-3. [Cause 3]
+1. Missing required env vars (DATABASE_URL, PORT, API keys, etc.)
+2. Port binding issue (not listening on $PORT or missing WEBSITES_PORT in container)
+3. Node version/build mismatch, missing dependencies, build failure
 
 **Diagnosis Steps:**
 ```bash
-# Step 1: Check if process is running
-[check-command]
-
-# Step 2: Check logs
-[log-command]
-
-# Step 3: Verify configuration
-[verify-command]
+az webapp log tail -n <WEBAPP_NAME> -g <RESOURCE_GROUP>
+az webapp config appsettings list -n <WEBAPP_NAME> -g <RESOURCE_GROUP>
+echo $PORT
 ```
 
 **Solutions:**
 
 **Solution 1: [Solution Name]**
 ```bash
-[Solution commands or steps]
+# Ensure the app listens on process.env.PORT
+# Next.js defaults to 3000; on Azure use PORT env var
+# For custom containers, set WEBSITES_PORT=<PORT> if needed
 ```
 
 **Solution 2: [Solution Name]**
 ```bash
-[Solution commands or steps]
+npm ci
+npm run build
+npm run start
+# For monorepos, ensure correct working directory and output paths
 ```
 
 **Prevention:**
-- [Prevention measure 1]
-- [Prevention measure 2]
-
+- Add startup and health checks in CI
+- Validate env var completeness pre-deploy
+- Pin Node version (.nvmrc or engines) and lockfiles
+  
 ---
 
 ### 3.2 Performance Issues
@@ -309,39 +337,39 @@ npm audit
 - High memory usage
 
 **Possible Causes:**
-1. [Cause 1]
-2. [Cause 2]
-3. [Cause 3]
+1. Missing DB indexes or N+1 queries
+2. SSR/render hot paths with cache misses
+3. Undersized instances or network jitter
 
 **Diagnosis Steps:**
 ```bash
-# Check system resources
-top
-# or
-htop
+# System resources
+top / htop
 
-# Check application performance
-[performance-check-command]
+# Next.js performance
+npm run build
 
-# Check database performance
-[database-check-command]
+# Database
+-- Postgres: EXPLAIN (ANALYZE, BUFFERS) <query>;
+-- MongoDB: db.collection.find({...}).explain("executionStats")
 ```
 
 **Solutions:**
 
 **Solution 1: Clear Cache**
 ```bash
-[Cache clearing steps]
+rm -rf .next && npm run build
+# If ISR/manual invalidation is configured, refresh appropriately
 ```
 
 **Solution 2: Restart Application**
 ```bash
-[Restart commands]
+az webapp restart -n <WEBAPP_NAME> -g <RESOURCE_GROUP>
 ```
 
 **Solution 3: Scale Resources**
-[Steps to scale resources]
-
+ - Upgrade Azure plan or increase instance count
+ - Add DB compute/IO or connection pooling
 **Prevention:**
 - Regular monitoring
 - Scheduled restarts
@@ -364,31 +392,33 @@ htop
 
 **Diagnosis Steps:**
 ```bash
-# Check database service status
-[status-check-command]
+# PostgreSQL
+pg_isready -h <HOST> -p <PORT> -d <DB> -U <USER>
 
-# Test database connection
-[connection-test-command]
+# MongoDB
+mongosh "<DATABASE_URL>" --eval 'db.runCommand({ping:1})'
 
-# Check database logs
-[log-command]
+# App logs
+az webapp log tail -n <WEBAPP_NAME> -g <RESOURCE_GROUP>
 ```
 
 **Solutions:**
 
 **Solution 1: Restart Database Service**
 ```bash
-[Restart command]
+Use platform-specific controls (Azure Database, VM, self-managed)
 ```
 
 **Solution 2: Verify Credentials**
 ```bash
-[Verification steps]
+Update DATABASE_URL from secret store/env vars
+Enforce least privilege; avoid superuser in apps
 ```
 
 **Solution 3: Check Network**
 ```bash
-[Network diagnostic commands]
+nc -vz <HOST> <PORT>
+# Confirm Azure firewall/privatelink rules
 ```
 
 **Prevention:**
@@ -400,20 +430,20 @@ htop
 
 ### 3.4 Common Error Messages
 
-#### Error: "[Error Message 1]"
-**Meaning:** [What this error means]
-**Cause:** [Common cause]
-**Solution:** [Solution steps]
+#### Error: “listen EADDRINUSE: address already in use”
+**Meaning:** Port in use
+**Cause:** Not using $PORT or duplicate process
+**Solution:** Listen on process.env.PORT; free port or restart instance
 
-#### Error: "[Error Message 2]"
-**Meaning:** [What this error means]
-**Cause:** [Common cause]
-**Solution:** [Solution steps]
+#### Error: “ECONNREFUSED/ETIMEDOUT connecting to DB”
+**Meaning:** DB unreachable/timeout
+**Cause:** Firewall/allowlist, wrong host/port/credentials
+**Solution:** Verify DATABASE_URL, allow network, retry and check pooling
 
-#### Error: "[Error Message 3]"
-**Meaning:** [What this error means]
-**Cause:** [Common cause]
-**Solution:** [Solution steps]
+#### Error: “Cannot find module '…'” or “MODULE_NOT_FOUND”
+**Meaning:** Missing dependency or incomplete build artifact
+**Cause:** Install failure, lock mismatch, wrong build path
+**Solution:** npm ci && npm run build; fix working dir and build outputs
 
 ---
 
@@ -422,37 +452,33 @@ htop
 ### 4.1 Team Contact Details
 
 **Primary Contact:**
-- Name: [Name]
-- Email: [email]
-- Phone: [phone]
-- Availability: [availability]
+- Name: Shutong Li
+- Email: u7768183@anu.edu.au
+- Phone: NA
+- Availability: Weekdays 09:00–18:00 (local time)
 
 **Secondary Contact:**
-- Name: [Name]
-- Email: [email]
-- Phone: [phone]
-- Availability: [availability]
+- Name: Shutong Li
+- Email: u6825537@anu.edu.au
+- Phone: NA
+- Availability: Weekdays 09:00–18:00 (local time)
 
-**Team Email:** [team-email]
-
----
 
 ### 4.2 Stakeholder Contact Information
 
 **Client/Stakeholder:**
-- Name: [Name]
-- Organization: [Organization]
-- Email: [email]
-- Phone: [phone]
-
+- Name: Ziyu Chen
+- Organization: ANU CSS
+- Email: Ziyu.Chen@anu.edu.au
+- Phone: NA
 ---
 
 ### 4.3 Repository and Documentation Links
 
 **Main Repository:**
-- GitHub: [repository-url]
-- Branch: [main-branch]
-
+- GitHub: https://github.com/24-S1-2-C-Moral-Decisions/LandingSite
+- Branch: main
+  
 **LandingSite Documentation:**
 - Location: `LandingSite/25S2/`
 - Meeting Minutes: `LandingSite/25S2/Minutes/`
@@ -469,13 +495,13 @@ htop
 ### 4.4 Emergency Contacts
 
 **For Critical Issues (System Down, Security Breach):**
-1. Contact: [Primary contact]
-2. If unavailable: [Secondary contact]
-3. Escalation: [Escalation contact]
+1. Contact: Lingziluo Xiong, Zihao Li
+2. If unavailable: YU MA, Fei Li
+3. Escalation: Ziyu Chen (Client, ANU CSS)
 
 **Support Hours:**
-- Regular support: [hours]
-- Emergency support: [availability]
+- Regular support: Weekdays 09:00–18:00
+- Emergency support: 24x7 (per on-call roster and emergency contact availability)
 
 ---
 
