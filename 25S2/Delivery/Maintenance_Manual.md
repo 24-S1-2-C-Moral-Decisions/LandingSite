@@ -22,6 +22,7 @@
 The Moral Decisions project supports “AI + Human Exploration of Daily Moral Decisions” via two interactive websites:
 - **Moral Profile Website:** Scenario-based moral mini-games (inspired by online forums) to help users explore common moral dilemmas.
 - **Opinion Survey Website:** Collects real moral choices and generates personalized feedback reports based on decision patterns.
+
 The goal is to leverage AI–human collaboration to build a data-driven platform for everyday, nuanced moral reasoning, creating a scalable foundation for ethical AI research.
 
 ### 1.2 Key Components
