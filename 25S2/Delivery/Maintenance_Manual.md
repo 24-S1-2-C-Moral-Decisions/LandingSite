@@ -1,10 +1,10 @@
 # Maintenance Manual
 
 **Project:** Moral Decisions
-**Team:**  Lingziluo Xiong, Fei Li, Yu Ma, Zihao Li, Shutong Li 
+**Team:** Moral Decisions 
 **Version:** 1.0
-**Date:** [Date]
-**Authors:** [Author Names]
+**Date:** 12/10/2025
+**Authors:** [Lingziluo Xiong]
 
 ---
 
