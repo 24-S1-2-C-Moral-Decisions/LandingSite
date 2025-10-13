@@ -70,6 +70,7 @@ This is a continuation project inherited from previous team.
 ## 2. Architecture Diagrams
 
 ### 2.1 High-Level System Architecture
+```
 +------------------+           HTTPS            +---------------------------+
 |  End Users       |  <---------------------->  |  Azure WebApp (Next.js)  |
 |  (Browser/Mobile)|                            |  - UI (Moral Profile &   |
@@ -92,6 +93,7 @@ This is a continuation project inherited from previous team.
                                                 | Managed Database          |
                                                 | (PostgreSQL or MongoDB)   |
                                                 +---------------------------+
+```
 
  - Next.js serves the frontend and some light API routes (especially for index data reads).
  - NestJS acts as a separate backend layer handling main business APIs and logic.
