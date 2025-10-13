@@ -93,7 +93,6 @@ This is a continuation project inherited from previous team.
                                                 | (PostgreSQL or MongoDB)   |
                                                 +---------------------------+
 
-
  - Next.js serves the frontend and some light API routes (especially for index data reads).
  - NestJS acts as a separate backend layer handling main business APIs and logic.
  - The database stores core data for studies, questions, and responses.
