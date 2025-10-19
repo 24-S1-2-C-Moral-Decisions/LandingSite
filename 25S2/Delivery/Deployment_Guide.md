@@ -1,17 +1,17 @@
 # Deployment Guide
 
-**Project:** Moral Decisions
-**Team:** Moral Decisions
-**Version:** 1.0
-**Date:** October 13, 2025
+**Project:** Moral Decisions  
+**Team:** Moral Decisions  
+**Version:** 1.0  
+**Date:** October 13, 2025  
 **Authors:** Zihao Li
 
 ---
 
 ## Table of Contents
-1. [System Requirements](#1-system-requirements)
-2. [Installation Steps](#2-installation-steps)
-3. [Running the Application](#3-running-the-application)
+1. [System Requirements](#1-system-requirements)  
+2. [Installation Steps](#2-installation-steps)  
+3. [Running the Application](#3-running-the-application)  
 4. [Common Issues](#4-common-issues)
 
 ---
@@ -19,307 +19,178 @@
 ## 1. System Requirements
 
 ### 1.1 Required Software and Versions
-- **Node.js:** Version 20.11.x (LTS tested with 20.11.1)
+- **Node.js:** Version 20.11.x (tested with 20.11.1)
 - **npm:** Version 10.x (bundled with Node.js 20)
-- **MongoDB:** Version 6.0 or later (Atlas, Replica Set, or standalone instance)
-- **Git:** Version 2.40 or later (for cloning the repository)
-- **Bash shell:** Any POSIX-compliant shell (required for survey build scripts on macOS/Linux; Windows users can rely on Git Bash or WSL)
+- **MongoDB:** Version 6.0 or later (Atlas, replica set, or standalone)
+- **Git:** Version 2.40 or later
+- **Bash shell:** Any POSIX-compliant shell (for `build.sh` and `publish.sh`; Windows users can use Git Bash or WSL)
 
 ### 1.2 Operating System Requirements
 - **Supported OS:** Windows 10+, Windows Server 2019+, macOS 12+, Ubuntu 20.04+, Debian 12+
 - **Architecture:** x64
 
 ### 1.3 Hardware Recommendations
-- **CPU:** 2 vCPUs minimum, 4 vCPUs recommended for production use
-- **RAM:** 4 GB minimum, 8 GB recommended (especially when running all services on one host)
-- **Disk Space:** 10 GB free for code, dependencies, and logs; additional storage as required by MongoDB
-- **Network:** Stable outbound connection to the MongoDB host; inbound firewall rules permitting HTTP traffic on the chosen frontend, backend, and survey ports
+- **CPU:** Minimum 2 vCPUs (4 recommended for production)
+- **RAM:** Minimum 4 GB (8 GB recommended when all services run on one host)
+- **Disk Space:** 10 GB free for code, dependencies, and logs (plus MongoDB storage)
+- **Network:** Stable outbound access to MongoDB; inbound firewall rules allowing ports 3000, 3001, and 8080
 
 ---
 
 ## 2. Installation Steps
 
-### 2.1 Clone Repository
-
+### 2.1 Clone Repositories
 ```bash
-# Clone the repository
-git clone https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end.git
 git clone https://github.com/24-S1-2-C-Moral-Decisions/moral-back-end.git
+git clone https://github.com/24-S1-2-C-Moral-Decisions/moral-front-end.git
 git clone https://github.com/24-S1-2-C-Moral-Decisions/moral-survey.git
-# Navigate to project directory
-cd moral-decisions
 ```
 
-Project structure (for reference):
+Set a deployment root for convenience (update the path as needed):
+```bash
+export DEPLOY_ROOT=/path/to/moral-decisions
+mkdir -p "$DEPLOY_ROOT"
+mv moral-back-end moral-front-end moral-survey "$DEPLOY_ROOT"/
 ```
-moral-decisions/
+
+Project structure:
+```
+$DEPLOY_ROOT/
 ├── moral-back-end/
 ├── moral-front-end/
 └── moral-survey/
 ```
 
-### 2.2 Install Dependencies
+### 2.2 Backend (`moral-back-end`)
+- **Install dependencies**
+  ```bash
+  cd "$DEPLOY_ROOT/moral-back-end"
+  npm install
+  ```
+- **Configure environment variables**  
+  Create `moral-back-end/.env/.env.production`:
+  ```bash
+  cat > "$DEPLOY_ROOT/moral-back-end/.env/.env.production" <<'EOF'
+  PORT=3001
+  DATABASE_URL=mongodb://<your-mongo-host>:27017
+  TFIDF_WORKER_NUM=4
+  TFIDF_WORKER_BATCH_SIZE=500
+  DEFAULT_CACHE_TTL=3600
+  NODE_ENV=production
+  EOF
+  ```
+  Replace `<your-mongo-host>` with the actual MongoDB connection string.
+- **Build**
+  ```bash
+  npm run build
+  ```
 
-**Backend Dependencies:**
-```bash
-# Navigate to backend directory
-cd moral-back-end
+### 2.3 Frontend (`moral-front-end`)
+- **Install dependencies**
+  ```bash
+  cd "$DEPLOY_ROOT/moral-front-end"
+  npm install
+  ```
+- **Configure environment variables**  
+  Create `moral-front-end/.env.local`:
+  ```bash
+  cat > "$DEPLOY_ROOT/moral-front-end/.env.local" <<'EOF'
+  NEXT_PUBLIC_API_URL="http://115.146.86.210:3001/"
+  NEXT_PUBLIC_SURVEY_URL="http://115.146.86.210:8080/"
+  EOF
+  ```
+- **Build**
+  ```bash
+  npm run build
+  ```
 
-# Install dependencies
-npm install
-```
-
-**Frontend Dependencies:**
-```bash
-# Navigate to frontend directory
-cd ../moral-front-end
-
-# Install dependencies
-npm install
-```
-
-**Survey Dependencies (per sub-project):**
-```bash
-# Navigate to survey root
-cd ../moral-survey/src
-
-# The build script installs packages for each survey
-./build.sh   # or bash build.sh on Windows
-```
-
-### 2.3 Database Setup
-
-**Step 1: Install MongoDB**
-```bash
-# Ubuntu example
-sudo apt-get update
-sudo apt-get install -y mongodb-org
-
-# macOS (Homebrew)
-brew tap mongodb/brew
-brew install mongodb-community@6.0
-```
-
-**Step 2: Create Database**
-```bash
-# Connect via mongo shell
-mongosh "mongodb://<username>:<password>@<host>:27017"
-
-# Inside mongosh
-use moral-decisions
-db.createCollection("posts")
-```
-
-**Step 3: Run Migrations**
-```bash
-cd moral-back-end
-npm run migration:run
-```
-
-### 2.4 Environment Configuration
-
-**Backend `.env` file:**
-```bash
-cd moral-back-end
-copy .env.template .env   # Windows
-# or
-cp .env.template .env     # macOS/Linux
-```
-
-Populate `.env` with:
-```
-# Backend configuration
-PORT=3001
-DATABASE_URL=mongodb://<user>:<password>@<host>:27017
-TFIDF_WORKER_NUM=4
-TFIDF_WORKER_BATCH_SIZE=100
-DEFAULT_CACHE_TTL=3600
-TFIDF_CACHE_TTL=3600
-```
-
-**Frontend `.env.local` file:**
-```bash
-cd ../moral-front-end
-```
-Create `.env.local` (or `.env.production`):
-```
-NEXT_PUBLIC_API_URL=https://api.example.com/
-NEXT_PUBLIC_SURVEY_URL=https://survey.example.com/
-```
-
-**Survey configuration (`config.js`):**
-```javascript
-production: {
-  API_URL: "https://api.example.com/",
-  MORAL_URL: "https://app.example.com/",
-  SURVEY_PORT: 8080,
-  SURVEY_BASE_URL: "https://survey.example.com/"
-}
-```
+### 2.4 Survey (`moral-survey`)
+- **Prepare scripts (first run)**
+  ```bash
+  cd "$DEPLOY_ROOT/moral-survey/src"
+  chmod +x build.sh publish.sh
+  ```
+- **Build static files**
+  ```bash
+  ./build.sh
+  ./publish.sh
+  ```
+  Output is placed in `$DEPLOY_ROOT/moral-survey/src/build`.
 
 ---
 
 ## 3. Running the Application
 
-### 3.1 Start Backend Server
-
+### 3.1 Start Backend
 ```bash
-cd moral-back-end
-npm run build
-npm run start:prod
+cd "$DEPLOY_ROOT/moral-back-end"
+NODE_ENV=production PORT=3001 npm run start:prod
 ```
-
-**Expected Output:**
+Expected console output includes:
 ```
 Nest application successfully started
 Listening on port 3001
 Connected to MongoDB
 ```
 
-### 3.2 Start Frontend Application
-
+### 3.2 Start Frontend
 ```bash
-cd moral-front-end
-npm run build
-npm run start
+cd "$DEPLOY_ROOT/moral-front-end"
+HOST=0.0.0.0 PORT=3000 npm run start
 ```
-
-**Expected Output:**
+Expected output:
 ```
-Ready on http://localhost:3000
+Ready on http://0.0.0.0:3000
 Compiled successfully
 ```
 
-### 3.3 Access the Application
+### 3.3 Serve Survey
+```bash
+cd "$DEPLOY_ROOT/moral-survey/src/build"
+npx serve -l tcp://0.0.0.0:8080 .
+```
+Keep the terminal session running (or manage the process with `pm2`, `systemd`, etc.).
 
-- **Frontend URL:** `http://<host>:3000`
-- **Backend API:** `http://<host>:3001`
-- **Survey Site:** `http://<host>:8080`
-- **API Documentation:** `http://<host>:3001/api` (if Swagger enabled)
-
-### 3.4 Default Ports
-
-- **Frontend:** 3000
-- **Backend:** 3001
-- **Survey (static site):** 8080
-- **MongoDB:** 27017
+### 3.4 Access Points
+- Frontend: `http://115.146.86.210:3000/`
+- Backend API: `http://115.146.86.210:3001/`
+- Survey site: `http://115.146.86.210:8080/`
+- API health check (example): `http://115.146.86.210:3001/health`
 
 ---
 
 ## 4. Common Issues
 
 ### 4.1 Application Not Starting
-
-**Problem:**
-`npm run start` exits immediately or throws missing module errors.
-
-**Cause:**
-Dependencies not installed, build not executed, or incompatible Node.js version.
-
-**Solution:**
-```bash
-node -v   # should be >= 20
-npm install
-npm run build
-npm run start
-```
-
----
+- **Symptom:** `npm run start` exits immediately or reports missing modules.  
+- **Fix:** Verify Node.js version (`node -v`), run `npm install`, then rebuild (`npm run build`) before restarting.
 
 ### 4.2 Port Conflicts
-
-**Problem:**
-`Error: listen EADDRINUSE` when launching frontend or backend.
-
-**Cause:**
-Another process is already using the default port.
-
-**Solution:**
-```bash
-# Change port in .env or command line
-PORT=3100 npm run start:prod
-
-# Windows: find and kill process
-netstat -ano | findstr :3001
-taskkill /PID <pid> /F
-
-# macOS/Linux:
-lsof -i :3001
-kill -9 <pid>
-```
-
----
+- **Symptom:** `Error: listen EADDRINUSE` on ports 3000, 3001, or 8080.  
+- **Fix:** Identify conflicting processes (`sudo lsof -i :3001`) and stop them, or override ports when starting (`PORT=3100 npm run start:prod`).
 
 ### 4.3 Database Connection Issues
-
-**Problem:**
-`MongoServerSelectionError: connect ETIMEDOUT` when running migrations or starting backend.
-
-**Cause:**
-Incorrect `DATABASE_URL`, MongoDB service not reachable, firewall blocking port 27017.
-
-**Solution:**
-```bash
-# Verify MongoDB reachable
-mongosh "mongodb://<user>:<password>@<host>:27017/moral-decisions"
-
-# Check service status
-systemctl status mongod   # Linux
-brew services list        # macOS
-
-# Update .env with correct credentials and host
-```
-
----
+- **Symptom:** `MongoServerSelectionError` when starting the backend.  
+- **Fix:** Confirm the MongoDB host is reachable using `mongosh`, check firewall rules, and ensure the `DATABASE_URL` in `.env.production` is correct.
 
 ### 4.4 Dependency Installation Errors
-
-**Problem:**
-`npm install` fails with permission or checksum errors.
-
-**Cause:**
-NPM cache corruption, incompatible lockfile, missing Python/build tools on Windows.
-
-**Solution:**
-```bash
-npm cache clean --force
-rimraf node_modules package-lock.json   # Windows (install rimraf globally once)
-# or
-rm -rf node_modules package-lock.json   # macOS/Linux
-npm install
-```
-
----
+- **Symptom:** `npm install` fails with permission or checksum errors.  
+- **Fix:** Clear the npm cache (`npm cache clean --force`), delete `node_modules` and lockfiles, then reinstall.
 
 ### 4.5 Environment Variable Issues
+- **Symptom:** Frontend cannot reach backend or survey.  
+- **Fix:** Review `.env/.env.production`, `.env.local`, and survey config; restart each service after changes.
 
-**Problem:**
-Application cannot reach backend or survey URLs despite servers running.
-
-**Cause:**
-Environment files missing or values not matching deployed hostnames.
-
-**Solution:**
-```bash
-# Backend
-type moral-back-end\.env          # Windows
-cat moral-back-end/.env           # macOS/Linux
-
-# Frontend
-type moral-front-end\.env.local
-
-# Survey config
-type moral-survey\config.js
-
-# Restart processes after updating values
-```
+### 4.6 Survey Build Problems
+- **Symptom:** `build.sh` or `publish.sh` fails.  
+- **Fix:** Ensure Node.js 20 is installed, rerun `npm install` within each `moral-survey/src/moral-survey-*` folder if the script reports missing packages.
 
 ---
 
-## Quality Checklist
-- [x] Clear step-by-step instructions
-- [x] All commands provided and tested
-- [x] Easy to follow for someone unfamiliar with the project
-- [x] Common issues covered
-- [x] All sections complete
-- [x] Reviewed by team
+**Quality Checklist**
+- [x] Clear step-by-step instructions  
+- [x] All commands provided and tested  
+- [x] Easy to follow for new deployers  
+- [x] Common issues covered  
+- [x] All sections complete  
+- [x] Reviewed by team  
