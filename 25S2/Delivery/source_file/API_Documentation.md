@@ -1,6 +1,8 @@
 # Moral Decisions API Documentation
 
-**Base URL:** http://localhost:3001
+**LocalHost URL:** http://localhost:3001
+**Public URL:** http://115.146.86.210:3001
+**Public Survey URL:** http://115.146.86.210:8080
 
 ---
 

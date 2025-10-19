@@ -1,13 +1,5 @@
 # Deployment Guide
 
-**Project:** Moral Decisions  
-**Team:** Moral Decisions  
-**Version:** 1.0  
-**Date:** October 13, 2025  
-**Authors:** Zihao Li
-
----
-
 ## Table of Contents
 1. [System Requirements](#1-system-requirements)  
 2. [Installation Steps](#2-installation-steps)  

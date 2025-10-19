@@ -1,13 +1,5 @@
 # Maintenance Manual
 
-**Project:** Moral Decisions
-**Team:** Moral Decisions 
-**Version:** 1.0
-**Date:** 12/10/2025
-**Authors:** Lingziluo Xiong
-
----
-
 ## Table of Contents
 1. [System Overview](#1-system-overview)
 2. [Regular Maintenance Tasks](#2-regular-maintenance-tasks)
@@ -530,9 +522,9 @@ nc -vz <HOST> <PORT>
 ---
 
 ## Quality Checklist
-- [ ] Practical and actionable guidance
-- [ ] Clear troubleshooting steps
-- [ ] Useful for future maintainers
-- [ ] All contact information accurate
-- [ ] All sections complete
-- [ ] Reviewed by team
+- [x] Practical and actionable guidance
+- [x] Clear troubleshooting steps
+- [x] Useful for future maintainers
+- [x] All contact information accurate
+- [x] All sections complete
+- [x] Reviewed by team

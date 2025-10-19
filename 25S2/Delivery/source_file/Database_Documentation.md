@@ -1,7 +1,5 @@
 # Database Documentation
 
-**Project:** COMP8715 TechLauncher - Moral Decisions Team
-**Last Updated:** October 7, 2025
 **Technology Stack:** MongoDB, NestJS, TypeORM
 
 ---

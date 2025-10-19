@@ -1,13 +1,5 @@
 # System Architecture Document
 
-**Project:** Moral Decisions
-**Team:** Moral Decisions
-**Version:** 1.0
-**Date:** 12/10/2025
-**Authors:** Lingziluo Xiong
-
----
-
 ## Table of Contents
 1. [System Overview](#1-system-overview)
 2. [Architecture Diagrams](#2-architecture-diagrams)
@@ -242,8 +234,8 @@ Security baseline:
 ---
 
 ## Quality Checklist
-- [ ] Clear diagrams showing system components
-- [ ] Accurate representation of current system
-- [ ] Professional formatting
-- [ ] All sections completed
-- [ ] Reviewed by team
+- [x] Clear diagrams showing system components
+- [x] Accurate representation of current system
+- [x] Professional formatting
+- [x] All sections completed
+- [x] Reviewed by team
